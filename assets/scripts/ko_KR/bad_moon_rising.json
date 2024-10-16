@@ -1,0 +1,486 @@
+[
+  {
+    "ability": "첫 번째 밤에 당신은 마을 주민 능력(선한 경우) 또는 하수인 능력(악한 경우)을 얻습니다.",
+    "edition": "bmr",
+    "firstNight": 1,
+    "firstNightReminder": "견습생에게 '당신은' 카드를 보여준 다음, 마을 주민 또는 하수인 토큰을 보여줍니다. 그림일기에서 견습생 토큰을 해당 캐릭터 토큰으로 교체하고, 견습생의 '견습생임' 리마인더를 해당 캐릭터 토큰 옆에 놓습니다.",
+    "id": "ko_KR_apprentice",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_apprentice.png?raw=true",
+    "name": "견습생",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "견습생임"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "게임 중 한 번, 밤에* 플레이어를 선택합니다: 그들은 어떤 이유로 죽지 않을 수 있더라도 죽습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_assassin",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_assassin.png?raw=true",
+    "name": "암살자",
+    "otherNight": 37,
+    "otherNightReminder": "암살자가 아직 능력을 사용하지 않았다면: 암살자는 '아니오' 머리 신호를 보이거나 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
+    "reminders": [
+      "능력 없음",
+      "사망"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "오직 이야기꾼만이 지명할 수 있습니다. 매일 최소 1명의 반대 진영 플레이어가 지명되어야 합니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_bishop",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_bishop.png?raw=true",
+    "name": "주교",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "선한 자 지명",
+      "악한 자 지명"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "매일 밤, 살아있는 플레이어 2명을 선택합니다(자신 제외): 그들 중 몇 명이 오늘 밤 자신의 능력으로 인해 깨어났는지 알게 됩니다.",
+    "edition": "bmr",
+    "firstNight": 50,
+    "firstNightReminder": "하녀가 두 명의 플레이어를 가리킵니다. 오늘 밤 그들의 능력으로 깨어난 플레이어 수에 대한 숫자 신호(0, 1, 2, ...)를 보여줍니다.",
+    "id": "ko_KR_chambermaid",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_chambermaid.png?raw=true",
+    "name": "하녀",
+    "otherNight": 70,
+    "otherNightReminder": "하녀가 두 명의 플레이어를 가리킵니다. 오늘 밤 그들의 능력으로 깨어난 플레이어 수에 대한 숫자 신호(0, 1, 2, ...)를 보여줍니다.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "게임 중 한 번, 밤에 캐릭터 하나를 선택합니다: 그들은 3밤과 3일 동안 술에 취합니다.",
+    "edition": "bmr",
+    "firstNight": 19,
+    "firstNightReminder": "술꾼귀족은 '아니오' 머리 신호를 보이거나 시트의 캐릭터를 가리킵니다. 술꾼귀족이 능력을 사용했다면: 그 캐릭터가 게임에 있다면, 그 플레이어는 술에 취합니다.",
+    "id": "ko_KR_courtier",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_courtier.png?raw=true",
+    "name": "술꾼귀족",
+    "otherNight": 10,
+    "otherNightReminder": "표시된 플레이어가 중독된 남은 일수를 줄입니다. 술꾼귀족이 아직 능력을 사용하지 않았다면: 술꾼귀족은 '아니오' 머리 신호를 보이거나 시트의 캐릭터를 가리킵니다. 술꾼귀족이 능력을 사용했다면: 그 캐릭터가 게임에 있다면, 그 플레이어는 술에 취합니다.",
+    "reminders": [
+      "능력 없음",
+      "취함 1",
+      "취함 2",
+      "취함 3"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤, 살아있는 플레이어 한 명을 선택합니다(어젯밤과 다른 사람): 만약 내일 처형된다면, 그들은 죽지 않습니다.",
+    "edition": "bmr",
+    "firstNight": 22,
+    "firstNightReminder": "악마의 변호인이 살아있는 플레이어를 가리킵니다. 그 플레이어는 내일 처형에서 살아남습니다.",
+    "id": "ko_KR_devilsadvocate",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_devilsadvocate.png?raw=true",
+    "name": "악마의 변호인",
+    "otherNight": 14,
+    "otherNightReminder": "악마의 변호인이 살아있는 플레이어를 가리킵니다(전날 밤과 다른 사람). 그 플레이어는 내일 처형에서 살아남습니다.",
+    "reminders": [
+      "처형에서 생존"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "매일 밤*, 플레이어 한 명을 선택합니다(어젯밤과 다른 사람): 악마가 선택되면, 당신이 누구인지 알게 되고 오늘 밤 깨어나지 않습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_exorcist",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_exorcist.png?raw=true",
+    "name": "퇴마사",
+    "otherNight": 22,
+    "otherNightReminder": "퇴마사가 플레이어를 가리킵니다(전날 밤과 다른 사람). 그 플레이어가 악마라면: 악마를 깨웁니다. 퇴마사 토큰을 보여줍니다. 퇴마사를 가리킵니다. 악마는 오늘 밤 행동하지 않습니다.",
+    "reminders": [
+      "선택됨"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 처음 죽을 때, 당신은 죽지 않습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_fool",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fool.png?raw=true",
+    "name": "광대",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "능력 없음"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 플레이어 한 명을 선택하고 그의 캐릭터를 추측합니다: 추측이 틀리면 당신이 죽습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_gambler",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_gambler.png?raw=true",
+    "name": "도박사",
+    "otherNight": 11,
+    "otherNightReminder": "도박사가 플레이어를 가리키고, 자신의 시트에서 캐릭터를 가리킵니다. 틀렸다면, 도박사가 죽습니다.",
+    "reminders": [
+      "사망"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신은 처음에 어떤 외부인들이 게임에 있는지 알고 시작합니다. 오늘 1명이 죽었다면, 오늘 밤 플레이어 한 명을 선택합니다: 그들은 죽습니다. [외부인 -1 또는 +1]",
+    "edition": "bmr",
+    "firstNight": 21,
+    "firstNightReminder": "게임에 있는 각 외부인 토큰을 보여줍니다.",
+    "id": "ko_KR_godfather",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_godfather.png?raw=true",
+    "name": "대부",
+    "otherNight": 38,
+    "otherNightReminder": "오늘 외부인이 죽었다면: 대부가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
+    "reminders": [
+      "사망",
+      "오늘 사망"
+    ],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "매일 밤, 자신의 능력으로 당신을 처음 선택한 플레이어는 새벽까지 술에 취합니다. 당신은 그들의 진영이 됩니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_goon",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_goon.png?raw=true",
+    "name": "졸개",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "술취함"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "매일, 당신은 공개 성명을 할 수 있습니다. 오늘 밤, 그것이 사실이었다면 한 플레이어가 죽습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_gossip",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_gossip.png?raw=true",
+    "name": "가십꾼",
+    "otherNight": 47,
+    "otherNightReminder": "가십꾼의 공개 성명이 사실이었다면: 오늘 밤 죽음으로부터 보호받지 않은 플레이어 한 명을 선택합니다. 그 플레이어는 죽습니다.",
+    "reminders": [
+      "사망"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신은 처음에 선한 플레이어 한 명과 그의 캐릭터를 알고 시작합니다. 악마가 그들을 죽이면, 당신도 죽습니다.",
+    "edition": "bmr",
+    "firstNight": 39,
+    "firstNightReminder": "표시된 캐릭터 토큰을 보여줍니다. 표시된 플레이어를 가리킵니다.",
+    "id": "ko_KR_grandmother",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_grandmother.png?raw=true",
+    "name": "할머니",
+    "otherNight": 50,
+    "otherNightReminder": "할머니의 손주가 오늘 밤 악마에 의해 죽었다면: 할머니도 죽습니다.",
+    "reminders": [
+      "손주"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 2명의 플레이어를 선택합니다: 그들은 오늘 밤 죽을 수 없지만, 1명은 새벽까지 술에 취합니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_innkeeper",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_innkeeper.png?raw=true",
+    "name": "여관주인",
+    "otherNight": 9,
+    "otherNightReminder": "이전에 보호받고 술에 취했던 플레이어들은 그 표시를 잃습니다. 여관주인이 두 명의 플레이어를 가리킵니다. 그 플레이어들은 보호받습니다. 한 명은 술에 취합니다.",
+    "reminders": [
+      "보호됨",
+      "술취함"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "게임 중 한 번, 다른 플레이어가 지명했다면, 현재 처형을 강제로 통과시키거나 실패시킬 수 있습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_judge",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_judge.png?raw=true",
+    "name": "판사",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "능력 없음"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "당신은 자신이 악마라고 생각하지만, 사실은 아닙니다. 진짜 악마는 당신이 누구인지 알고 있으며, 당신이 밤에 선택하는 사람도 알고 있습니다.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "7명 이상의 플레이어가 있을 경우: 미치광이에게 게임 내 하수인 수와 동일한 수의 임의의 '하수인' 플레이어들을 보여줍니다. 임의의 선한 캐릭터 토큰 3개도 보여줍니다. 만약 미치광이가 받은 토큰이 오늘 밤 깨어날 악마라면: 미치광이가 악마의 행동을 수행하도록 허용합니다. 미치광이의 '공격' 표시를 배치합니다. 진짜 악마를 깨웁니다. 악마에게 자신의 실제 캐릭터 토큰을 보여줍니다. 악마에게 미치광이 플레이어가 누구인지 보여줍니다. 만약 미치광이가 플레이어들을 공격했다면: 진짜 악마에게 표시된 각 플레이어를 보여줍니다. 미치광이의 '공격' 표시를 모두 제거합니다.",
+    "id": "ko_KR_lunatic",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_lunatic.png?raw=true",
+    "name": "미치광이",
+    "otherNight": 21,
+    "otherNightReminder": "미치광이가 악마의 행동을 수행하도록 허용합니다. 미치광이의 '공격' 표시를 배치합니다. 만약 미치광이가 플레이어들을 선택했다면: 진짜 악마를 깨웁니다. '공격' 표시를 보여준 다음, 표시된 각 플레이어를 가리킵니다. 미치광이의 '공격' 표시를 모두 제거합니다.",
+    "reminders": [
+      "공격1",
+      "공격2",
+      "공격3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "악마가 처형으로 죽는다면(게임이 끝나는), 하루 더 플레이합니다. 그 후 플레이어가 처형된다면, 그들의 팀이 패배합니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_mastermind",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_mastermind.png?raw=true",
+    "name": "흑막",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "매일, 최대 3쌍의 2명의 플레이어를 선택하여 자리를 바꿀 수 있습니다. 플레이어들은 사적으로 대화하기 위해 자리를 떠날 수 없습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_matron",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_matron.png?raw=true",
+    "name": "사감",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "하수인이 처형으로 죽으면, 다른 모든 플레이어(여행자 제외)는 내일 새벽까지 술에 취합니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_minstrel",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_minstrel.png?raw=true",
+    "name": "음유시인",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "모두 술취함"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 죽었다는 것을 알게 되면, 공개적으로 살아있는 플레이어 1명을 선택합니다. 오늘 밤, 그가 선한 플레이어였다면, 그들은 죽습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_moonchild",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_moonchild.png?raw=true",
+    "name": "문차일드",
+    "otherNight": 49,
+    "otherNightReminder": "문차일드가 오늘 능력을 사용해 플레이어를 지목했다면: 그 플레이어가 선하다면, 그들은 죽습니다.",
+    "reminders": [
+      "사망"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "처형된 선한 플레이어들이 죽지 않을 수 있습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_pacifist",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_pacifist.png?raw=true",
+    "name": "평화주의자",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 플레이어 한 명을 선택할 수 있습니다: 그들은 죽습니다. 마지막 선택이 아무도 아니었다면, 오늘 밤 3명의 플레이어를 선택합니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_po",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_po.png?raw=true",
+    "name": "포",
+    "otherNight": 28,
+    "otherNightReminder": "포가 전날 밤에 아무도 선택하지 않았다면: 포가 세 명의 플레이어를 가리킵니다. 그렇지 않다면: 포가 '아니오' 머리 신호를 보이거나, 플레이어를 가리킵니다. 선택된 플레이어들은 죽습니다.",
+    "reminders": [
+      "3번 공격",
+      "사망"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "게임 중 한 번, 밤에* 죽은 플레이어 한 명을 선택합니다: 그들이 마을 주민이라면, 그들은 부활합니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_professor",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_professor.png?raw=true",
+    "name": "교수",
+    "otherNight": 45,
+    "otherNightReminder": "교수가 아직 능력을 사용하지 않았다면: 교수가 고개를 아니오로 젓거나, 플레이어를 가리킵니다. 그 플레이어가 마을 주민이라면, 그들은 이제 살아있습니다.",
+    "reminders": [
+      "능력 없음",
+      "살아있음"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤, 플레이어 한 명을 선택합니다: 그들은 중독됩니다. 이전에 중독된 플레이어는 죽은 다음 건강해집니다.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "푸카가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
+    "id": "ko_KR_pukka",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_pukka.png?raw=true",
+    "name": "푸카",
+    "otherNight": 26,
+    "otherNightReminder": "푸카가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다. 이전에 중독된 플레이어는 죽습니다.",
+    "reminders": [
+      "사망",
+      "중독됨"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤, 살아있는 플레이어 한 명을 선택합니다: 새벽까지 당신이나 그들 중 하나가 술에 취합니다. 당신은 죽을 수 없습니다.",
+    "edition": "bmr",
+    "firstNight": 10,
+    "firstNightReminder": "선원이 살아있는 플레이어를 가리킵니다. 선원이나 선택된 플레이어 중 하나가 술에 취합니다.",
+    "id": "ko_KR_sailor",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_sailor.png?raw=true",
+    "name": "선원",
+    "otherNight": 4,
+    "otherNightReminder": "이전에 술에 취했던 플레이어는 더 이상 술에 취하지 않습니다. 선원이 살아있는 플레이어를 가리킵니다. 선원이나 선택된 플레이어 중 하나가 술에 취합니다.",
+    "reminders": [
+      "술취함"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 2명의 플레이어를 선택합니다: 그들은 죽습니다. 어젯밤에 선택한 죽은 플레이어가 토해질 수 있습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_shabaloth",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_shabaloth.png?raw=true",
+    "name": "샤발로스",
+    "otherNight": 27,
+    "otherNightReminder": "샤발로스가 전날 밤에 선택한 플레이어 한 명이 부활할 수 있습니다. 샤발로스가 두 명의 플레이어를 가리킵니다. 그 플레이어들은 죽습니다.",
+    "reminders": [
+      "사망",
+      "살아있음"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "당신의 살아있는 이웃 둘 다 선하다면, 그들은 죽을 수 없습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_tealady",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_tealady.png?raw=true",
+    "name": "찻집여인",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "죽을 수 없음"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신은 언제든지 죽을 수 있습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_tinker",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_tinker.png?raw=true",
+    "name": "땜장이",
+    "otherNight": 48,
+    "otherNightReminder": "땜장이가 죽을 수 있습니다.",
+    "reminders": [
+      "사망"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "오직 당신과 죽은 자들만 투표할 수 있습니다. 그들은 투표 토큰 없이도 투표할 수 있습니다. 50% 과반수가 필요하지 않습니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_voudon",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_voudon.png?raw=true",
+    "name": "부두술사",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "매일 밤*, 오늘 아무도 죽지 않았다면 플레이어 한 명을 선택합니다: 그들은 죽습니다. 당신이 처음 죽을 때, 당신은 살아있지만 죽은 것으로 감지됩니다.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_zombuul",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_zombuul.png?raw=true",
+    "name": "좀부울",
+    "otherNight": 25,
+    "otherNightReminder": "낮 동안 아무도 죽지 않았다면: 좀부울이 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
+    "reminders": [
+      "사망",
+      "오늘 사망"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]

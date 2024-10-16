@@ -1,0 +1,471 @@
+[
+  {
+    "ability": "게임 중 한 번, 낮 동안 비공개로 이야기꾼에게 예/아니오 질문을 할 수 있습니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_artist",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_artist.png?raw=true",
+    "name": "예술가",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "능력 없음"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "오늘이나 오늘 밤에 당신이 죽었다면, 악마는 2명의 플레이어(다른 악마는 제외)를 선택하여 캐릭터를 교환할 수 있습니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_barber",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_barber.png?raw=true",
+    "name": "이발사",
+    "otherNight": 40,
+    "otherNightReminder": "이발사가 오늘 죽었다면: 악마를 깨웁니다. '이 캐릭터가 당신을 선택했습니다' 카드를 보여준 다음 이발사 토큰을 보여줍니다. 악마는 '아니오' 머리 신호를 보이거나 2명의 플레이어를 가리킵니다. 플레이어들을 선택했다면: 캐릭터 토큰을 교환합니다. 각 플레이어를 깨웁니다. '당신은'을 보여준 다음 그들의 새 캐릭터 토큰을 보여줍니다.",
+    "reminders": [
+      "오늘 밤 이발"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "매일 밤, 새벽까지 1) 한 플레이어가 술이 깨고 건강해지며 진실된 정보를 얻거나 2) 그들의 능력이 두 번 작동합니다. 그들은 어떤 것인지 알게 됩니다.",
+    "edition": "snv",
+    "firstNight": 1,
+    "firstNightReminder": "플레이어를 선택하고, 깨워서 어떤 바리스타 능력이 그들에게 영향을 미치는지 알려줍니다. 그에 따라 처리합니다(술 깸/건강/진실된 정보 또는 능력 두 번 활성화).",
+    "id": "ko_KR_barista",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_barista.png?raw=true",
+    "name": "바리스타",
+    "otherNight": 1,
+    "otherNightReminder": "플레이어를 선택하고, 깨워서 어떤 바리스타 능력이 그들에게 영향을 미치는지 알려줍니다. 그에 따라 처리합니다(술 깸/건강/진실된 정보 또는 능력 두 번 활성화).",
+    "reminders": [
+      "능력 두 번",
+      "술 깨고 건강함"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "게임 중 한 번, 밤에 죽은 플레이어를 선택합니다: 그들은 새벽까지 능력을 되찾습니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_bonecollector",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_bonecollector.png?raw=true",
+    "name": "뼈 수집가",
+    "otherNight": 1,
+    "otherNightReminder": "뼈 수집가는 고개를 아니오라고 흔들거나 죽은 플레이어를 가리킵니다. 죽은 플레이어를 가리켰다면, 뼈 수집가의 '능력 있음' 리마인더를 선택된 플레이어의 캐릭터 토큰 옆에 놓습니다. (그들은 오늘 밤 능력을 사용하기 위해 깨워질 필요가 있을 수 있습니다.)",
+    "reminders": [
+      "능력 없음",
+      "능력 있음"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "매일, 첫 번째 처형 후에 당신은 다시 지명할 수 있습니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_butcher",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_butcher.png?raw=true",
+    "name": "도살자",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "매일 밤, 플레이어 한 명과 선한 캐릭터 하나를 선택합니다: 그들은 내일 그 캐릭터라고 '미쳐' 있어야 하며, 그렇지 않으면 처형될 수 있습니다.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "세레노부스가 플레이어를 가리키고, 그 다음 자신의 시트에서 캐릭터를 가리킵니다. 그 플레이어를 깨웁니다. '이 캐릭터가 당신을 선택했습니다' 카드를 보여준 다음, 세레노부스 토큰을 보여줍니다. 선택된 캐릭터 토큰을 보여줍니다. 플레이어가 내일 그 캐릭터라고 미치지 않으면, 그들은 처형될 수 있습니다.",
+    "id": "ko_KR_cerenovus",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_cerenovus.png?raw=true",
+    "name": "세레노부스",
+    "otherNight": 16,
+    "otherNightReminder": "세레노부스가 플레이어를 가리키고, 그 다음 자신의 시트에서 캐릭터를 가리킵니다. 그 플레이어를 깨웁니다. '이 캐릭터가 당신을 선택했습니다' 카드를 보여준 다음, 세레노부스 토큰을 보여줍니다. 선택된 캐릭터 토큰을 보여줍니다. 플레이어가 내일 그 캐릭터라고 미치지 않으면, 그들은 처형될 수 있습니다.",
+    "reminders": [
+      "미침"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "당신은 처음에 악마로부터 가장 가까운 하수인까지의 거리를 알고 시작합니다.",
+    "edition": "snv",
+    "firstNight": 40,
+    "firstNightReminder": "악마에서 가장 가까운 하수인까지의 거리에 대한 손 신호(1, 2, 3 등)를 보여줍니다.",
+    "id": "ko_KR_clockmaker",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_clockmaker.png?raw=true",
+    "name": "시계공",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "오늘 당신이 재미있었다면, 추방으로 죽을 수 없습니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_deviant",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_deviant.png?raw=true",
+    "name": "일탈자",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "매일 밤, 플레이어 한 명을 선택합니다(자신이나 여행자 제외): 당신은 1개의 선한 캐릭터와 1개의 악한 캐릭터를 알게 되며, 그 중 하나가 맞습니다.",
+    "edition": "snv",
+    "firstNight": 41,
+    "firstNightReminder": "몽상가가 플레이어를 가리킵니다. 1개의 선한 캐릭터 토큰과 1개의 악한 캐릭터 토큰을 보여줍니다; 이 중 하나가 맞습니다.",
+    "id": "ko_KR_dreamer",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_dreamer.png?raw=true",
+    "name": "몽상가",
+    "otherNight": 57,
+    "otherNightReminder": "몽상가가 플레이어를 가리킵니다. 1개의 선한 캐릭터 토큰과 1개의 악한 캐릭터 토큰을 보여줍니다; 이 중 하나가 맞습니다.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신과 상대 진영의 플레이어 한 명은 서로를 알고 있습니다. 선한 플레이어가 처형되면 악이 승리합니다. 둘 다 살아있으면 선은 승리할 수 없습니다.",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "악한 쌍둥이와 그의 쌍둥이를 깨웁니다. 서로를 인식했는지 확인합니다. 악한 쌍둥이를 가리킵니다. 쌍둥이 플레이어에게 그들의 악한 쌍둥이 토큰을 보여줍니다. 쌍둥이를 가리킵니다. 악한 쌍둥이 플레이어에게 그들의 캐릭터 토큰을 보여줍니다.",
+    "id": "ko_KR_eviltwin",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_eviltwin.png?raw=true",
+    "name": "악한 쌍둥이",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "쌍둥이"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "매일 밤*, 플레이어 한 명을 선택합니다: 그들은 죽습니다. 이로 인해 죽는 첫 번째 외부인은 악한 팡구가 되고 대신 당신이 죽습니다. [외부인 +1]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_fanggu",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fanggu.png?raw=true",
+    "name": "팡구",
+    "otherNight": 29,
+    "otherNightReminder": "팡구가 플레이어를 가리킵니다. 그 플레이어는 죽습니다. 또는, 그 플레이어가 외부인이고 다른 팡구가 게임에 없다면: 팡구가 선택된 플레이어 대신 죽습니다. 선택된 플레이어는 이제 악한 팡구가 됩니다. 새로운 팡구를 깨웁니다. '당신은' 카드를 보여준 다음 팡구 토큰을 보여줍니다. '당신은' 카드를 보여준 다음 엄지 아래로 '악한' 손 신호를 보여줍니다.",
+    "reminders": [
+      "사망",
+      "한 번"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤*, 오늘 악마가 투표했는지 알게 됩니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_flowergirl",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_flowergirl.png?raw=true",
+    "name": "꽃집 소녀",
+    "otherNight": 58,
+    "otherNightReminder": "악마가 오늘 투표했다면 고개를 끄덕이고, 그렇지 않으면 고개를 젓습니다. '악마 투표하지 않음' 표시를 놓습니다('악마 투표함' 표시가 있다면 제거합니다).",
+    "reminders": [
+      "악마 투표하지 않음",
+      "악마 투표함"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 살아있는 플레이어 한 명을 선택합니다: 그들이 동의하면, 당신은 그들의 캐릭터를 알게 되지만 둘 다 죽을 수 있습니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_harlot",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_harlot.png?raw=true",
+    "name": "매춘부",
+    "otherNight": 1,
+    "otherNightReminder": "매춘부가 아무 플레이어를 가리킵니다. 그 다음, 매춘부를 재웁니다. 선택된 플레이어를 깨우고, '이 캐릭터가 당신을 선택했습니다' 토큰을 보여준 다음 매춘부 토큰을 보여줍니다. 그 플레이어는 고개를 끄덕이거나 흔들어 예 또는 아니오를 표시합니다. 고개를 끄덕였다면, 매춘부를 깨우고 선택된 플레이어의 캐릭터 토큰을 보여줍니다. 그 다음, 두 플레이어 모두 죽을지 결정할 수 있습니다.",
+    "reminders": [
+      "사망"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "첫째 날, 최대 5명의 플레이어의 캐릭터를 공개적으로 추측합니다. 그 날 밤, 당신은 몇 개를 맞혔는지 알게 됩니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_juggler",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_juggler.png?raw=true",
+    "name": "저글러",
+    "otherNight": 62,
+    "otherNightReminder": "오늘이 저글러의 첫째 날이었다면: '맞음' 표시의 수에 대한 손 신호(0, 1, 2 등)를 보여줍니다. 표시를 제거합니다.",
+    "reminders": [
+      "맞음"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 죽었다는 것을 알게 되면, 공개적으로 살아있는 플레이어 1명을 선택합니다: 만약 그들이 악하다면, 당신의 팀이 패배합니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_klutz",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_klutz.png?raw=true",
+    "name": "얼뜨기",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "매일 밤, 다른 캐릭터의 능력으로 인해 (새벽 이후) 비정상적으로 작동한 플레이어의 능력 수를 알게 됩니다.",
+    "edition": "snv",
+    "firstNight": 51,
+    "firstNightReminder": "다른 능력으로 인해 오작동한 플레이어 수에 대한 손 신호(0, 1, 2 등)를 보여줍니다.",
+    "id": "ko_KR_mathematician",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_mathematician.png?raw=true",
+    "name": "수학자",
+    "otherNight": 71,
+    "otherNightReminder": "다른 능력으로 인해 오작동한 플레이어 수에 대한 손 신호(0, 1, 2 등)를 보여줍니다.",
+    "reminders": [
+      "비정상"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 외부인이라는 것을 밝힐 경우, 처형될 수 있습니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_mutant",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_mutant.png?raw=true",
+    "name": "돌연변이",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "매일 밤*, 플레이어 한 명을 선택합니다: 그들은 죽습니다. 당신의 마을 주민 이웃 2명은 중독됩니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_nodashii",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_nodashii.png?raw=true",
+    "name": "노다시",
+    "otherNight": 30,
+    "otherNightReminder": "노다시가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
+    "reminders": [
+      "사망",
+      "중독됨"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤*, 죽은 플레이어 중 몇 명이 악한지 알게 됩니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_oracle",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_oracle.png?raw=true",
+    "name": "예언자",
+    "otherNight": 60,
+    "otherNightReminder": "죽은 악한 플레이어 수에 대한 손 신호(0, 1, 2 등)를 보여줍니다.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "게임 중 한 번, 밤에 선한 캐릭터 하나를 선택합니다: 그 능력을 얻습니다. 이 캐릭터가 게임에 있다면, 그들은 술에 취합니다.",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "철학자가 '아니오' 머리 신호를 보이거나, 자신의 시트에서 선한 캐릭터를 가리킵니다. 캐릭터를 선택했다면: 게임에 없는 캐릭터 토큰을 철학자 토큰과 교체합니다. 또는, 그 캐릭터가 게임에 있다면, 그 플레이어에게 술취함 표시를 하고 철학자에게 철학자가 아님 토큰을 놓습니다.",
+    "id": "ko_KR_philosopher",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_philosopher.png?raw=true",
+    "name": "철학자",
+    "otherNight": 2,
+    "otherNightReminder": "철학자가 아직 능력을 사용하지 않았다면: 철학자가 '아니오' 머리 신호를 보이거나, 자신의 시트에서 선한 캐릭터를 가리킵니다. 캐릭터를 선택했다면: 게임에 없는 캐릭터 토큰을 철학자 토큰과 교체합니다. 또는, 그 캐릭터가 게임에 있다면, 그 플레이어에게 술취함 표시를 하고 철학자에게 철학자가 아님 토큰을 놓습니다.",
+    "remindersGlobal": [
+      "술취함",
+      "철학자임"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 플레이어 한 명과 그들이 될 캐릭터(게임에 없는)를 선택합니다. 악마가 만들어지면, 오늘 밤 죽음은 임의로 일어납니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_pithag",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_pithag.png?raw=true",
+    "name": "구덩이 마녀",
+    "otherNight": 17,
+    "otherNightReminder": "구덩이 마녀가 플레이어와 시트의 캐릭터를 가리킵니다. 이 캐릭터가 게임에 없다면, 그 플레이어를 깨우고 '당신은' 카드와 관련 캐릭터 토큰을 보여줍니다. 캐릭터가 게임에 있다면, 아무 일도 일어나지 않습니다.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "악마가 당신을 죽이면, 그것이 2명의 플레이어 중 1명이라는 것을 알게 됩니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_sage",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_sage.png?raw=true",
+    "name": "현자",
+    "otherNight": 43,
+    "otherNightReminder": "현자가 악마에 의해 죽었다면: 두 명의 플레이어를 가리킵니다, 그 중 한 명이 그 악마입니다.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일, 이야기꾼을 방문하여 비공개로 2가지를 알 수 있습니다: 1개는 사실이고 1개는 거짓입니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_savant",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_savant.png?raw=true",
+    "name": "박학자",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "게임 중 한 번, 밤에 2명의 플레이어를 선택합니다(자신 제외): 그들이 같은 진영인지 알게 됩니다.",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "재봉사가 '아니오' 머리 신호를 보이거나, 다른 두 플레이어를 가리킵니다. 재봉사가 플레이어들을 선택했다면, 그들이 같은 진영인지에 대해 '예'로 끄덕이거나 '아니오'로 흔듭니다.",
+    "id": "ko_KR_seamstress",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_seamstress.png?raw=true",
+    "name": "재봉사",
+    "otherNight": 61,
+    "otherNightReminder": "재봉사가 아직 능력을 사용하지 않았다면: 재봉사가 '아니오' 머리 신호를 보이거나, 다른 두 플레이어를 가리킵니다. 재봉사가 플레이어들을 선택했다면, 그들이 같은 진영인지에 대해 '예'로 끄덕이거나 '아니오'로 흔듭니다.",
+    "reminders": [
+      "능력 없음"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤, 살아있는 플레이어 한 명을 선택합니다: 선택된 악마는 당신과 캐릭터와 진영을 바꾸고 그 후 중독됩니다.",
+    "edition": "snv",
+    "firstNight": 20,
+    "firstNightReminder": "뱀 조련사가 플레이어를 가리킵니다. 그 플레이어가 악마라면: 악마와 뱀 조련사의 캐릭터와 진영을 바꿉니다. 각 플레이어를 깨워 그들의 새로운 역할과 진영을 알립니다. 새로운 뱀 조련사는 중독됩니다.",
+    "id": "ko_KR_snakecharmer",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_snakecharmer.png?raw=true",
+    "name": "뱀 조련사",
+    "otherNight": 12,
+    "otherNightReminder": "뱀 조련사가 플레이어를 가리킵니다. 그 플레이어가 악마라면: 악마와 뱀 조련사의 캐릭터와 진영을 바꿉니다. 각 플레이어를 깨워 그들의 새로운 역할과 진영을 알립니다. 새로운 뱀 조련사는 중독됩니다.",
+    "reminders": [
+      "중독됨"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 죽으면, 1명의 플레이어가 지금부터 계속 술에 취합니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_sweetheart",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_sweetheart.png?raw=true",
+    "name": "연인",
+    "otherNight": 41,
+    "otherNightReminder": "술에 취한 플레이어를 선택합니다.",
+    "reminders": [
+      "술취함"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "매일 밤*, 오늘 하수인이 지명했는지 알게 됩니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_towncrier",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_towncrier.png?raw=true",
+    "name": "마을 포고꾼",
+    "otherNight": 59,
+    "otherNightReminder": "하수인이 오늘 지명했는지에 대해 '예'로 끄덕이거나 '아니오'로 흔듭니다. '하수인 지명하지 않음' 표시를 놓습니다('하수인 지명함' 표시가 있다면 제거합니다).",
+    "reminders": [
+      "하수인 지명하지 않음",
+      "하수인 지명함"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 플레이어 한 명을 선택합니다: 그들은 죽습니다. 당신이 죽인 하수인은 능력을 유지하고 마을 주민 이웃 1명을 중독시킵니다. [외부인 -1]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_vigormortis",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_vigormortis.png?raw=true",
+    "name": "비거모티스",
+    "otherNight": 32,
+    "otherNightReminder": "비거모티스가 플레이어를 가리킵니다. 그 플레이어는 죽습니다. 하수인이라면, 그들은 능력을 유지하고 그들의 마을 주민 이웃 중 한 명이 중독됩니다.",
+    "reminders": [
+      "능력 있음",
+      "사망",
+      "중독됨"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤*, 플레이어 한 명을 선택합니다: 그들은 죽습니다. 마을 주민 능력은 거짓 정보를 제공합니다. 매일, 아무도 처형되지 않으면, 악이 승리합니다.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ko_KR_vortox",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_vortox.png?raw=true",
+    "name": "볼톡스",
+    "otherNight": 31,
+    "otherNightReminder": "볼톡스가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
+    "reminders": [
+      "사망"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤, 플레이어 한 명을 선택합니다: 그들이 내일 지명하면, 그들은 죽습니다. 단 3명의 플레이어만 살아있다면, 이 능력을 잃습니다.",
+    "edition": "snv",
+    "firstNight": 24,
+    "firstNightReminder": "마녀가 플레이어를 가리킵니다. 그 플레이어가 내일 지명하면 즉시 죽습니다.",
+    "id": "ko_KR_witch",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_witch.png?raw=true",
+    "name": "마녀",
+    "otherNight": 15,
+    "otherNightReminder": "4명 이상의 플레이어가 살아있다면: 마녀가 플레이어를 가리킵니다. 그 플레이어가 내일 지명하면 즉시 죽습니다.",
+    "reminders": [
+      "저주받음"
+    ],
+    "setup": false,
+    "team": "minion"
+  }
+]

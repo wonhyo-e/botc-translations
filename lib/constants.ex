@@ -19,7 +19,8 @@ defmodule Constants do
     "sv_SE",
     "tr_TR",
     "zh_CN",
-    "zh_TW"
+    "zh_TW",
+    "ko_KR"
   ]
 
   @role_ids [
@@ -38,6 +39,7 @@ defmodule Constants do
     "baron",
     "beggar",
     "bishop",
+    "boffin",
     "bonecollector",
     "boomdandy",
     "bountyhunter",
@@ -101,6 +103,7 @@ defmodule Constants do
     "librarian",
     "lilmonsta",
     "lleech",
+    "lordoftyphon",
     "lunatic",
     "lycanthrope",
     "magician",

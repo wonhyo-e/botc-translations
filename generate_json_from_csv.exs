@@ -34,7 +34,7 @@ defmodule GenerateJsonFromCsv do
             Map.put(
               parsed_csv_co_role,
               "image",
-              "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/#{role_id}.png?raw=true"
+              "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_#{role_id}.png?raw=true"
             )
 
           # Prune all empty fields.
