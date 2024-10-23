@@ -274,7 +274,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_poisoner.png?raw=true",
     "name": "독살범",
     "otherNight": 8,
-    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
+    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범이 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
     "reminders": [
       "중독됨"
     ],

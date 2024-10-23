@@ -3,7 +3,7 @@
     "ability": "첫 번째 밤에 당신은 마을 주민 능력(선한 경우) 또는 하수인 능력(악한 경우)을 얻습니다.",
     "edition": "bmr",
     "firstNight": 1,
-    "firstNightReminder": "견습생에게 '당신은' 카드를 보여준 다음, 마을 주민 또는 하수인 토큰을 보여줍니다. 그림일기에서 견습생 토큰을 해당 캐릭터 토큰으로 교체하고, 견습생의 '견습생임' 리마인더를 해당 캐릭터 토큰 옆에 놓습니다.",
+    "firstNightReminder": "견습생에게 '당신은' 카드를 보여준 다음, 마을 주민 또는 하수인 토큰을 보여줍니다. 그리모어에서 견습생 토큰을 해당 캐릭터 토큰으로 교체하고, 견습생의 '견습생임' 리마인더를 해당 캐릭터 토큰 옆에 놓습니다.",
     "id": "ko_KR_apprentice",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_apprentice.png?raw=true",
     "name": "견습생",
@@ -170,7 +170,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_goon",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_goon.png?raw=true",
-    "name": "졸개",
+    "name": "깡패",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [

@@ -93,7 +93,7 @@
   },
   {
     "ability": "당신은 처음에 2명의 플레이어 중 1명이 특정 하수인이라는 것을 알고 시작합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 34,
     "firstNightReminder": "게임에 있는 하수인의 캐릭터 토큰을 보여줍니다. 두 명의 플레이어를 가리키는데, 그 중 한 명이 그 캐릭터입니다.",
     "id": "ko_KR_investigator",
@@ -173,7 +173,7 @@
   },
   {
     "ability": "당신은 악마로부터 안전합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_soldier",
@@ -297,15 +297,15 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤, 당신은 그림일기를 봅니다. 당신은 선한 것으로, 그리고 마을 주민이나 외부인으로 감지될 수 있습니다, 죽었더라도 마찬가지입니다.",
+    "ability": "매일 밤, 당신은 그리모어를 봅니다. 당신은 살아서도 죽어서도 선팀이나 마을 주민이나 혹은 외부인으로 감지될 수 있습니다.",
     "edition": "tb",
     "firstNight": 48,
-    "firstNightReminder": "스파이에게 필요한 만큼 오래 그림일기를 보여줍니다.",
+    "firstNightReminder": "스파이에게 필요한 만큼 오래 그리모어를 보여줍니다.",
     "id": "ko_KR_spy",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_spy.png?raw=true",
     "name": "스파이",
     "otherNight": 68,
-    "otherNightReminder": "스파이에게 필요한 만큼 오래 그림일기를 보여줍니다.",
+    "otherNightReminder": "스파이에게 필요한 만큼 오래 그리모어를 보여줍니다.",
     "reminders": [],
     "setup": false,
     "team": "minion"

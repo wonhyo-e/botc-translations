@@ -48,7 +48,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_slayer",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_slayer.png?raw=true",
-    "name": "학살자",
+    "name": "처단자",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -139,15 +139,15 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤, 당신은 그림일기를 봅니다. 당신은 선한 것으로, 그리고 마을 주민이나 외부인으로 감지될 수 있습니다, 죽었더라도 마찬가지입니다.",
+    "ability": "매일 밤, 당신은 그리모어를 봅니다. 당신은 살아서도 죽어서도 선팀이나 마을 주민이나 혹은 외부인으로 감지될 수 있습니다.",
     "edition": "tb",
     "firstNight": 48,
-    "firstNightReminder": "스파이에게 필요한 만큼 오래 그림일기를 보여줍니다.",
+    "firstNightReminder": "스파이에게 필요한 만큼 오래 그리모어를 보여줍니다.",
     "id": "ko_KR_spy",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_spy.png?raw=true",
     "name": "스파이",
     "otherNight": 68,
-    "otherNightReminder": "스파이에게 필요한 만큼 오래 그림일기를 보여줍니다.",
+    "otherNightReminder": "스파이에게 필요한 만큼 오래 그리모어를 보여줍니다.",
     "reminders": [],
     "setup": false,
     "team": "minion"

@@ -69,15 +69,11 @@
     "firstNightReminder": "임의의 플레이어를 보여줍니다.",
     "id": "ko_KR_balloonist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_balloonist.png?raw=true",
-    "name": "열기구 조종사",
+    "name": "기구조종사",
     "otherNight": 63,
     "otherNightReminder": "이전에 보여준 캐릭터 유형과 다른 유형의 플레이어를 보여줍니다.",
     "reminders": [
-      "마을 주민 봄",
-      "악마 봄",
-      "여행자 봄",
-      "외부인 봄",
-      "하수인 봄"
+      "어제확인"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -135,7 +131,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_savant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_savant.png?raw=true",
-    "name": "박학자",
+    "name": "자폐증 천재",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -225,7 +221,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_goon",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_goon.png?raw=true",
-    "name": "졸개",
+    "name": "깡패",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -325,7 +321,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_poisoner.png?raw=true",
     "name": "독살범",
     "otherNight": 8,
-    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
+    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범이 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
     "reminders": [
       "중독됨"
     ],

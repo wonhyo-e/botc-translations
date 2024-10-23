@@ -15,7 +15,7 @@
   },
   {
     "ability": "매일 밤*, 오늘 처형으로 죽은 캐릭터가 누구인지 알게 됩니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_undertaker",
@@ -36,7 +36,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_slayer",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_slayer.png?raw=true",
-    "name": "학살자",
+    "name": "처단자",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -68,7 +68,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_savant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_savant.png?raw=true",
-    "name": "박학자",
+    "name": "자폐증 천재",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -131,15 +131,11 @@
     "firstNightReminder": "임의의 플레이어를 보여줍니다.",
     "id": "ko_KR_balloonist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_balloonist.png?raw=true",
-    "name": "열기구 조종사",
+    "name": "기구조종사",
     "otherNight": 63,
     "otherNightReminder": "이전에 보여준 캐릭터 유형과 다른 유형의 플레이어를 보여줍니다.",
     "reminders": [
-      "마을 주민 봄",
-      "악마 봄",
-      "여행자 봄",
-      "외부인 봄",
-      "하수인 봄"
+      "어제확인"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -317,10 +313,10 @@
     "team": "minion"
   },
   {
-    "ability": "첫 번째 밤에 그림일기를 보고 플레이어 한 명을 선택합니다: 그들은 중독됩니다. 1명의 선한 플레이어가 과부가 게임에 있다는 것을 알고 있습니다.",
+    "ability": "첫 번째 밤에 그리모어를 보고 플레이어 한 명을 선택합니다: 그들은 중독됩니다. 1명의 선한 플레이어가 과부가 게임에 있다는 것을 알고 있습니다.",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "과부에게 필요한 만큼 오래 그림일기를 보여줍니다. 과부가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다. 선한 플레이어 한 명을 깨웁니다. '이 캐릭터들이 게임에 있습니다' 카드를 보여준 다음, 과부 캐릭터 토큰을 보여줍니다.",
+    "firstNightReminder": "과부에게 필요한 만큼 오래 그리모어를 보여줍니다. 과부가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다. 선한 플레이어 한 명을 깨웁니다. '이 캐릭터들이 게임에 있습니다' 카드를 보여준 다음, 과부 캐릭터 토큰을 보여줍니다.",
     "id": "ko_KR_widow",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_widow.png?raw=true",
     "name": "과부",

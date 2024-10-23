@@ -152,7 +152,7 @@
   },
   {
     "ability": "당신은 처음에 2명의 플레이어 중 1명이 특정 하수인이라는 것을 알고 시작합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 34,
     "firstNightReminder": "게임에 있는 하수인의 캐릭터 토큰을 보여줍니다. 두 명의 플레이어를 가리키는데, 그 중 한 명이 그 캐릭터입니다.",
     "id": "ko_KR_investigator",
@@ -223,7 +223,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_poisoner.png?raw=true",
     "name": "독살범",
     "otherNight": 8,
-    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
+    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범이 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
     "reminders": [
       "중독됨"
     ],
@@ -309,7 +309,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_slayer",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_slayer.png?raw=true",
-    "name": "학살자",
+    "name": "처단자",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -320,7 +320,7 @@
   },
   {
     "ability": "당신은 악마로부터 안전합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_soldier",
@@ -333,15 +333,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤, 당신은 그림일기를 봅니다. 당신은 선한 것으로, 그리고 마을 주민이나 외부인으로 감지될 수 있습니다, 죽었더라도 마찬가지입니다.",
+    "ability": "매일 밤, 당신은 그리모어를 봅니다. 당신은 살아서도 죽어서도 선팀이나 마을 주민이나 혹은 외부인으로 감지될 수 있습니다.",
     "edition": "tb",
     "firstNight": 48,
-    "firstNightReminder": "스파이에게 필요한 만큼 오래 그림일기를 보여줍니다.",
+    "firstNightReminder": "스파이에게 필요한 만큼 오래 그리모어를 보여줍니다.",
     "id": "ko_KR_spy",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_spy.png?raw=true",
     "name": "스파이",
     "otherNight": 68,
-    "otherNightReminder": "스파이에게 필요한 만큼 오래 그림일기를 보여줍니다.",
+    "otherNightReminder": "스파이에게 필요한 만큼 오래 그리모어를 보여줍니다.",
     "reminders": [],
     "setup": false,
     "team": "minion"
@@ -364,7 +364,7 @@
   },
   {
     "ability": "매일 밤*, 오늘 처형으로 죽은 캐릭터가 누구인지 알게 됩니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_undertaker",
@@ -380,7 +380,7 @@
   },
   {
     "ability": "당신이 처음 지명될 때, 지명한 사람이 마을 주민이라면, 그들은 즉시 처형됩니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_virgin",
@@ -396,7 +396,7 @@
   },
   {
     "ability": "당신은 처음에 2명의 플레이어 중 1명이 특정 마을 주민이라는 것을 알고 시작합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 32,
     "firstNightReminder": "게임에 있는 마을 주민의 캐릭터 토큰을 보여줍니다. 두 명의 플레이어를 가리키는데, 그 중 한 명이 그 캐릭터입니다.",
     "id": "ko_KR_washerwoman",

@@ -19,7 +19,7 @@
     "ability": "첫 번째 밤에 당신은 마을 주민 능력(선한 경우) 또는 하수인 능력(악한 경우)을 얻습니다.",
     "edition": "bmr",
     "firstNight": 1,
-    "firstNightReminder": "견습생에게 '당신은' 카드를 보여준 다음, 마을 주민 또는 하수인 토큰을 보여줍니다. 그림일기에서 견습생 토큰을 해당 캐릭터 토큰으로 교체하고, 견습생의 '견습생임' 리마인더를 해당 캐릭터 토큰 옆에 놓습니다.",
+    "firstNightReminder": "견습생에게 '당신은' 카드를 보여준 다음, 마을 주민 또는 하수인 토큰을 보여줍니다. 그리모어에서 견습생 토큰을 해당 캐릭터 토큰으로 교체하고, 견습생의 '견습생임' 리마인더를 해당 캐릭터 토큰 옆에 놓습니다.",
     "id": "ko_KR_apprentice",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_apprentice.png?raw=true",
     "name": "견습생",
@@ -54,15 +54,11 @@
     "firstNightReminder": "임의의 플레이어를 보여줍니다.",
     "id": "ko_KR_balloonist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_balloonist.png?raw=true",
-    "name": "열기구 조종사",
+    "name": "기구조종사",
     "otherNight": 63,
     "otherNightReminder": "이전에 보여준 캐릭터 유형과 다른 유형의 플레이어를 보여줍니다.",
     "reminders": [
-      "마을 주민 봄",
-      "악마 봄",
-      "여행자 봄",
-      "외부인 봄",
-      "하수인 봄"
+      "어제확인"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -293,7 +289,7 @@
   },
   {
     "ability": "당신은 처음에 2명의 플레이어 중 1명이 특정 하수인이라는 것을 알고 시작합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 34,
     "firstNightReminder": "게임에 있는 하수인의 캐릭터 토큰을 보여줍니다. 두 명의 플레이어를 가리키는데, 그 중 한 명이 그 캐릭터입니다.",
     "id": "ko_KR_investigator",
@@ -406,7 +402,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_savant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_savant.png?raw=true",
-    "name": "박학자",
+    "name": "자폐증 천재",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -430,7 +426,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신이 죽으면, 1명의 플레이어가 지금부터 계속 술에 취합니다.",
+    "ability": "당신이 죽으면, 1명의 플레이어가 지금부터 취한 상태가 됩니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -440,7 +436,7 @@
     "otherNight": 41,
     "otherNightReminder": "술에 취한 플레이어를 선택합니다.",
     "reminders": [
-      "술취함"
+      "취함"
     ],
     "setup": false,
     "team": "outsider"
@@ -464,10 +460,10 @@
     "team": "demon"
   },
   {
-    "ability": "첫 번째 밤에 그림일기를 보고 플레이어 한 명을 선택합니다: 그들은 중독됩니다. 1명의 선한 플레이어가 과부가 게임에 있다는 것을 알고 있습니다.",
+    "ability": "첫 번째 밤에 그리모어를 보고 플레이어 한 명을 선택합니다: 그들은 중독됩니다. 1명의 선한 플레이어가 과부가 게임에 있다는 것을 알고 있습니다.",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "과부에게 필요한 만큼 오래 그림일기를 보여줍니다. 과부가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다. 선한 플레이어 한 명을 깨웁니다. '이 캐릭터들이 게임에 있습니다' 카드를 보여준 다음, 과부 캐릭터 토큰을 보여줍니다.",
+    "firstNightReminder": "과부에게 필요한 만큼 오래 그리모어를 보여줍니다. 과부가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다. 선한 플레이어 한 명을 깨웁니다. '이 캐릭터들이 게임에 있습니다' 카드를 보여준 다음, 과부 캐릭터 토큰을 보여줍니다.",
     "id": "ko_KR_widow",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_widow.png?raw=true",
     "name": "과부",

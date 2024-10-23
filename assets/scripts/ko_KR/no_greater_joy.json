@@ -15,7 +15,7 @@
   },
   {
     "ability": "당신은 처음에 2명의 플레이어 중 1명이 특정 하수인이라는 것을 알고 시작합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 34,
     "firstNightReminder": "게임에 있는 하수인의 캐릭터 토큰을 보여줍니다. 두 명의 플레이어를 가리키는데, 그 중 한 명이 그 캐릭터입니다.",
     "id": "ko_KR_investigator",

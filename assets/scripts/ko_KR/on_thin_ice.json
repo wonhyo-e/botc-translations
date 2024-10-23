@@ -72,7 +72,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_slayer",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_slayer.png?raw=true",
-    "name": "학살자",
+    "name": "처단자",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -83,7 +83,7 @@
   },
   {
     "ability": "당신이 처음 지명될 때, 지명한 사람이 마을 주민이라면, 그들은 즉시 처형됩니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_virgin",

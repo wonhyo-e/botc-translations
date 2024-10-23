@@ -1,7 +1,7 @@
 [
   {
     "ability": "당신은 처음에 2명의 플레이어 중 1명이 특정 마을 주민이라는 것을 알고 시작합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 32,
     "firstNightReminder": "게임에 있는 마을 주민의 캐릭터 토큰을 보여줍니다. 두 명의 플레이어를 가리키는데, 그 중 한 명이 그 캐릭터입니다.",
     "id": "ko_KR_washerwoman",
@@ -35,7 +35,7 @@
   },
   {
     "ability": "당신은 처음에 2명의 플레이어 중 1명이 특정 하수인이라는 것을 알고 시작합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 34,
     "firstNightReminder": "게임에 있는 하수인의 캐릭터 토큰을 보여줍니다. 두 명의 플레이어를 가리키는데, 그 중 한 명이 그 캐릭터입니다.",
     "id": "ko_KR_investigator",
@@ -80,7 +80,7 @@
   },
   {
     "ability": "매일 밤*, 오늘 처형으로 죽은 캐릭터가 누구인지 알게 됩니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_undertaker",
@@ -96,7 +96,7 @@
   },
   {
     "ability": "당신이 처음 지명될 때, 지명한 사람이 마을 주민이라면, 그들은 즉시 처형됩니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_virgin",
@@ -117,7 +117,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_slayer",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_slayer.png?raw=true",
-    "name": "학살자",
+    "name": "처단자",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -133,9 +133,9 @@
     "firstNightReminder": "",
     "id": "ko_KR_ravenkeeper",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_ravenkeeper.png?raw=true",
-    "name": "\b까마귀 사육사",
+    "name": "까마귀 사육사",
     "otherNight": 42,
-    "otherNightReminder": "\b까마귀 사육사가 오늘 밤 죽었다면: \b까마귀 사육사가 플레이어를 가리킵니다. 그 플레이어의 캐릭터 토큰을 보여줍니다.",
+    "otherNightReminder": "까마귀 사육사가 오늘 밤 죽었다면: 까마귀 사육사가 플레이어를 가리킵니다. 그 플레이어의 캐릭터 토큰을 보여줍니다.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -188,7 +188,7 @@
   },
   {
     "ability": "당신은 악마로부터 안전합니다.",
-    "edition": "tb",
+    "edition": "TB",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_soldier",
@@ -266,7 +266,7 @@
     "team": "outsider"
   },
   {
-    "ability": "당신이 외부인이라는 것에 대해 '미쳐' 있다면, 처형될 수 있습니다.",
+    "ability": "당신이 외부인이라는 것을 밝힐 경우, 처형될 수 있습니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -302,7 +302,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_poisoner.png?raw=true",
     "name": "독살범",
     "otherNight": 8,
-    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
+    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범이 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
     "reminders": [
       "중독됨"
     ],

@@ -114,7 +114,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_savant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_savant.png?raw=true",
-    "name": "박학자",
+    "name": "자폐증 천재",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -248,7 +248,7 @@
     "team": "outsider"
   },
   {
-    "ability": "당신이 죽으면, 1명의 플레이어가 지금부터 계속 술에 취합니다.",
+    "ability": "당신이 죽으면, 1명의 플레이어가 지금부터 취한 상태가 됩니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -258,7 +258,7 @@
     "otherNight": 41,
     "otherNightReminder": "술에 취한 플레이어를 선택합니다.",
     "reminders": [
-      "술취함"
+      "취함"
     ],
     "setup": false,
     "team": "outsider"

@@ -86,15 +86,11 @@
     "firstNightReminder": "임의의 플레이어를 보여줍니다.",
     "id": "ko_KR_balloonist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_balloonist.png?raw=true",
-    "name": "열기구 조종사",
+    "name": "기구조종사",
     "otherNight": 63,
     "otherNightReminder": "이전에 보여준 캐릭터 유형과 다른 유형의 플레이어를 보여줍니다.",
     "reminders": [
-      "마을 주민 봄",
-      "악마 봄",
-      "여행자 봄",
-      "외부인 봄",
-      "하수인 봄"
+      "어제확인"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -219,7 +215,7 @@
     "firstNightReminder": "",
     "id": "ko_KR_goon",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_goon.png?raw=true",
-    "name": "졸개",
+    "name": "깡패",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -301,7 +297,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_poisoner.png?raw=true",
     "name": "독살범",
     "otherNight": 8,
-    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
+    "otherNightReminder": "이전에 중독된 플레이어는 더 이상 중독되지 않습니다. 독살범이 플레이어를 가리킵니다. 그 플레이어는 중독됩니다.",
     "reminders": [
       "중독됨"
     ],
@@ -312,12 +308,12 @@
     "ability": "매일 밤, 플레이어 한 명을 선택합니다. 당신이 그들을 지명하고 처형하면, 그들의 팀이 패배합니다. 당신이 새로운 플레이어를 선택하면 모든 플레이어가 알게 됩니다.",
     "edition": "",
     "firstNight": 26,
-    "firstNightReminder": "공포조장자가 플레이어를 가리킵니다. 그 플레이어 옆에 공포 토큰을 놓고 공포조장자 능력으로 새로운 플레이어가 선택되었음을 알립니다.",
+    "firstNightReminder": "공포조장가가 플레이어를 가리킵니다. 그 플레이어 옆에 공포 토큰을 놓고 공포조장가 능력으로 새로운 플레이어가 선택되었음을 알립니다.",
     "id": "ko_KR_fearmonger",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fearmonger.png?raw=true",
-    "name": "공포조장자",
+    "name": "공포조장가",
     "otherNight": 18,
-    "otherNightReminder": "공포조장자가 플레이어를 가리킵니다. 전날 밤과 다르다면, 그 플레이어 옆에 공포 토큰을 놓고 공포조장자 능력으로 새로운 플레이어가 선택되었음을 알립니다.",
+    "otherNightReminder": "공포조장가가 플레이어를 가리킵니다. 전날 밤과 다르다면, 그 플레이어 옆에 공포 토큰을 놓고 공포조장가 능력으로 새로운 플레이어가 선택되었음을 알립니다.",
     "reminders": [
       "공포"
     ],
