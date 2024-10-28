@@ -1,6 +1,11 @@
 [
   {
-    "ability": "매일 밤, 당신의 살아있는 이웃 2명 중 몇 명이 악한지 알게 됩니다.",
+    "background": null,
+    "id": "_meta",
+    "isOfficial": false
+  },
+  {
+    "ability": "매일 밤, 당신의 좌우로 살아있는 이웃 2명 중 악한 진영이 몇 명인지 알려줍니다.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "공감능력자의 살아있는 이웃 중 악한 이웃의 수에 대한 손가락 신호(0, 1, 2)를 보여줍니다.",
@@ -14,8 +19,8 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤*, 오늘 처형으로 죽은 캐릭터가 누구인지 알게 됩니다.",
-    "edition": "TB",
+    "ability": "매일 밤*, 그날 낮에 처형된 플레이어가 어떤 직업이었는지 알려줍니다.",
+    "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_undertaker",
@@ -30,7 +35,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 한 번, 낮 동안 공개적으로 플레이어 한 명을 선택합니다: 그들이 악마라면, 그들은 죽습니다.",
+    "ability": "게임 중 단 한 번, 낮에 공개적으로 플레이어 한 명을 지명할 수 있습니다: 지명한 플레이어가 악마일 경우 즉시 사망합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -204,7 +209,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신은 자신이 주정뱅이라는 것을 모릅니다. 당신은 자신이 마을 주민 캐릭터라고 생각하지만, 그렇지 않습니다.",
+    "ability": "당신은 자신이 주정뱅이라는 사실을 모릅니다. 마을 주민 역할 중 하나라고 착각하고 있지만, 실제로는 그렇지 않습니다",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -221,7 +226,7 @@
     "team": "outsider"
   },
   {
-    "ability": "당신이 처형으로 죽으면, 당신의 팀이 패배합니다.",
+    "ability": "당신이 낮의 투표로 처형당하면 당신의 팀이 패배합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -267,7 +272,7 @@
     "team": "outsider"
   },
   {
-    "ability": "게임에 추가 외부인이 있습니다. [외부인 +2]",
+    "ability": "추가 외부인이 게임에 참여합니다. [외부인 +2]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -281,7 +286,7 @@
     "team": "minion"
   },
   {
-    "ability": "5명 이상의 플레이어가 살아있고 악마가 죽으면, 당신이 악마가 됩니다. (여행자는 세지 않습니다)",
+    "ability": "악마가 죽을 때 생존자가 5명 이상이면 당신이 악마가 됩니다. (단, 여행자는 생존자 수에 포함되지 않음)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

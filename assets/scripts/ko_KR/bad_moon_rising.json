@@ -1,5 +1,10 @@
 [
   {
+    "background": null,
+    "id": "_meta",
+    "isOfficial": false
+  },
+  {
     "ability": "첫 번째 밤에 당신은 마을 주민 능력(선한 경우) 또는 하수인 능력(악한 경우)을 얻습니다.",
     "edition": "bmr",
     "firstNight": 1,
@@ -315,7 +320,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_moonchild.png?raw=true",
     "name": "문차일드",
     "otherNight": 49,
-    "otherNightReminder": "문차일드가 오늘 능력을 사용해 플레이어를 지목했다면: 그 플레이어가 선하다면, 그들은 죽습니다.",
+    "otherNightReminder": "문차일드가 오늘 능력을 사용해 플레이어를 지명했다면: 그 플레이어가 선하다면, 그들은 죽습니다.",
     "reminders": [
       "사망"
     ],
