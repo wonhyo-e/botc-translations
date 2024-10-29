@@ -1,8 +1,10 @@
 [
   {
+    "author": "The Pandemonium Institute",
     "background": null,
     "id": "_meta",
-    "isOfficial": false
+    "isOfficial": true,
+    "name": "어둠을 부르는 달 (Bad Moon Rising)"
   },
   {
     "ability": "첫 번째 밤에 당신은 마을 주민 능력(선한 경우) 또는 하수인 능력(악한 경우)을 얻습니다.",

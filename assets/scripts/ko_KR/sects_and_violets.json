@@ -1,8 +1,10 @@
 [
   {
+    "author": "The Pandemonium Institute",
     "background": null,
     "id": "_meta",
-    "isOfficial": false
+    "isOfficial": true,
+    "name": "환란의 화원 (Sects and Violets)"
   },
   {
     "ability": "게임 중 한 번, 낮 동안 비공개로 이야기꾼에게 예/아니오 질문을 할 수 있습니다.",

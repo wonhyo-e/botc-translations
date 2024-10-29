@@ -1,29 +1,38 @@
-[
-  "baron",
-  "beggar",
-  "bureaucrat",
-  "butler",
-  "chef",
-  "drunk",
-  "empath",
-  "fortuneteller",
-  "gunslinger",
-  "imp",
-  "investigator",
-  "librarian",
-  "mayor",
-  "monk",
-  "poisoner",
-  "ravenkeeper",
-  "recluse",
-  "saint",
-  "scapegoat",
-  "scarletwoman",
-  "slayer",
-  "soldier",
-  "spy",
-  "thief",
-  "undertaker",
-  "virgin",
-  "washerwoman"
-]
+{
+    "meta":
+    {
+        "name": "불길한 조짐 (Trouble Brewing)",
+        "author": "The Pandemonium Institute",
+        "isOfficial": true
+    },
+    "roles":
+    [
+        "washerwoman",
+        "librarian",
+        "investigator",
+        "chef",
+        "empath",
+        "fortuneteller",
+        "undertaker",
+        "monk",
+        "ravenkeeper",
+        "virgin",
+        "slayer",
+        "soldier",
+        "mayor",
+        "butler",
+        "drunk",
+        "recluse",
+        "saint",
+        "poisoner",
+        "spy",
+        "scarletwoman",
+        "baron",
+        "imp",
+        "beggar",
+        "bureaucrat",
+        "gunslinger",
+        "scapegoat",
+        "thief"
+    ]
+}

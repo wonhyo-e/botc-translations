@@ -1,8 +1,10 @@
 [
   {
+    "author": "The Pandemonium Institute",
     "background": null,
     "id": "_meta",
-    "isOfficial": false
+    "isOfficial": true,
+    "name": "불길한 조짐 (Trouble Brewing)"
   },
   {
     "ability": "처음부터 두 플레이어 중 한 명이 특정 마을 주민인지 알고 시작합니다.",
