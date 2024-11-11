@@ -5,10 +5,11 @@
     "isOfficial": false
   },
   {
-    "ability": "매일 밤, 당신의 좌우로 살아있는 이웃 2명 중 악한 진영이 몇 명인지 알려줍니다.",
+    "ability": "매일 밤, 당신의 좌우에 있는 생존자들 중 악한 진영의 수를 알 수 있습니다.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "공감능력자의 살아있는 이웃 중 악한 이웃의 수에 대한 손가락 신호(0, 1, 2)를 보여줍니다.",
+    "flavor": "소름이 돋네요. 뭔가 이상해요. 그걸 느낄 수 있어요.",
     "id": "ko_KR_empath",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_empath.png?raw=true",
     "name": "공감능력자",
@@ -19,10 +20,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤*, 그날 낮에 처형된 플레이어가 어떤 직업이었는지 알려줍니다.",
+    "ability": "매일 밤*, 그날 낮에 처형된 플레이어의 직업을 알아낼 수 있습니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "흠....여기 뭐가 있나? 왼쪽 부츠는 뒷굽이 닳았고, 신발 혀 밑에는 부싯돌 부스러기가 있군. 이건 군인이 신던 신발이야.",
     "id": "ko_KR_undertaker",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_undertaker.png?raw=true",
     "name": "장의사",
@@ -35,10 +37,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 단 한 번, 낮에 공개적으로 플레이어 한 명을 지명할 수 있습니다: 지명한 플레이어가 악마일 경우 즉시 사망합니다.",
+    "ability": "게임 중 한 번, 낮에 공개적으로 플레이어 한 명을 지목할 수 있습니다. 지목된 플레이어가 악마라면 즉시 사망합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "죽어라",
     "id": "ko_KR_slayer",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_slayer.png?raw=true",
     "name": "처단자",
@@ -51,10 +54,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤, 살아있는 플레이어 한 명을 선택합니다: 선택된 악마는 당신과 캐릭터와 진영을 바꾸고 그 후 중독됩니다.",
+    "ability": "매일 밤 생존자 중 한 명을 선택합니다. 만약 악마를 선택하면, 당신과 악마는 서로의 캐릭터와 진영을 바꾸고 악마였던 사람은 중독 상태가 됩니다.",
     "edition": "snv",
     "firstNight": 20,
     "firstNightReminder": "뱀 조련사가 플레이어를 가리킵니다. 그 플레이어가 악마라면: 악마와 뱀 조련사의 캐릭터와 진영을 바꿉니다. 각 플레이어를 깨워 그들의 새로운 역할과 진영을 알립니다. 새로운 뱀 조련사는 중독됩니다.",
+    "flavor": "나리, 비록 제가 보잘것없는 사람이지만, 이 황금 피리 한 곡조면 아무리 사나운 정령도 길들일 수 있지요. 그저 신의 뜻대로 할 뿐입니다. 세상 사람들은 욕심이 과하면 화를 부른다고 하지만... 저는 절대 아닙니다, 나리, 저는 절대 아니에요.",
     "id": "ko_KR_snakecharmer",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_snakecharmer.png?raw=true",
     "name": "뱀 조련사",
@@ -67,10 +71,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일, 이야기꾼을 방문하여 비공개로 2가지를 알 수 있습니다: 1개는 사실이고 1개는 거짓입니다.",
+    "ability": "매일 낮에 이야기꾼을 찾아가 두 가지 정보를 들을 수 있습니다. 한 가지는 진실이고 다른 한 가지는 거짓입니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "바닥에 성냥개비 72개... 오늘따라 해가 일찍 저무는데, 달은 여전히 제시간에 떴어... 찢어진 천 조각... 저택 안의 악... 3이 3번... 우리가 믿었던 자의 정체가 달라... 초록빛이면 마그네슘... 흔적은 보이나 패턴이 틀려... 바닥에 성냥개비 72개...",
     "id": "ko_KR_savant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_savant.png?raw=true",
     "name": "자폐증 천재",
@@ -81,10 +86,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 한 번, 밤에 2명의 플레이어를 선택합니다(자신 제외): 그들이 같은 진영인지 알게 됩니다.",
+    "ability": "게임 중 한 번, 밤에 자신을 제외한 두 명의 플레이어를 선택하여 그들이 같은 진영인지 알아낼 수 있습니다.",
     "edition": "snv",
     "firstNight": 42,
     "firstNightReminder": "재봉사가 '아니오' 머리 신호를 보이거나, 다른 두 플레이어를 가리킵니다. 재봉사가 플레이어들을 선택했다면, 그들이 같은 진영인지에 대해 '예'로 끄덕이거나 '아니오'로 흔듭니다.",
+    "flavor": "캐시미어 코트를 입은 그 낯선 사람이 우리 귀여운 벨에게 마음을 품었다는 소문 들으셨나요? 그리고 벨이 승낙했다는것도요? 하지만 그건 축제에서 해리와 저글러 사이에서 일어난 일에 비하면 진짜 아무것도 아니에요! 제가 입이 가벼운 사람이었다면 말해줄 수 있었으렌데... 정말이에요.",
     "id": "ko_KR_seamstress",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_seamstress.png?raw=true",
     "name": "재봉사",
@@ -97,10 +103,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 한 번, 밤에 선한 캐릭터 하나를 선택합니다: 그 능력을 얻습니다. 이 캐릭터가 게임에 있다면, 그들은 술에 취합니다.",
+    "ability": "게임 중 한 번, 밤에 선한 캐릭터 하나를 선택하여 그 능력을 얻습니다. 만약 해당 캐릭터가 게임에 참여 중이라면, 그 캐릭터는 취한 상태가 됩니다.",
     "edition": "snv",
     "firstNight": 2,
     "firstNightReminder": "철학자가 '아니오' 머리 신호를 보이거나, 자신의 시트에서 선한 캐릭터를 가리킵니다. 캐릭터를 선택했다면: 게임에 없는 캐릭터 토큰을 철학자 토큰과 교체합니다. 또는, 그 캐릭터가 게임에 있다면, 그 플레이어에게 술취함 표시를 하고 철학자에게 철학자가 아님 토큰을 놓습니다.",
+    "flavor": "진실이 무엇이냐 묻는다면? 그건 바로 맥주지. 마음껏 마시세나, 내일이면 우리 모두 죽을지도 모르니까.",
     "id": "ko_KR_philosopher",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_philosopher.png?raw=true",
     "name": "철학자",
@@ -114,10 +121,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 한 번, 낮 동안 비공개로 이야기꾼에게 예/아니오 질문을 할 수 있습니다.",
+    "ability": "게임에서 단 한 번, 낮 동안 이야기꾼에게 비밀리에 예/아니오로 답할 수 있는 질문을 할 수 있습니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "오 마이 갓! 이건 진짜 브릴리언트하군! 내 이번 작품은... 어떻게 말해야 되나... 아, 그래! 쏘 펄펙트! 아트의 신이 깃들었어! 예스!",
     "id": "ko_KR_artist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_artist.png?raw=true",
     "name": "예술가",
@@ -209,10 +217,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신은 자신이 주정뱅이라는 사실을 모릅니다. 마을 주민 역할 중 하나라고 착각하고 있지만, 실제로는 그렇지 않습니다",
+    "ability": "당신은 자신이 주정뱅이라는 사실을 모르며, 마을 주민 중 하나라고 착각하고 있습니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "나는 그저 딸꾹 좋은 사람들과 마실 뿐이라네. 뭐... 인정하지만 나는 꺼억 사람을 좋아하는 것 뿐이라구.",
     "id": "ko_KR_drunk",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_drunk.png?raw=true",
     "name": "주정뱅이",
@@ -220,19 +229,20 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "만취"
+      "\b취함"
     ],
     "setup": true,
     "team": "outsider"
   },
   {
-    "ability": "당신이 낮의 투표로 처형당하면 당신의 팀이 패배합니다.",
+    "ability": "당신이 낮 투표로 처형당하면 당신의 팀은 패배합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "인내가 지혜를 낳고, 지혜가 평화를 낳나니. 두려워 말지어다, 두려움 또한 지나가리라. 이제 함께 기도하여, 우리의 한마음이 우리 모두를 성자의 길로 인도하기를.",
     "id": "ko_KR_saint",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_saint.png?raw=true",
-    "name": "성인",
+    "name": "\b성자",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -258,10 +268,11 @@
     "team": "outsider"
   },
   {
-    "ability": "당신이 외부인이라는 것을 밝힐 경우, 처형될 수 있습니다.",
+    "ability": "외부인이라는 사실을 밝힐 경우 처형당할 수 있습니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "나는 괴물이 아니에요! 나도 사람이라구요! 제발 자비를...!",
     "id": "ko_KR_mutant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_mutant.png?raw=true",
     "name": "돌연변이",
@@ -272,10 +283,11 @@
     "team": "outsider"
   },
   {
-    "ability": "추가 외부인이 게임에 참여합니다. [외부인 +2]",
+    "ability": "게임에 외부인 2명이 추가로 참여합니다. [외부인 +2]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "이 마을이 완전 개판이 됐지 않나? 싼 외부 인력이라... 그게 말이지. 내 생각엔 다 광산에 처박아버려야 해. 고된 일 좀 한다고 죽을 사람 없잖아? 반대하는 놈들은 따귀나 한 대 때려줘. 어차피 결국엔 이득이 남으면 그만이지, 안 그래?",
     "id": "ko_KR_baron",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_baron.png?raw=true",
     "name": "남작",
@@ -286,10 +298,11 @@
     "team": "minion"
   },
   {
-    "ability": "악마가 죽을 때 생존자가 5명 이상이면 당신이 악마가 됩니다. (단, 여행자는 생존자 수에 포함되지 않음)",
+    "ability": "악마가 죽을 때 생존자가 5명 이상이면 당신이 새로운 악마가 됩니다. (여행자는 생존자 수에서 제외)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "당신은 내게 자주빛 불꽃 의회의 비밀을 보여주셨죠. 우리는 타오르는 불길 속에서, 탐욕의 욕망 속에서, 그리고 야수와 같은 광기 속에서 하나가 되었으며, 난 영원토록 당신의 종이 되리라 맹세했습니다. 하지만 오늘 밤만큼은, 내 사랑, 제가 당신의 주인이 되어주겠습니다.",
     "id": "ko_KR_scarletwoman",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_scarletwoman.png?raw=true",
     "name": "부정한 여자",

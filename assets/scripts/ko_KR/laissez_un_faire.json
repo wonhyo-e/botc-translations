@@ -21,10 +21,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 한 번, 낮 동안 비공개로 이야기꾼에게 예/아니오 질문을 할 수 있습니다.",
+    "ability": "게임에서 단 한 번, 낮 동안 이야기꾼에게 비밀리에 예/아니오로 답할 수 있는 질문을 할 수 있습니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "오 마이 갓! 이건 진짜 브릴리언트하군! 내 이번 작품은... 어떻게 말해야 되나... 아, 그래! 쏘 펄펙트! 아트의 신이 깃들었어! 예스!",
     "id": "ko_KR_artist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_artist.png?raw=true",
     "name": "예술가",
@@ -141,10 +142,11 @@
     "team": "outsider"
   },
   {
-    "ability": "당신이 외부인이라는 것을 밝힐 경우, 처형될 수 있습니다.",
+    "ability": "외부인이라는 사실을 밝힐 경우 처형당할 수 있습니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "나는 괴물이 아니에요! 나도 사람이라구요! 제발 자비를...!",
     "id": "ko_KR_mutant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_mutant.png?raw=true",
     "name": "돌연변이",
@@ -155,10 +157,11 @@
     "team": "outsider"
   },
   {
-    "ability": "매일, 이야기꾼을 방문하여 비공개로 2가지를 알 수 있습니다: 1개는 사실이고 1개는 거짓입니다.",
+    "ability": "매일 낮에 이야기꾼을 찾아가 두 가지 정보를 들을 수 있습니다. 한 가지는 진실이고 다른 한 가지는 거짓입니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "바닥에 성냥개비 72개... 오늘따라 해가 일찍 저무는데, 달은 여전히 제시간에 떴어... 찢어진 천 조각... 저택 안의 악... 3이 3번... 우리가 믿었던 자의 정체가 달라... 초록빛이면 마그네슘... 흔적은 보이나 패턴이 틀려... 바닥에 성냥개비 72개...",
     "id": "ko_KR_savant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_savant.png?raw=true",
     "name": "자폐증 천재",

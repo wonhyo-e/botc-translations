@@ -21,10 +21,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "악한 진영 플레이어들이 몇 쌍인지 처음부터 알고 시작합니다.",
+    "ability": "게임 시작 시 서로 인접해 있는 악한 진영 플레이어 쌍의 수를 알 수 있습니다.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "이웃한 악한 플레이어 쌍의 수에 대한 손가락 신호(0, 1, 2, ...)를 보여줍니다.",
+    "flavor": "오늘 저녁 예약 명단이 좀 이상하네. 메이웨더 부인이 허드슨 골목 그 불량배와 어울린 적은 한 번도 없었는데... 그런데 오늘 밤은 둘이서 자리를 잡았다고? 수상한걸.",
     "id": "ko_KR_chef",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_chef.png?raw=true",
     "name": "요리사",
@@ -97,10 +98,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "처음부터 두 플레이어 중 누가 특정 하수인인지 알고 시작합니다.",
+    "ability": "게임 시작 시 두 플레이어 중 누가 특정 하수인인지 알 수 있습니다.",
     "edition": "tb",
     "firstNight": 34,
     "firstNightReminder": "게임에 있는 하수인의 캐릭터 토큰을 보여줍니다. 두 명의 플레이어를 가리키는데, 그 중 한 명이 그 캐릭터입니다.",
+    "flavor": "산책하기 좋은 밤이네요, 모로조프 씨. 아니, 이제는... 모로조프 남작님이라고 불러야 하나요?",
     "id": "ko_KR_investigator",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_investigator.png?raw=true",
     "name": "조사관",
@@ -114,10 +116,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "생존자가 3명 남았을 때 처형이 일어나지 않으면 당신 팀이 승리합니다. 밤에 당신이 사망할 경우, 다른 플레이어가 대신 죽을 수 있습니다.",
+    "ability": "생존자가 3명 남았을 때 처형이 일어나지 않으면 당신 팀이 승리합니다. 밤에 당신이 죽을 경우, 다른 플레이어가 대신 죽을 수 있습니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "우리의 갈등은 접어두고, 이 무의미한 살육은 이제 그만둡시다. 어찌됐든 우리는 다 세금 내는 시민 아니겠습니까. 음... 대부분은요.",
     "id": "ko_KR_mayor",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_mayor.png?raw=true",
     "name": "시장",
@@ -128,10 +131,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 한 번, 밤에 선한 캐릭터 하나를 선택합니다: 그 능력을 얻습니다. 이 캐릭터가 게임에 있다면, 그들은 술에 취합니다.",
+    "ability": "게임 중 한 번, 밤에 선한 캐릭터 하나를 선택하여 그 능력을 얻습니다. 만약 해당 캐릭터가 게임에 참여 중이라면, 그 캐릭터는 취한 상태가 됩니다.",
     "edition": "snv",
     "firstNight": 2,
     "firstNightReminder": "철학자가 '아니오' 머리 신호를 보이거나, 자신의 시트에서 선한 캐릭터를 가리킵니다. 캐릭터를 선택했다면: 게임에 없는 캐릭터 토큰을 철학자 토큰과 교체합니다. 또는, 그 캐릭터가 게임에 있다면, 그 플레이어에게 술취함 표시를 하고 철학자에게 철학자가 아님 토큰을 놓습니다.",
+    "flavor": "진실이 무엇이냐 묻는다면? 그건 바로 맥주지. 마음껏 마시세나, 내일이면 우리 모두 죽을지도 모르니까.",
     "id": "ko_KR_philosopher",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_philosopher.png?raw=true",
     "name": "철학자",
@@ -177,10 +181,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신은 악마의 모든 능력으로부터 안전합니다.",
+    "ability": "당신은 '악마'의 모든 능력에 면역입니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "다윗이 골리앗에게, 테세우스가 미노타우로스에게, 아르주나가 바가닷타에게 그랬듯이... 거절한다.",
     "id": "ko_KR_soldier",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_soldier.png?raw=true",
     "name": "군인",
@@ -191,10 +196,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤*, 오늘 하수인이 지명했는지 알게 됩니다.",
+    "ability": "매일 밤*, 그날 낮에 하수인이 누군가를 지명했는지 알 수 있습니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "호외요 호외! 미로에서 마법이 감지되었소! 현자께서 모든 비밀을 밝혀내셨다! 마을이 위험에 처했소! 호외요 호외!",
     "id": "ko_KR_towncrier",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_towncrier.png?raw=true",
     "name": "마을 포고꾼",
@@ -222,10 +228,11 @@
     "team": "outsider"
   },
   {
-    "ability": "오늘이나 오늘 밤에 당신이 죽었다면, 악마는 2명의 플레이어(다른 악마는 제외)를 선택하여 캐릭터를 교환할 수 있습니다.",
+    "ability": "당신이 낮이나 밤에 사망하면, 악마는 다른 악마를 제외한 두 명의 플레이어를 선택해 그들의 역할을 바꿀 수 있습니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "있잖아, 옛날엔 이발사랑 외과의가 같은 직업이었다는 거 알았어? 몰랐다고? 자, 이제 알게 됐네.",
     "id": "ko_KR_barber",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_barber.png?raw=true",
     "name": "이발사",
@@ -238,10 +245,11 @@
     "team": "outsider"
   },
   {
-    "ability": "당신은 자신이 주정뱅이라는 사실을 모릅니다. 마을 주민 역할 중 하나라고 착각하고 있지만, 실제로는 그렇지 않습니다",
+    "ability": "당신은 자신이 주정뱅이라는 사실을 모르며, 마을 주민 중 하나라고 착각하고 있습니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "나는 그저 딸꾹 좋은 사람들과 마실 뿐이라네. 뭐... 인정하지만 나는 꺼억 사람을 좋아하는 것 뿐이라구.",
     "id": "ko_KR_drunk",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_drunk.png?raw=true",
     "name": "주정뱅이",
@@ -249,19 +257,20 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "만취"
+      "\b취함"
     ],
     "setup": true,
     "team": "outsider"
   },
   {
-    "ability": "당신이 낮의 투표로 처형당하면 당신의 팀이 패배합니다.",
+    "ability": "당신이 낮 투표로 처형당하면 당신의 팀은 패배합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "인내가 지혜를 낳고, 지혜가 평화를 낳나니. 두려워 말지어다, 두려움 또한 지나가리라. 이제 함께 기도하여, 우리의 한마음이 우리 모두를 성자의 길로 인도하기를.",
     "id": "ko_KR_saint",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_saint.png?raw=true",
-    "name": "성인",
+    "name": "\b성자",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -269,7 +278,7 @@
     "team": "outsider"
   },
   {
-    "ability": "게임 중 한 번, 밤에* 플레이어를 선택합니다: 그들은 어떤 이유로 죽지 않을 수 있더라도 죽습니다.",
+    "ability": "게임당 한 번, 밤*에 플레이어 한 명을 선택하면 그 플레이어는 무조건 사망합니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -286,10 +295,11 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤, 플레이어 한 명을 선택합니다: 그들이 내일 지명하면, 그들은 죽습니다. 단 3명의 플레이어만 살아있다면, 이 능력을 잃습니다.",
+    "ability": "매일 밤 한 명을 저주할 수 있습니다. 저주받은 자가 다음날 누군가를 지명하면 죽게 됩니다. 단, 생존자가 3명일 경우 능력이 사라집니다.",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "마녀가 플레이어를 가리킵니다. 그 플레이어가 내일 지명하면 즉시 죽습니다.",
+    "flavor": "염소의 피 세 방울과 증오가 서린 머리카락 한 줌. 이름을 부르면 그림자가 드리우리니, 가시덤불 길을 왼발부터 내딛되 뒤돌아보지 마라.",
     "id": "ko_KR_witch",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_witch.png?raw=true",
     "name": "마녀",
@@ -302,24 +312,26 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤, 그리모어를 확인할 수 있습니다. 죽은 후에도 당신은 다른 사람의 능력에 선한 진영이나 마을 주민, 또는 외부인으로 보일 수 있습니다.",
+    "ability": "매일 밤, 그리모어를 확인할 수 있습니다. 죽은 후에도 당신은 다른 사람의 능력에 선한 진영, 마을 주민, 또는 외부인으로 감지될 수 있습니다.",
     "edition": "tb",
     "firstNight": 48,
-    "firstNightReminder": "스파이에게 필요한 만큼 오래 그리모어를 보여줍니다.",
+    "firstNightReminder": "스파이에게 필요한 만큼 그리모어를 보여줍니다.",
+    "flavor": "실력 있는 양조사라면 누구나 알지, 스파이가 둘로 보일 때의 혼합물보다 더 빨리 문제를 일으키는 술은 없다는 걸.",
     "id": "ko_KR_spy",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_spy.png?raw=true",
     "name": "스파이",
     "otherNight": 68,
-    "otherNightReminder": "스파이에게 필요한 만큼 오래 그리모어를 보여줍니다.",
+    "otherNightReminder": "스파이에게 필요한 만큼 그리모어를 보여줍니다.",
     "reminders": [],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "추가 외부인이 게임에 참여합니다. [외부인 +2]",
+    "ability": "게임에 외부인 2명이 추가로 참여합니다. [외부인 +2]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "이 마을이 완전 개판이 됐지 않나? 싼 외부 인력이라... 그게 말이지. 내 생각엔 다 광산에 처박아버려야 해. 고된 일 좀 한다고 죽을 사람 없잖아? 반대하는 놈들은 따귀나 한 대 때려줘. 어차피 결국엔 이득이 남으면 그만이지, 안 그래?",
     "id": "ko_KR_baron",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_baron.png?raw=true",
     "name": "남작",
