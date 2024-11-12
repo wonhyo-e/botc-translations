@@ -5,7 +5,7 @@
     "isOfficial": false
   },
   {
-    "ability": "당신은 게임에 없는 하수인 능력을 가집니다.",
+    "ability": "You have a not-in-play Minion ability.",
     "edition": "",
     "firstNight": 3,
     "firstNightReminder": "연금술사에게 게임에 없는 하수인 토큰을 보여줍니다.",
@@ -939,7 +939,7 @@
     "flavor": "진실로 나는 결백하도다. 스스로를 죄 없다 하는 자들이여, 몸을 던져 나를 대신하여 고통받을지어다. 진실로 너희의 독기 어린 말로는 내 명예를 결코 더럽힐 수 없으리라.",
     "id": "ko_KR_virgin",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_virgin.png?raw=true",
-    "name": "정결자",
+    "name": "성결자",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -1211,7 +1211,7 @@
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
-    "flavor": "인내가 지혜를 낳고, 지혜가 평화를 낳나니. 두려워 말지어다, 두려움 또한 지나가리라. 이제 함께 기도하여, 우리의 한마음이 우리 모두를 성자의 길로 인도하기를.",
+    "flavor": "지혜가 평화를 낳고, 인내가 지혜를 낳으니. 두려워 말라, 두려움조차 사라질 그날이 올지니. 우리 함께 기도하세. 하나 된 우리의 염원이 우리 모두를 거룩한 존재로 이끌리라.",
     "id": "ko_KR_saint",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_saint.png?raw=true",
     "name": "\b성자",
@@ -1470,9 +1470,9 @@
     "flavor": "솥을 돌아가며, 독 찬 내장을 던지자. 차가운 돌 밑에서 삼십일 일을 잠든 두꺼비, 수면 중에 흘린 독을 이 마법의 솥에 제일 먼저 넣자.",
     "id": "ko_KR_pithag",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_pithag.png?raw=true",
-    "name": "곰보 마녀",
+    "name": "곰보 할멈",
     "otherNight": 17,
-    "otherNightReminder": "곰보 마녀가 플레이어와 시트의 캐릭터를 가리킵니다. 이 캐릭터가 게임에 없다면, 그 플레이어를 깨우고 '당신은' 카드와 관련 캐릭터 토큰을 보여줍니다. 캐릭터가 게임에 있다면, 아무 일도 일어나지 않습니다.",
+    "otherNightReminder": "곰보 할멈이 플레이어와 시트의 캐릭터를 가리킵니다. 이 캐릭터가 게임에 없다면, 그 플레이어를 깨우고 '당신은' 카드와 관련 캐릭터 토큰을 보여줍니다. 캐릭터가 게임에 있다면, 아무 일도 일어나지 않습니다.",
     "reminders": [],
     "setup": false,
     "team": "minion"
