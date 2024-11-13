@@ -157,7 +157,7 @@
     "team": "outsider"
   },
   {
-    "ability": "매일 낮에 이야기꾼을 찾아가 두 가지 정보를 들을 수 있습니다. 한 가지는 진실이고 다른 한 가지는 거짓입니다.",
+    "ability": "매일 낮에 이야기꾼을 찾아가 두 가지 정보를 들을 수 있습니다. 하나는 진실이고 다른 하나는 거짓입니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
