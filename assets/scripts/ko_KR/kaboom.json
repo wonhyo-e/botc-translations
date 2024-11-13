@@ -22,7 +22,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임에 참가하지 않은 하수인의 능력을 하나 얻습니다.",
+    "ability": "당신은 게임에 참가중이지 않은 하수인의 능력을 하나 얻습니다.",
     "edition": "",
     "firstNight": 3,
     "firstNightReminder": "연금술사에게 게임에 없는 하수인 토큰을 보여줍니다.",

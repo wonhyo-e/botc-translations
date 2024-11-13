@@ -5,7 +5,7 @@
     "isOfficial": false
   },
   {
-    "ability": "You have a not-in-play Minion ability.",
+    "ability": "당신은 게임에 참가중이지 않은 하수인의 능력을 하나 얻습니다.",
     "edition": "",
     "firstNight": 3,
     "firstNightReminder": "연금술사에게 게임에 없는 하수인 토큰을 보여줍니다.",
@@ -980,7 +980,7 @@
       "사망"
     ],
     "setup": false,
-    "team": "outsider"
+    "team": "townsfolk"
   },
   {
     "ability": "당신이 낮이나 밤에 사망하면, 악마는 다른 악마를 제외한 두 명의 플레이어를 선택해 그들의 역할을 바꿀 수 있습니다.",
@@ -1854,7 +1854,7 @@
       "견습생임"
     ],
     "setup": false,
-    "team": "traveler"
+    "team": "townsfolk"
   },
   {
     "ability": "매일 밤, 새벽까지 1) 한 플레이어가 술이 깨고 건강해지며 진실된 정보를 얻거나 2) 그들의 능력이 두 번 작동합니다. 그들은 어떤 것인지 알게 됩니다.",
