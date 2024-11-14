@@ -343,9 +343,9 @@
     "flavor": "솥을 돌아가며, 독 찬 내장을 던지자. 차가운 돌 밑에서 삼십일 일을 잠든 두꺼비, 수면 중에 흘린 독을 이 마법의 솥에 제일 먼저 넣자.",
     "id": "ko_KR_pithag",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_pithag.png?raw=true",
-    "name": "곰보 할멈",
+    "name": "마귀할멈",
     "otherNight": 17,
-    "otherNightReminder": "곰보 할멈이 플레이어와 시트의 캐릭터를 가리킵니다. 이 캐릭터가 게임에 없다면, 그 플레이어를 깨우고 '당신은' 카드와 관련 캐릭터 토큰을 보여줍니다. 캐릭터가 게임에 있다면, 아무 일도 일어나지 않습니다.",
+    "otherNightReminder": "마귀할멈이 플레이어와 시트의 캐릭터를 가리킵니다. 이 캐릭터가 게임에 없다면, 그 플레이어를 깨우고 '당신은' 카드와 관련 캐릭터 토큰을 보여줍니다. 캐릭터가 게임에 있다면, 아무 일도 일어나지 않습니다.",
     "reminders": [],
     "setup": false,
     "team": "minion"
