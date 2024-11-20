@@ -25,7 +25,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "선과 악 캐릭터를 1개씩 알고 시작합니다. 둘 중 하나는 게임에 참여 중입니다. 참여 중인 캐릭터가 죽으면, 그날 밤 새로운 선과 악 캐릭터를 1개씩 알게 되고 둘 중 하나는 게임에 참여 중입니다.",
+    "ability": "선과 악 캐릭터를 1개씩 알고 시작합니다. 둘 중 하나는 게임에 참여 중입니다. 참여 중인 캐릭터가 죽으면, 그날 밤 새로운 선과 악 캐릭터를 1개씩 알게 됩니다. 둘 중 하나는 게임에 참여 중입니다.",
     "edition": "rome",
     "firstNight": 19,
     "firstNightReminder": "Show 1 good and 1 evil character token: one of these is in play. Place the LEARNS next to the in-play character. ",
@@ -100,7 +100,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신이 지명 당했을 때. 본인을 제외한 지명한 참가자에 대해 공개적으로 유일무이한 발언 1개를 할 수 있습니다. 오늘 밤, 그 발언이 사실이었는지 알게 됩니다.",
+    "ability": "당신은 지명 당했을 때, 지명한 참가자(본인 제외)에 대해 공개적으로 유일무이한 발언 1개를 할 수 있습니다. 오늘 밤, 그 발언이 사실이었는지 알게 됩니다.",
     "edition": "rome",
     "flavor": "\"Say not always what you know. But always know what you say.\" - Tiberius Claudius Caesar Augustus Germanicus 10 B.C - 54 A.D.",
     "id": "ko_KR_standardbearer_fall_of_rome",
@@ -127,7 +127,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임당 한 번, 밤에*, 당신을 지명했었던 참가자들의 캐릭터를, 랜덤한 순서로 알 수 있습니다.",
+    "ability": "게임당 한 번 밤에* 당신을 지명했었던 참가자들의 캐릭터를 랜덤한 순서로 알 수 있습니다.",
     "edition": "rome",
     "flavor": "\"Greed is but a word jealous men inflict upon the ambitious.\" - Marcus Licinius Crassus 115 B.C. - 53 B.C. ",
     "id": "ko_KR_merchant_fall_of_rome",
@@ -142,7 +142,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임당 한 번 낮에 공개적으로 살아있는 1명을 선택합니다. 오늘 밤, 그와 당신은 조용히 일어나서 누군가 이길 때까지 '가위바위보'를 합니다. 패배자는 죽습니다.",
+    "ability": "게임당 한 번 낮에 공개적으로 살아있는 1명을 선택합니다. 오늘 밤, 그와 당신은 조용히 일어나서 누군가 이길 때까지 '가위바위보'를 합니다. 진 사람은 죽습니다.",
     "edition": "rome",
     "flavor": "\"Forgive me. I was trained with swords! Not with words.\" - Crixus 72 B.C.",
     "id": "ko_KR_gladiator_fall_of_rome",
@@ -220,7 +220,7 @@
     "team": "outsider"
   },
   {
-    "ability": "당신에게 이웃한 2명의 마을 주민은 술에 취합니다. 그러나 격일 밤마다(홀수/짝수 밤), 당신은 해가 질 때까지 술에 취합니다. 당신이 죽더라도 동일합니다.",
+    "ability": "당신과 이웃한 2명의 마을 주민은 술에 취합니다. 그러나 격일 밤마다(홀수 또는 짝수 밤), 당신은 해가 질 때까지 술에 취합니다. 당신이 죽더라도 동일합니다.",
     "edition": "rome",
     "firstNight": 15,
     "firstNightReminder": "Place either the ODD or EVEN token. If ODD, the Winemaker is drunk on the 1st night and every other night after. Otherwise: the Winemaker is drunk on the 2nd night and every other night after.",
@@ -388,7 +388,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤*, 그날 스파르타쿠스라고 공개 선언한 플레이어의 능력을 얻습니다. 용병이 추방되면, 당신도 함께 추방됩니다. [반대 진영의 용병 +1]",
+    "ability": "매일 밤*, 그날 스파르타쿠스라고 공개 선언한 참가자의 능력을 얻습니다. 용병이 추방되면, 당신도 함께 추방됩니다. [반대 진영의 용병 +1]",
     "edition": "rome",
     "flavor": "Let the buyer beware...  ...and beware me too!",
     "id": "ko_KR_mercenary_fall_of_rome",
@@ -405,7 +405,7 @@
     "team": "traveler"
   },
   {
-    "ability": "매일 밤*, 한 명의 플레이어를 선택합니다: 1) 그들은 같은 유형의 게임에 없는 캐릭터가 되거나, 2) 같은 유형의 다른 플레이어와 캐릭터를 교환합니다.",
+    "ability": "매일 밤*, 한 명의 참가자를 선택합니다: 1) 그들은 같은 유형의 게임에 없는 캐릭터가 되거나, 2) 같은 유형의 다른 플레이어와 캐릭터를 교환합니다.",
     "edition": "rome",
     "flavor": "I found Rome a city of bricks and left it the city of marbles.",
     "id": "ko_KR_architect_fall_of_rome",
@@ -419,7 +419,7 @@
     "team": "traveler"
   },
   {
-    "ability": "매일, 첫 번째 처형 이후에 사망한 플레이어 중 한 명을 공개적으로 선택할 수 있습니다: 그들은 지목할 수 있게 됩니다. 사망한 플레이어들과 당신의 과반수가 동의하면, 그 플레이어는 처형됩니다.",
+    "ability": "매일, 첫 번째 처형 이후에 사망한 참가자 중 한 명을 공개적으로 선택할 수 있습니다: 그들은 지목할 수 있게 됩니다. 사망한 참가자들과 당신의 과반수가 동의하면, 그 참가자는 처형됩니다.",
     "attribution": "Original Character concept by Kohav. Many thanks to them for giving the green light to bringing it to Fall of Rome!",
     "edition": "rome",
     "flavor": "To such a degree will I be changed that I will be visible to no one; but I will be recognized by my voice. And with my voice, to you, I give a second chance.",
@@ -429,7 +429,7 @@
     "team": "traveler"
   },
   {
-    "ability": "매일, 생존한 플레이어 중 한 명을 공개적으로 선택하여 축복할 수 있습니다: 과반수가 동의하면, 그 플레이어에게 좋은 일이 일어납니다.",
+    "ability": "매일, 생존한 참가자 중 한 명을 공개적으로 선택하여 축복할 수 있습니다: 과반수가 동의하면, 그 고위사제에게 좋은 일이 일어납니다.",
     "edition": "rome",
     "flavor": "The first and greatest punishment of the sinner is the conscience of sin.",
     "id": "ko_KR_highpriest1_fall_of_rome",
@@ -444,7 +444,7 @@
     "team": "traveler"
   },
   {
-    "ability": "매일, 생존한 플레이어 중 한 명을 공개적으로 선택하여 축복할 수 있습니다: 과반수가 동의하면, 다음날 그들은 한 가지 진술을 알게 됩니다. 그날 밤, 그 진술이 진실인지 거짓인지 선택합니다.",
+    "ability": "매일, 생존한 참가자 중 한 명을 공개적으로 선택하여 축복할 수 있습니다: 과반수가 동의하면, 다음날 그들은 한 가지 진술을 알게 됩니다. 그날 밤, 그 진술이 진실인지 거짓인지 선택합니다.",
     "edition": "rome",
     "flavor": "The first and greatest punishment of the sinner is the conscience of sin.",
     "id": "ko_KR_highpriest2_fall_of_rome",
