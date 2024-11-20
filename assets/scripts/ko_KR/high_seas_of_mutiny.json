@@ -195,10 +195,11 @@
     "team": "townsfolk"
   },
   {
-    "ability": "생존자가 3명만 남았을 때 당신이 한 번도 플레이어를 지명한 적이 없다면: \b소라게 팀이 승리하게 [외부인 +1]",
+    "ability": "생존자가 3명만 남았을 때 당신이 한 번도 플레이어를 지명한 적이 없다면: 소라게 팀이 승리하게 [외부인 +1]",
     "edition": "HSoM",
     "firstNight": 0,
     "firstNightReminder": "",
+    "flavor": "인격이란 가면 뒤에는 그 가면을 다루는 영혼이 존재한다. 때로는 그 영혼이 가면을 벗고 심연과 마주할 때가 오느니...",
     "id": "ko_KR_hermitcrab",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_hermitcrab.png?raw=true",
     "name": "소라게",
@@ -311,7 +312,7 @@
     "team": "minion"
   },
   {
-    "ability": "처형되어 죽은 날 밤, 살아있는 선한 이웃 중 한 명을 선택\b해서 죽일 수 있습니다.",
+    "ability": "처형되어 죽은 날 밤, 살아있는 선한 이웃 중 한 명을 선택해서 죽일 수 있습니다.",
     "edition": "HSoM",
     "firstNight": 0,
     "firstNightReminder": "",

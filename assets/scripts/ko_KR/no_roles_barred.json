@@ -277,7 +277,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "\b취함"
+      "취함"
     ],
     "setup": true,
     "team": "outsider"
@@ -381,7 +381,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤*, 플레이어 한 명이 죽을 수 있습니다. 오직 악한 자들만 투표했다면 처형은 실패합니다. 당신도 하수인으로 감지됩니다. [대부분의 플레이어가 군단입니다]",
+    "ability": "매일 밤*, 참가자 한 명이 죽을 수 있습니다. 오직 악한 세력만 투표했다면 처형은 실패합니다. 당신은 하수인으로 보일 수 있습니다. [대부분의 플레이어가 군단이 됨]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",

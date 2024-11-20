@@ -1,0 +1,489 @@
+[
+  {
+    "author": "Alex Sadlier",
+    "background": null,
+    "id": "_meta",
+    "isOfficial": false,
+    "logo": "https://www.bloodstar.xyz/p/AlexS/Fall_of_Rome/_meta.png",
+    "name": "로마의 몰락 (Fall of Rome)"
+  },
+  {
+    "ability": "참가자 1명을 조각품으로 알고 시작합니다. 매일 밤*, 그가 가장 최근에 지명한 참가자의 진영을 알게 됩니다.",
+    "edition": "rome",
+    "firstNight": 18,
+    "firstNightReminder": "Point to a player. Place the SCULPTURE token next to that player.",
+    "flavor": "\"The sculptor's hand can only break the spell to free the figures slumbering in the stone.\"  - Michelangelo (1501)",
+    "id": "ko_KR_sculptor_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_sculptor_fall_of_rome.png?raw=true",
+    "name": "조각가",
+    "otherNight": 19,
+    "otherNightReminder": "If the player with the SCULPTURE token nominated today. Show the Sculptor an evil thumbs down sign if the nominated player is evil. Otherwise: show the Sculptor a good thumbs up sign. Remove the NOMINATED token (if any).",
+    "reminders": [
+      "Sculpture",
+      "Nominated"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "선과 악 캐릭터를 1개씩 알고 시작합니다. 둘 중 하나는 게임에 참여 중입니다. 참여 중인 캐릭터가 죽으면, 그날 밤 새로운 선과 악 캐릭터를 1개씩 알게 되고 둘 중 하나는 게임에 참여 중입니다.",
+    "edition": "rome",
+    "firstNight": 19,
+    "firstNightReminder": "Show 1 good and 1 evil character token: one of these is in play. Place the LEARNS next to the in-play character. ",
+    "flavor": "\"Some are of the opinion that these vestals had no other business than the preservation of the sacred fire; but others conceive that they were keepers of other divine secrets, concealed from all but themselves.\" - Lucius Mestrius 'Plutarch' Plutarchus c. 49 A.D. - 119 A.D.",
+    "id": "ko_KR_vestalvirgin_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_vestalvirgin_fall_of_rome.png?raw=true",
+    "name": "베스타의 무녀",
+    "otherNight": 20,
+    "otherNightReminder": "If the player with the LEARNS token died today, remove the token. Show 1 good and 1 evil character token: one of these is in play. Place the LEARNS next to the in-play character. ",
+    "reminders": [
+      "Learns"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤, 자신을 제외한 2명을 선택합니다. 그들은 술에서 깨고, 건강해지며, 올바른 정보를 받습니다. 처음으로 악마가 그들 중 1명을 죽이면, 당신은 악마의 종류를 알게 됩니다.",
+    "edition": "rome",
+    "firstNight": 17,
+    "firstNightReminder": "The Physician points to two players not themselves. Mark both players with the PATIENT token.",
+    "flavor": "\"Some patients recover, because they believe in doctors.\" - Hippocrates of Kos c. 460 B.C. - c. 370 B.C.",
+    "id": "ko_KR_physician_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_physician_fall_of_rome.png?raw=true",
+    "name": "의사",
+    "otherNight": 11,
+    "otherNightReminder": "Remove all PATIENT tokens. The Physician points to two players not themselves. Mark both players with the PATIENT token. If a player with a PATIENT token was killed by the Demon, place the 1ST DEMON token next to the Physician and wake the Physician and show them Demon token.",
+    "reminders": [
+      "Patient",
+      "1st Demon"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤, 자신과 시계방향으로 앉아있는 살아있는 군단병 사이에, 살아있는 악한 참가자의 수를 알게 됩니다. [+0 ~ +2 군단병]",
+    "edition": "rome",
+    "firstNight": 20,
+    "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of living evil players between the Legionary and the next clockwise Legionary (exclusive).",
+    "flavor": "\"We find that the Romans owed the conquest of the world to no other cause than continual military training, exact observance of discipline in their camps, and unwearied cultivation of the other arts of war.\" - Publius Flavius Vegetius Renatus c.385 A.D. - c. 450 A.D.",
+    "id": "ko_KR_legionary_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_legionary_fall_of_rome.png?raw=true",
+    "name": "군단병",
+    "otherNight": 21,
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of living evil players between the Legionary and the next clockwise Legionary (exclusive).",
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 오늘 낮에 공개적으로 '스파르타쿠스' 라고 주장한 악한 참가자의 수를 알게 됩니다.",
+    "edition": "rome",
+    "flavor": "\"I have done everything that I should, but the outcome is in the hand of fortune.\" - Nero Claudius Caesar 37 A.D. - 68 A.D.",
+    "id": "ko_KR_trumpeter_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_trumpeter_fall_of_rome.png?raw=true",
+    "name": "나팔수",
+    "otherNight": 22,
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of evil players who publicly claimed to be Spartacus today.",
+    "reminders": [
+      "Evil Claim"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "매일 밤*, 오늘 낮에 처형으로 죽은 참가자의 살아있는 이웃 중 악이 있는지 알게 됩니다.",
+    "edition": "rome",
+    "flavor": "\"Let no one weep for me, or celebrate my funeral with mourning; for I still live, as I pass to and fro through the mouths of men.\" - Quintus Ennius 239 B.C. - 169 B.C.",
+    "id": "ko_KR_mortician_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_mortician_fall_of_rome.png?raw=true",
+    "name": "장의사",
+    "otherNight": 23,
+    "otherNightReminder": "If a player was executed today: Show the head signal (nod 'yes', shake 'no') for whether one of the neighbours is evil.",
+    "reminders": [
+      "Recently Executed"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 지명 당했을 때. 본인을 제외한 지명한 참가자에 대해 공개적으로 유일무이한 발언 1개를 할 수 있습니다. 오늘 밤, 그 발언이 사실이었는지 알게 됩니다.",
+    "edition": "rome",
+    "flavor": "\"Say not always what you know. But always know what you say.\" - Tiberius Claudius Caesar Augustus Germanicus 10 B.C - 54 A.D.",
+    "id": "ko_KR_standardbearer_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_standardbearer_fall_of_rome.png?raw=true",
+    "name": "군단기수",
+    "otherNight": 24,
+    "otherNightReminder": "If the Standard Bearer's public statement was true: show the head signal (nod 'true'). Otherwise: show the head signal (shake 'false').",
+    "reminders": [
+      "True",
+      "False"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 살아있는 참가자를 지명하고, 그가 처형당하면 그의 팀이 패배합니다. 당신은 악마로부터 안전합니다. 오늘 낮에 공개적으로 '스파르타쿠스' 라고 주장했다면 새벽까지 술에 취합니다.",
+    "edition": "rome",
+    "flavor": "\"It is easier to find men who will volunteer to die, than to find those who are willing to endure pain with patience.\" - Gaius Julius Caesar 100 B.C. - 44 B.C.",
+    "id": "ko_KR_centurion1_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_centurion1_fall_of_rome.png?raw=true",
+    "name": "백인대장",
+    "reminders": [
+      "Drunk"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "게임당 한 번, 밤에*, 당신을 지명했었던 참가자들의 캐릭터를, 랜덤한 순서로 알 수 있습니다.",
+    "edition": "rome",
+    "flavor": "\"Greed is but a word jealous men inflict upon the ambitious.\" - Marcus Licinius Crassus 115 B.C. - 53 B.C. ",
+    "id": "ko_KR_merchant_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_merchant_fall_of_rome.png?raw=true",
+    "name": "상인",
+    "otherNight": 26,
+    "otherNightReminder": "If the Merchant has not yet used their ability: the Merchant either shows a shake 'no' head signal, or a nod 'yes' head signal. If the Merchant chose 'yes', show the character tokens of players with a NOMINATED token (in any order). Place the NO ABILITY token.",
+    "reminders": [
+      "Nominated",
+      "No Ability"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "게임당 한 번 낮에 공개적으로 살아있는 1명을 선택합니다. 오늘 밤, 그와 당신은 조용히 일어나서 누군가 이길 때까지 '가위바위보'를 합니다. 패배자는 죽습니다.",
+    "edition": "rome",
+    "flavor": "\"Forgive me. I was trained with swords! Not with words.\" - Crixus 72 B.C.",
+    "id": "ko_KR_gladiator_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_gladiator_fall_of_rome.png?raw=true",
+    "name": "검투사",
+    "otherNight": 18,
+    "otherNightReminder": "If the Gladiator used their ability today wake the Gladiator and the player they chose: both players silently play roshambo (rock \"fist\", scissors \"two fingers\" or paper \"flat hand\"). If they both chose the same, play again. Play until someone wins. The loser dies.",
+    "reminders": [
+      "Duel",
+      "Dead",
+      "No Ability"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "게임당 한 번 낮에 공개적으로 참가자 3명의 캐릭터 유형을 추측합니다. (본인 제외, 유형 당 1개) 그날 밤, 그 중 몇 개가 맞았는지 알게 됩니다.",
+    "edition": "rome",
+    "flavor": "\"Have I played the part well? Then applaud me as I exit!\" - Caesar Augustus 63 B.C. - 14 A.D.",
+    "id": "ko_KR_actor_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_actor_fall_of_rome.png?raw=true",
+    "name": "배우",
+    "otherNight": 25,
+    "otherNightReminder": "If the Actor used their ability today: Show the hand signal for the number (0, 1, 2, or 3) of CORRECT markers. Place the NO ABILITY marker.",
+    "reminders": [
+      "Correct",
+      "No Ability"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 악마에게 처음 죽으면, 당신은 죽지 않고 플레이 중이 아닌 마을 주민 능력 1개를 갖습니다.",
+    "edition": "rome",
+    "flavor": "\"Every new beginning comes from some other beginning’s end.\" - Lucius Annaeus Seneca 4 B.C. - 65 A.D.",
+    "id": "ko_KR_blacksmith_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_blacksmith_fall_of_rome.png?raw=true",
+    "name": "대장장이",
+    "otherNight": 17,
+    "otherNightReminder": "If the Blacksmith was killed by a Demon. Show the Blacksmith a not-in-play Townsfolk character token. Swap the not-in-play character token with the Blacksmith token. Place the IS THE BLACKSMITH token next to the not-in-play character token. Wake the Blacksmith and show 'You are', then their new character ability.",
+    "reminders": [
+      "Is the Blacksmith"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "ability": "당신이 처음으로 살아있는 외부인을 지명하면, 그는 즉시 플레이 중이 아닌 마을 주민이 됩니다. [+1 외부인]",
+    "edition": "rome",
+    "flavor": "\"When you arise in the morning, think of what a precious privilege it is to be alive - to breathe, to think, to enjoy, to love.\" - Marcus Aurelius 121 A.D. - 180 A.D.",
+    "id": "ko_KR_scholar_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_scholar_fall_of_rome.png?raw=true",
+    "name": "학자",
+    "otherNight": 2,
+    "otherNightReminder": "If the Scholar nominated an Outsider today, place the NO ABILITY token. Wake the nominated player. Show 'You are', then their new character token.",
+    "reminders": [
+      "Lectured",
+      "No Ability"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "참가자 1명을 알고 시작합니다. 당신이나 그가 처형 당하면, 모든 마을 주민은 내일 해가 질 때까지 술에 취합니다.",
+    "edition": "rome",
+    "firstNight": 16,
+    "firstNightReminder": "Point to a player. Place the REMUS token next to that player.",
+    "flavor": "\"The quarrel that arose between Remus and Romulus demonstrated the division of the earthly city against itself...\"  - Augustine of Hippo 354 A.D. - 430 A.D.",
+    "id": "ko_KR_thetwins_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_thetwins_fall_of_rome.png?raw=true",
+    "name": "쌍둥이",
+    "otherNight": 10,
+    "otherNightReminder": "If The Twins has a TOWNSFOLK DRUNK token, all Townsfolk are drunk until dusk.",
+    "reminders": [
+      "Remus",
+      "Townsfolk Drunk"
+    ],
+    "team": "outsider"
+  },
+  {
+    "ability": "당신에게 이웃한 2명의 마을 주민은 술에 취합니다. 그러나 격일 밤마다(홀수/짝수 밤), 당신은 해가 질 때까지 술에 취합니다. 당신이 죽더라도 동일합니다.",
+    "edition": "rome",
+    "firstNight": 15,
+    "firstNightReminder": "Place either the ODD or EVEN token. If ODD, the Winemaker is drunk on the 1st night and every other night after. Otherwise: the Winemaker is drunk on the 2nd night and every other night after.",
+    "flavor": "\"In wine, there's truth.\" - Pliny the Elder 23 A.D. - 79 A.D.",
+    "id": "ko_KR_winemaker_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_winemaker_fall_of_rome.png?raw=true",
+    "name": "와인 제조자",
+    "otherNight": 9,
+    "otherNightReminder": "Check which ODD or EVEN token is placed. If an odd night and the ODD token is placed, the Winemaker is drunk until dusk. If an even night and the EVEN token is placed, the Winemaker is drunk until dusk. Otherwise their Townsfolk neighbours are drunk until dusk.",
+    "reminders": [
+      "Odd",
+      "Even",
+      "Drunk"
+    ],
+    "team": "outsider"
+  },
+  {
+    "ability": "악한 참가자가 당신이 스파르타쿠스임을 공개적으로 추측하면(게임 당 한 번), 당신의 팀은 패배합니다. 매일 낮, 스파르타쿠스라고 공개 선언할 경우, 마을주민으로 보일 수 있습니다.",
+    "edition": "rome",
+    "flavor": "\"A man must not accept his fate. Or he will be destroyed by it.\" - Spartacus c. 103 B.C. - 71 B.C.",
+    "id": "ko_KR_spartacus_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_spartacus_fall_of_rome.png?raw=true",
+    "name": "스파르타쿠스",
+    "reminders": [
+      "Guess Used"
+    ],
+    "team": "outsider"
+  },
+  {
+    "ability": "자신이 마을 주민이라고 생각하지만 그렇지 않고, 잘못된 정보를 받습니다. 당신은 악으로 보일 수 있고, 죽더라도 동일합니다.",
+    "edition": "rome",
+    "flavor": "\"Beware the Ides of March.\" - Gaius Julius Caesar 100 B.C. - 44 B.C.",
+    "id": "ko_KR_badomen_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_badomen_fall_of_rome.png?raw=true",
+    "name": "불길한 징조",
+    "remindersGlobal": [
+      "Is a Bad Omen"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "첫날 밤, 두 참가자를 선택합니다. 그들은 자신이 선택된 것을 알게 됩니다. 처음으로 그들 중 1명이 처형으로 죽을 때, 나머지 1명은 악이 됩니다.",
+    "edition": "rome",
+    "firstNight": 12,
+    "firstNightReminder": "The Temptress points to two players. Place the SEDUCED token next to the two players. Wake the two players separately. Show the 'This character selected you' card, then the Temptress token. ",
+    "flavor": "\"Nothing could part us in life, but now in death, we are likely to change places...\" - Cleopatra VII Thea Philopator 69 B.C. - 30 B.C.",
+    "id": "ko_KR_temptress_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_temptress_fall_of_rome.png?raw=true",
+    "name": "요부",
+    "otherNight": 3,
+    "otherNightReminder": "If a player with a SEDUCED token is executed and dies, remove their SEDUCED token. The player with the remaining SEDUCED turns evil. Remove their SEDUCED token and replace it with the EVIL token. Wake the evil player and show them the 'You are' card and the thumbs down evil signal.",
+    "reminders": [
+      "Seduced",
+      "Evil"
+    ],
+    "team": "minion"
+  },
+  {
+    "ability": "매일 밤, 1명을 선택합니다. 그 참가자의 캐릭터를 알게 됩니다. 이 방법으로, 당신이 처음으로 2번 선택하는 참가자는 죽습니다. [+1 스파르타쿠스]",
+    "edition": "rome",
+    "firstNight": 14,
+    "firstNightReminder": "The Haruspex points to a player. Show that player’s character token. Place a FORETOLD token next that player. ",
+    "flavor": "\"...but it is in and by means of piety and religion, and this especial wisdom of perceiving that all things are governed and managed by the divine power of the immortal gods, that we have been and are superior to all other countries and nations.\" - Marcus Tullius Cicero 106 B.C - 46 B.C.",
+    "id": "ko_KR_haruspex_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_haruspex_fall_of_rome.png?raw=true",
+    "name": "내장 점술가",
+    "otherNight": 16,
+    "otherNightReminder": "The Haruspex points to a player. Show that player’s character token. Place a FORETOLD token next that player: if that player already has a FORETOLD token. That player dies, also place the CAN'T KILL token next to the Haruspex.",
+    "reminders": [
+      "Foretold",
+      "Dead",
+      "Can't Kill"
+    ],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "당신은 선으로 보일 수 있습니다. 당신이 지명하는 참가자는 새벽까지 반대 진영으로 보이며, 그가 마을 주민일 경우 중독됩니다.",
+    "edition": "rome",
+    "flavor": "“When they went in, the thing, of course, seemed to them a miracle, that the formerly tiny snake within a few days had turned into so great a serpent, with a human face, moreover, and tame!” Lucian Of Samosata (125 B.C. – c 180 B.C.) on Alexander of Abonoteichus 'The False Prophet' ",
+    "id": "ko_KR_glykon1_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_glykon1_fall_of_rome.png?raw=true",
+    "name": "글리콘",
+    "reminders": [
+      "Snake Bite",
+      "Poisoned"
+    ],
+    "team": "minion"
+  },
+  {
+    "ability": "마을 주민이 당신을 지명하면 그는 즉시 '불길한 징조'가 됩니다.",
+    "edition": "rome",
+    "flavor": "\"That everything in war and in peace, at home and abroad, was done only after taking the auspices?\" - Titus 'Livy' Livius 59 B.C. - 17 A.D.",
+    "id": "ko_KR_augur_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_augur_fall_of_rome.png?raw=true",
+    "name": "조점관",
+    "team": "minion"
+  },
+  {
+    "ability": "매일 밤, 두 명의 참가자를 선택합니다. 선택된 참가자들이 다음날 지명을 하면, 그날 밤에 사망합니다. 매일, 여행자를 제외한 선한 플레이어가 한 명이라도 지명을 하지 않으면, 악한 진영이 승리합니다.",
+    "edition": "rome",
+    "firstNight": 13,
+    "firstNightReminder": "Cleopatra points to two players. ",
+    "flavor": "\"Fool! Don't you see now that I could have poisoned you a hundred times had I been able to live without you!\" - Cleopatra VII Thea Philopator 69 B.C. - 30 B.C.",
+    "id": "ko_KR_cleopatra_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_cleopatra_fall_of_rome.png?raw=true",
+    "name": "클레오파트라",
+    "otherNight": 12,
+    "otherNightReminder": "If a previously chosen player nominated today they die. Remove all CHOSEN tokens. Cleopatra points to two players. Place the CHOSEN token next to both players.",
+    "reminders": [
+      "Chosen",
+      "Dead"
+    ],
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤*, 1명을 선택해 죽입니다. 첫 번째 크라수스가 공개적으로 자신이 스파르타쿠스라고 주장하고, 5명 이상 생존한 상태에서 사망하면, 악한 진영의 플레이어 한 명이 크라수스가 됩니다.",
+    "edition": "rome",
+    "flavor": "\"Those who aim at great deeds must also suffer greatly...\" - Lucius Mestrius 'Plutarch' Plutarchus c. 49 A.D. - 119 A.D.",
+    "id": "ko_KR_crassus_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_crassus_fall_of_rome.png?raw=true",
+    "name": "크라수스",
+    "otherNight": 13,
+    "otherNightReminder": "Crassus points to a player. That player dies. If the 1st Crassus publicly claimed to be Spartacus today and points to themselves (or was executed), with 5 or more players alive, replace the character of 1 evil player with a spare Crassus token. Show the 'You are' card, then the Crassus token. ",
+    "reminders": [
+      "Dead",
+      "1st Crassus"
+    ],
+    "team": "demon"
+  },
+  {
+    "ability": "당신은 스스로를 선한 캐릭터라고 생각합니다. 하수인들은 플레이 중이지 않은 캐릭터 3개를 알게 됩니다. 매일 밤*, 1명이 죽을 수 있습니다. 첫 번째로 죽은 한니발은 선이 됩니다. [+1 한니발]",
+    "attribution": "Hannibal was awarded the 4th place trophy in the Unofficial's \"Custom Demon Contest\".",
+    "edition": "rome",
+    "firstNight": 11,
+    "firstNightReminder": "Select 2 good players and place the IS HANNIBAL reminder tokens. Wake all Minions together, show them the Hannibals and show them three not-in-play character tokens (these must be the same).",
+    "flavor": "\"I will either find a way or make one.\" - Hannibal 247 B.C. - c 182 B.C.",
+    "id": "ko_KR_hannibal_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_hannibal_fall_of_rome.png?raw=true",
+    "name": "한니발",
+    "otherNight": 14,
+    "otherNightReminder": "Choose a player, that player dies. If a Hannibal died today, wake that player and show them the 'You are' card, the Hannibal token and then the thumbs up good signal.",
+    "remindersGlobal": [
+      "Is Hannibal",
+      "Dead"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤*, 1명을 선택해 죽입니다. 악한 참가자가 처음 처형으로 죽으면, 그날 밤 추가로 1명을 더 죽일 수 있습니다.",
+    "edition": "rome",
+    "flavor": "\"I came, I saw, I conquered.\" - Gaius Julius Caesar 100 B.C. - 44 B.C.",
+    "id": "ko_KR_caesar_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_caesar_fall_of_rome.png?raw=true",
+    "name": "카이사르",
+    "otherNight": 15,
+    "otherNightReminder": "If an evil player was executed today, Caesar points to two players. Otherwise: Caesar points to a player. Chosen players die.",
+    "reminders": [
+      "Betrayal",
+      "Used",
+      "Dead"
+    ],
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤*, 그날 스파르타쿠스라고 공개 선언한 플레이어의 능력을 얻습니다. 용병이 추방되면, 당신도 함께 추방됩니다. [반대 진영의 용병 +1]",
+    "edition": "rome",
+    "flavor": "Let the buyer beware...  ...and beware me too!",
+    "id": "ko_KR_mercenary_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_mercenary_fall_of_rome.png?raw=true",
+    "name": "용병",
+    "otherNight": 4,
+    "otherNightReminder": "Show the Mercenary a character that publicly claimed to be Spartacus today, they have that ability tonight and tomorrow until dusk. ",
+    "reminders": [
+      "Good",
+      "Evil",
+      "Good Ability",
+      "Evil Ability"
+    ],
+    "team": "traveler"
+  },
+  {
+    "ability": "매일 밤*, 한 명의 플레이어를 선택합니다: 1) 그들은 같은 유형의 게임에 없는 캐릭터가 되거나, 2) 같은 유형의 다른 플레이어와 캐릭터를 교환합니다.",
+    "edition": "rome",
+    "flavor": "I found Rome a city of bricks and left it the city of marbles.",
+    "id": "ko_KR_architect_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_architect_fall_of_rome.png?raw=true",
+    "name": "건축가",
+    "otherNight": 7,
+    "otherNightReminder": "The Architect points to a player. Choose which ability will effect the chosen player. Treat them accordingly (not-in-play character or character swap). Wake affected players individually. Show 'You are', then their new character token.",
+    "reminders": [
+      "Redesigned"
+    ],
+    "team": "traveler"
+  },
+  {
+    "ability": "매일, 첫 번째 처형 이후에 사망한 플레이어 중 한 명을 공개적으로 선택할 수 있습니다: 그들은 지목할 수 있게 됩니다. 사망한 플레이어들과 당신의 과반수가 동의하면, 그 플레이어는 처형됩니다.",
+    "attribution": "Original Character concept by Kohav. Many thanks to them for giving the green light to bringing it to Fall of Rome!",
+    "edition": "rome",
+    "flavor": "To such a degree will I be changed that I will be visible to no one; but I will be recognized by my voice. And with my voice, to you, I give a second chance.",
+    "id": "ko_KR_sibyl_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_sibyl_fall_of_rome.png?raw=true",
+    "name": "무녀",
+    "team": "traveler"
+  },
+  {
+    "ability": "매일, 생존한 플레이어 중 한 명을 공개적으로 선택하여 축복할 수 있습니다: 과반수가 동의하면, 그 플레이어에게 좋은 일이 일어납니다.",
+    "edition": "rome",
+    "flavor": "The first and greatest punishment of the sinner is the conscience of sin.",
+    "id": "ko_KR_highpriest1_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_highpriest1_fall_of_rome.png?raw=true",
+    "name": "고위사제1",
+    "otherNight": 5,
+    "otherNightReminder": "If the High Priest successfully blessed a player today, something good happens to that player and/or their team.",
+    "reminders": [
+      "Blessed",
+      "Failed"
+    ],
+    "team": "traveler"
+  },
+  {
+    "ability": "매일, 생존한 플레이어 중 한 명을 공개적으로 선택하여 축복할 수 있습니다: 과반수가 동의하면, 다음날 그들은 한 가지 진술을 알게 됩니다. 그날 밤, 그 진술이 진실인지 거짓인지 선택합니다.",
+    "edition": "rome",
+    "flavor": "The first and greatest punishment of the sinner is the conscience of sin.",
+    "id": "ko_KR_highpriest2_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_highpriest2_fall_of_rome.png?raw=true",
+    "name": "고위사제2",
+    "otherNight": 6,
+    "otherNightReminder": "If the High Priest successfully blessed a player today, wake the High Priest. The High Priest chooses whether the statement is true tomorrow with a hand signal (true \"thumbs up\", false \"thumbs down\").",
+    "reminders": [
+      "Blessed",
+      "Failed",
+      "True",
+      "False"
+    ],
+    "team": "traveler"
+  },
+  {
+    "ability": "매일, 첫 번째 처형의 결과를 선택합니다. 오늘의 처형을 막기로 선택하면: 그들은 생존합니다. 그렇지 않으면, 그날 밤 그들의 진영을 알게 됩니다.",
+    "edition": "rome",
+    "flavor": "Which death is preferable to every other? The unexpected.",
+    "id": "ko_KR_emperor_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_emperor_fall_of_rome.png?raw=true",
+    "name": "황제",
+    "otherNight": 8,
+    "otherNightReminder": "If a player was executed today and the outcome was not overturned by the Emperor: Show the hand signal (thumbs down 'evil', thumbs up 'good') for the players alignment.",
+    "reminders": [
+      "Executed"
+    ],
+    "team": "traveler"
+  },
+  {
+    "ability": "매일, 생존자의 절반까지(반올림, 여행자 제외) 공개적으로 자신이 스파르타쿠스라고 주장할 수 있습니다.",
+    "edition": "rome",
+    "flavor": "\"The ego cuts deeper than the flesh.\" - Spartacus c. 103 B.C. - 71 B.C.",
+    "id": "ko_KR_iamspartacus_fall_of_rome",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_iamspartacus_fall_of_rome.png?raw=true",
+    "name": "나는 스파르타쿠스다!",
+    "reminders": [
+      "I am Spartacus!"
+    ],
+    "team": "fabled"
+  }
+]

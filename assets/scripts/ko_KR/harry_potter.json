@@ -198,7 +198,7 @@
   {
     "ability": "당신의 이웃은 중독되지 않습니다. 밤에 죽으면 당신을 죽인 플레이어의 직업 유형을 알 수 있고 다음 날 밤이 시작되면 부활합니다. 부활 후 능력을 잃습니다.",
     "edition": "hp",
-    "flavor": "며칠 째 끔찍한 모습이었어. 얼른 \b부활하라고 계속 말했다고.",
+    "flavor": "며칠 째 끔찍한 모습이었어. 얼른 부활하라고 계속 말했다고.",
     "id": "ko_KR_fawkes_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fawkes_hp2_1.png?raw=true",
     "name": "폭스",
