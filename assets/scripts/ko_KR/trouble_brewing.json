@@ -54,8 +54,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "틀림",
-      "하수인"
+      "하수인",
+      "틀림"
     ],
     "setup": false,
     "team": "townsfolk"

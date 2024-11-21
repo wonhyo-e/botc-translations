@@ -172,8 +172,8 @@
     "otherNight": 25,
     "otherNightReminder": "낮 동안 아무도 죽지 않았다면: 좀부울이 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
-      "사망",
-      "오늘 사망"
+      "오늘 사망",
+      "사망"
     ],
     "setup": false,
     "team": "demon"

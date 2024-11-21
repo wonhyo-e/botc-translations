@@ -79,8 +79,8 @@
     "otherNight": 58,
     "otherNightReminder": "악마가 오늘 투표했다면 고개를 끄덕이고, 그렇지 않으면 고개를 젓습니다. '악마 투표하지 않음' 표시를 놓습니다('악마 투표함' 표시가 있다면 제거합니다).",
     "reminders": [
-      "악마 투표하지 않음",
-      "악마 투표함"
+      "악마 투표함",
+      "악마 투표하지 않음"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -365,8 +365,8 @@
     "otherNight": 26,
     "otherNightReminder": "푸카가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다. 이전에 중독된 플레이어는 죽습니다.",
     "reminders": [
-      "사망",
-      "중독됨"
+      "중독됨",
+      "사망"
     ],
     "setup": false,
     "team": "demon"

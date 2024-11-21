@@ -111,8 +111,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "오늘 사망",
-      "중독됨"
+      "중독됨",
+      "오늘 사망"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -186,10 +186,10 @@
     "otherNight": 10,
     "otherNightReminder": "표시된 플레이어가 중독된 남은 일수를 줄입니다. 궁정 귀족이 아직 능력을 사용하지 않았다면: 궁정 귀족은 '아니오' 머리 신호를 보이거나 시트의 캐릭터를 가리킵니다. 궁정 귀족이 능력을 사용했다면: 그 캐릭터가 게임에 있다면, 그 플레이어는 술에 취합니다.",
     "reminders": [
-      "능력 없음",
-      "취함 1",
+      "취함 3",
       "취함 2",
-      "취함 3"
+      "취함 1",
+      "능력 없음"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -313,8 +313,8 @@
     "otherNight": 58,
     "otherNightReminder": "악마가 오늘 투표했다면 고개를 끄덕이고, 그렇지 않으면 고개를 젓습니다. '악마 투표하지 않음' 표시를 놓습니다('악마 투표함' 표시가 있다면 제거합니다).",
     "reminders": [
-      "악마 투표하지 않음",
-      "악마 투표함"
+      "악마 투표함",
+      "악마 투표하지 않음"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -459,8 +459,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "틀림",
-      "하수인"
+      "하수인",
+      "틀림"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -701,8 +701,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "능력 있음",
-      "미침"
+      "미침",
+      "능력 있음"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -750,8 +750,8 @@
     "otherNight": 45,
     "otherNightReminder": "교수가 아직 능력을 사용하지 않았다면: 교수가 고개를 아니오로 젓거나, 플레이어를 가리킵니다. 그 플레이어가 마을 주민이라면, 그들은 이제 살아있습니다.",
     "reminders": [
-      "능력 없음",
-      "살아있음"
+      "살아있음",
+      "능력 없음"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -1282,8 +1282,8 @@
     "otherNight": 37,
     "otherNightReminder": "암살자가 아직 능력을 사용하지 않았다면: 암살자는 '아니오' 머리 신호를 보이거나 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
-      "능력 없음",
-      "사망"
+      "사망",
+      "능력 없음"
     ],
     "setup": false,
     "team": "minion"
@@ -1411,8 +1411,8 @@
     "otherNight": 38,
     "otherNightReminder": "오늘 외부인이 죽었다면: 대부가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
-      "사망",
-      "오늘 사망"
+      "오늘 사망",
+      "사망"
     ],
     "setup": true,
     "team": "minion"
@@ -1459,8 +1459,8 @@
     "otherNight": 19,
     "otherNightReminder": "메제펠레스의 비밀 단어를 말한 첫 번째 선한 플레이어를 깨우고 '당신은' 카드와 엄지 아래로 악한 신호를 보여줍니다.",
     "reminders": [
-      "능력 없음",
-      "악해짐"
+      "악해짐",
+      "능력 없음"
     ],
     "setup": false,
     "team": "minion"
@@ -1593,8 +1593,8 @@
       "1",
       "2",
       "3",
-      "삶 선택",
-      "죽음 선택"
+      "죽음 선택",
+      "삶 선택"
     ],
     "setup": false,
     "team": "demon"
@@ -1645,8 +1645,8 @@
     "otherNight": 34,
     "otherNightReminder": "플레이어 한 명을 선택합니다, 그 플레이어는 죽습니다.",
     "reminders": [
-      "곧 사망",
-      "사망"
+      "사망",
+      "곧 사망"
     ],
     "setup": true,
     "team": "demon"
@@ -1720,6 +1720,7 @@
     "otherNightReminder": "노다시가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
       "사망",
+      "중독됨",
       "중독됨"
     ],
     "setup": false,
@@ -1736,8 +1737,8 @@
     "otherNight": 28,
     "otherNightReminder": "포가 전날 밤에 아무도 선택하지 않았다면: 포가 세 명의 플레이어를 가리킵니다. 그렇지 않다면: 포가 '아니오' 머리 신호를 보이거나, 플레이어를 가리킵니다. 선택된 플레이어들은 죽습니다.",
     "reminders": [
-      "3번 공격",
-      "사망"
+      "사망",
+      "3번 공격"
     ],
     "setup": false,
     "team": "demon"
@@ -1753,8 +1754,8 @@
     "otherNight": 26,
     "otherNightReminder": "푸카가 플레이어를 가리킵니다. 그 플레이어는 중독됩니다. 이전에 중독된 플레이어는 죽습니다.",
     "reminders": [
-      "사망",
-      "중독됨"
+      "중독됨",
+      "사망"
     ],
     "setup": false,
     "team": "demon"
@@ -1802,8 +1803,8 @@
     "otherNight": 32,
     "otherNightReminder": "비거모티스가 플레이어를 가리킵니다. 그 플레이어는 죽습니다. 하수인이라면, 그들은 능력을 유지하고 그들의 마을 주민 이웃 중 한 명이 중독됩니다.",
     "reminders": [
-      "능력 있음",
       "사망",
+      "능력 있음",
       "중독됨"
     ],
     "setup": true,
@@ -1837,8 +1838,8 @@
     "otherNight": 25,
     "otherNightReminder": "낮 동안 아무도 죽지 않았다면: 좀부울이 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
-      "사망",
-      "오늘 사망"
+      "오늘 사망",
+      "사망"
     ],
     "setup": false,
     "team": "demon"
@@ -1870,8 +1871,8 @@
     "otherNight": 1,
     "otherNightReminder": "플레이어를 선택하고, 깨워서 어떤 바리스타 능력이 그들에게 영향을 미치는지 알려줍니다. 그에 따라 처리합니다(술 깸/건강/진실된 정보 또는 능력 두 번 활성화).",
     "reminders": [
-      "능력 두 번",
-      "술 깨고 건강함"
+      "술 깨고 건강함",
+      "능력 두 번"
     ],
     "setup": false,
     "team": "traveler"
@@ -2092,8 +2093,8 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_angel.png?raw=true",
     "name": "천사",
     "reminders": [
-      "나쁜 일",
-      "보호"
+      "보호",
+      "나쁜 일"
     ],
     "team": "fabled"
   },
@@ -2124,8 +2125,8 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_duchess.png?raw=true",
     "name": "공작부인",
     "reminders": [
-      "거짓 정보",
-      "방문자"
+      "방문자",
+      "거짓 정보"
     ],
     "team": "fabled"
   },

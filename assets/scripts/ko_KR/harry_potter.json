@@ -205,8 +205,8 @@
     "otherNight": 18,
     "otherNightReminder": "죽임을 당했다면 깨워서 죽인 사람의 직업 유형을 보여줍니다. 다음 날 밤에 부활시킵니다.",
     "reminders": [
-      "부활 완료",
-      "오늘 밤 부활"
+      "오늘 밤 부활",
+      "부활 완료"
     ],
     "team": "townsfolk"
   },
@@ -222,8 +222,8 @@
     "otherNight": 15,
     "otherNightReminder": "도비가 자유의 몸이라면 깨웁니다.",
     "reminders": [
-      "자유",
-      "주인"
+      "주인",
+      "자유"
     ],
     "team": "outsider"
   },

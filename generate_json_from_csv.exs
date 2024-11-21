@@ -89,18 +89,31 @@ defmodule GenerateJsonFromCsv do
           "remindersGlobal" => reminders_global
         } = row
       ) do
-    parsed_reminders = from_comma_separated_array_to_mapset(reminders)
+    parsed_reminders = from_comma_separated_array_to_list(reminders)
     parsed_reminders_global = from_comma_separated_array_to_mapset(reminders_global)
 
     # Overwrite reminders and remindersGlobal with the parsed list.
     %{
       row
-      | "reminders" => MapSet.to_list(parsed_reminders),
+      | "reminders" => parsed_reminders,
         "remindersGlobal" => MapSet.to_list(parsed_reminders_global)
     }
   end
 
-  # We use mapsets to automatically de-duplicate our arrays.
+  # For reminders, we keep duplicates by using a list instead of a MapSet
+  defp from_comma_separated_array_to_list(comma_separated_array) do
+    case comma_separated_array do
+      "" ->
+        []
+
+      comma_separated_array ->
+        comma_separated_array
+        |> String.split(",")
+        |> Enum.map(&String.trim/1)
+    end
+  end
+
+  # For remindersGlobal, we still use MapSet to deduplicate
   defp from_comma_separated_array_to_mapset(comma_separated_array) do
     case comma_separated_array do
       "" ->

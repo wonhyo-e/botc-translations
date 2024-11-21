@@ -18,8 +18,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "틀림",
-      "하수인"
+      "하수인",
+      "틀림"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -35,8 +35,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "능력 있음",
-      "미침"
+      "미침",
+      "능력 있음"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -210,8 +210,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "오늘 사망",
-      "중독됨"
+      "중독됨",
+      "오늘 사망"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -389,6 +389,7 @@
     "otherNightReminder": "노다시가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
       "사망",
+      "중독됨",
       "중독됨"
     ],
     "setup": false,

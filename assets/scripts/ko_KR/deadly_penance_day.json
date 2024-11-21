@@ -109,8 +109,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "틀림",
-      "하수인"
+      "하수인",
+      "틀림"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -288,8 +288,8 @@
     "otherNight": 37,
     "otherNightReminder": "암살자가 아직 능력을 사용하지 않았다면: 암살자는 '아니오' 머리 신호를 보이거나 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
-      "능력 없음",
-      "사망"
+      "사망",
+      "능력 없음"
     ],
     "setup": false,
     "team": "minion"

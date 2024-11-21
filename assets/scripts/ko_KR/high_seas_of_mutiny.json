@@ -31,6 +31,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
+      "알려줌",
+      "알려줌",
       "알려줌"
     ],
     "setup": true,
@@ -79,8 +81,8 @@
     "otherNightReminder": "선장이 2명을 고르게 하세요. 첫번째는 '보호'토큰을 두번째는 '표적 '토큰을 놓으세요. :reminder: :reminder:",
     "reminders": [
       "보호",
-      "사망",
-      "표적"
+      "표적",
+      "사망"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -96,8 +98,8 @@
     "otherNight": 5,
     "otherNightReminder": "두명의 플레이어(본인제외)를 선택하게 하세요, 선택한 플레이어들의 팀(선,악)이 다르다면, 해적을 사망 시키세요. :reminder:",
     "reminders": [
-      "사망",
-      "생존"
+      "생존",
+      "사망"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -175,6 +177,7 @@
     "otherNight": 11,
     "otherNightReminder": "선택한 플레이어 중에 하수인이 있다면 화약운반수와 하수인 둘다 죽이세요. :reminder: :reminder:",
     "reminders": [
+      "사망",
       "사망"
     ],
     "setup": false,
@@ -306,6 +309,7 @@
     "otherNightReminder": "",
     "reminders": [
       "능력 없음",
+      "오늘밤 바꿈",
       "오늘밤 바꿈"
     ],
     "setup": false,
@@ -339,8 +343,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "알고있음",
-      "중독"
+      "중독",
+      "알고있음"
     ],
     "setup": false,
     "team": "minion"
@@ -356,8 +360,8 @@
     "otherNight": 3,
     "otherNightReminder": "매일 밤, 플레이어를 선택하게 하세요. 선택된 플레이어가 마을주민이라면 황혼까지 잘못된 정보를 제공해야합니다. 그가 오늘 밤 '사망' 한다면 ,대신 다음 밤 '사망'처리 됩니다. :reminder: 살점포식자에게 한입 먹힌 플레이어는 그날 밤 죽을 수 없습니다. 다음 밤에 '사망'시키세요. :reminder:",
     "reminders": [
-      "사망",
-      "한입"
+      "한입",
+      "사망"
     ],
     "setup": false,
     "team": "minion"
@@ -373,6 +377,7 @@
     "otherNight": 7,
     "otherNightReminder": "매일 밤, 플레이어를 선택해 '사망'시킵니다.. 선택한 플레이어가 외부인이라면 외부인의 살아있는 선한 이웃 한명을 더 죽입니다.(최초 1번) . :reminder:",
     "reminders": [
+      "사망",
       "사망"
     ],
     "setup": true,
@@ -392,6 +397,8 @@
       "1번",
       "2번",
       "3번",
+      "사망",
+      "사망",
       "사망"
     ],
     "setup": false,
@@ -408,8 +415,8 @@
     "otherNight": 9,
     "otherNightReminder": "루살카에게 능력의 힌트를 알려주세요. 루살카에게 고르게 하거나, 능력에 기반한 정보를 제공하시거나 하세요. :reminder:",
     "reminders": [
-      "사망",
-      "저주"
+      "저주",
+      "사망"
     ],
     "setup": false,
     "team": "demon"

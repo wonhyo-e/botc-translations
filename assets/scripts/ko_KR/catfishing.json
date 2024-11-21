@@ -80,8 +80,8 @@
     "otherNight": 1,
     "otherNightReminder": "플레이어를 선택하고, 깨워서 어떤 바리스타 능력이 그들에게 영향을 미치는지 알려줍니다. 그에 따라 처리합니다(술 깸/건강/진실된 정보 또는 능력 두 번 활성화).",
     "reminders": [
-      "능력 두 번",
-      "술 깨고 건강함"
+      "술 깨고 건강함",
+      "능력 두 번"
     ],
     "setup": false,
     "team": "traveler"
@@ -128,8 +128,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "오늘 사망",
-      "중독됨"
+      "중독됨",
+      "오늘 사망"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -244,8 +244,8 @@
     "otherNight": 38,
     "otherNightReminder": "오늘 외부인이 죽었다면: 대부가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
-      "사망",
-      "오늘 사망"
+      "오늘 사망",
+      "사망"
     ],
     "setup": true,
     "team": "minion"
@@ -311,8 +311,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "틀림",
-      "하수인"
+      "하수인",
+      "틀림"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -474,8 +474,8 @@
     "otherNight": 32,
     "otherNightReminder": "비거모티스가 플레이어를 가리킵니다. 그 플레이어는 죽습니다. 하수인이라면, 그들은 능력을 유지하고 그들의 마을 주민 이웃 중 한 명이 중독됩니다.",
     "reminders": [
-      "능력 있음",
       "사망",
+      "능력 있음",
       "중독됨"
     ],
     "setup": true,

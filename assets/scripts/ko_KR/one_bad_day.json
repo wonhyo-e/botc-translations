@@ -31,8 +31,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "능력 있음",
-      "미침"
+      "미침",
+      "능력 있음"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -301,8 +301,8 @@
     "otherNight": 38,
     "otherNightReminder": "오늘 외부인이 죽었다면: 대부가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
-      "사망",
-      "오늘 사망"
+      "오늘 사망",
+      "사망"
     ],
     "setup": true,
     "team": "minion"

@@ -65,8 +65,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "오늘 사망",
-      "중독됨"
+      "중독됨",
+      "오늘 사망"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -292,8 +292,8 @@
     "otherNight": 37,
     "otherNightReminder": "암살자가 아직 능력을 사용하지 않았다면: 암살자는 '아니오' 머리 신호를 보이거나 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
     "reminders": [
-      "능력 없음",
-      "사망"
+      "사망",
+      "능력 없음"
     ],
     "setup": false,
     "team": "minion"
@@ -356,8 +356,8 @@
       "1",
       "2",
       "3",
-      "삶 선택",
-      "죽음 선택"
+      "죽음 선택",
+      "삶 선택"
     ],
     "setup": false,
     "team": "demon"
@@ -373,8 +373,8 @@
     "otherNight": 28,
     "otherNightReminder": "포가 전날 밤에 아무도 선택하지 않았다면: 포가 세 명의 플레이어를 가리킵니다. 그렇지 않다면: 포가 '아니오' 머리 신호를 보이거나, 플레이어를 가리킵니다. 선택된 플레이어들은 죽습니다.",
     "reminders": [
-      "3번 공격",
-      "사망"
+      "사망",
+      "3번 공격"
     ],
     "setup": false,
     "team": "demon"
