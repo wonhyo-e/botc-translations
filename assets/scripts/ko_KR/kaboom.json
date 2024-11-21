@@ -118,17 +118,19 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤*, 살아있는 플레이어 한 명을 선택합니다: 선하다면, 그들은 죽지만, 오늘 밤 죽을 수 있는 유일한 플레이어입니다.",
+    "ability": "매일 밤*, 살아있는 플에이어 한 명을 선택합니다. 그 사람이 선하다면 죽고, 악마는 오늘밤 죽일 수 없습니다. 선한 플레이어 한 명이 악한 세력으로 설정됩니다.",
     "edition": "",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": "\b선한 플레이어 한 명에게 '악으로 보임' 토큰을 놓습니다.",
+    "flavor": "문명이라는 얇은 막 아래에는 광기가 울부짖고 있다.",
     "id": "ko_KR_lycanthrope",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_lycanthrope.png?raw=true",
     "name": "늑대인간",
     "otherNight": 23,
     "otherNightReminder": "늑대인간이 살아있는 플레이어를 가리킵니다: 선하다면, 그들은 죽고 오늘 밤 다른 누구도 죽을 수 없습니다.",
     "reminders": [
-      "사망"
+      "사망",
+      "악으로 보임"
     ],
     "setup": false,
     "team": "townsfolk"
