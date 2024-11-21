@@ -24,3 +24,4 @@ botc_translations-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+pdf_gen/__pycache__
