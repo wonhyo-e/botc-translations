@@ -217,6 +217,19 @@
       "레무스",
       "마을 주민 취함"
     ],
+    "remindersGlobal": [
+      "주정뱅이"
+    ],
+    "special": [
+      {
+        "name": "bag-disabled",
+        "type": "selection"
+      },
+      {
+        "name": "replace-character",
+        "type": "reveal"
+      }
+    ],
     "team": "outsider"
   },
   {

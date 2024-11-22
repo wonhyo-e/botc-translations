@@ -260,6 +260,16 @@
       "취함"
     ],
     "setup": true,
+    "special": [
+      {
+        "name": "bag-disabled",
+        "type": "selection"
+      },
+      {
+        "name": "replace-character",
+        "type": "reveal"
+      }
+    ],
     "team": "outsider"
   },
   {
