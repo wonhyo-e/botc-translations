@@ -324,6 +324,14 @@
     "otherNightReminder": "스파이에게 필요한 만큼 그리모어를 보여줍니다.",
     "reminders": [],
     "setup": false,
+    "special": [
+      {
+        "global": "minion",
+        "name": "grimoire",
+        "time": "night",
+        "type": "signal"
+      }
+    ],
     "team": "minion"
   },
   {
