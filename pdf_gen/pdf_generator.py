@@ -30,6 +30,7 @@ class PDFGenerator:
             leftMargin=1*mm,
             topMargin=0*mm,
             bottomMargin=0*mm,
+            compress=2,
         )
 
         elements = self._process_meta_info(data)
@@ -145,13 +146,30 @@ class PDFGenerator:
         )
 
     def _process_team_member_image(self, item: Dict) -> Paragraph | ReportLabImage:
-        """Process team member image"""
+        """Process team member image with optimization"""
         img = self.image_handler.get_image(item)
         if not img:
             return Paragraph("No image", self.styles["Korean"])
 
+        # 이미지 크기가 실제 표시 크기보다 크다면 리사이즈
+        target_size = (int(2 * inch), int(2 * inch))
+        if img.size[0] > target_size[0] or img.size[1] > target_size[1]:
+            img = img.resize(target_size, Image.LANCZOS)
+
+        # JPEG로 변환하여 압축 (투명도가 필요없는 경우)
+        if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
+            # 투명 배경이 있는 경우 처리
+            background = Image.new('RGB', img.size, 'white')
+            if img.mode == 'P':
+                img = img.convert('RGBA')
+            background.paste(img, mask=img.split()[-1])
+            img = background
+
         img_byte_arr = BytesIO()
-        img.save(img_byte_arr, format="PNG")
+        img.save(img_byte_arr, format='JPEG', 
+                 quality=85,  # 품질 조정 (85는 보통 시각적으로 차이가 거의 없음)
+                 optimize=True)  # 추가 최적화 활성화
+
         return ReportLabImage(
             BytesIO(img_byte_arr.getvalue()),
             width=0.5 * inch,
