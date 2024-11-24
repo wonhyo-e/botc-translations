@@ -24,39 +24,39 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤 악의 세력이 선택한 플레이어 한 명을 알 수 있습니다.",
+    "ability": "매일 밤 악의 세력이 선택한 참가자 한 명을 알 수 있습니다.",
     "edition": "hp",
     "firstNight": 24,
-    "firstNightReminder": "깨워서 오늘 밤 악의 세력이 선택한 플레이어를 알려줍니다.",
+    "firstNightReminder": "깨워서 오늘 밤 악의 세력이 선택한 참가자를 알려줍니다.",
     "flavor": "흰색말이 먼저 움직이지. 그리고 나서... 우리가 움직이는 거야.",
     "id": "ko_KR_ronweasley_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_ronweasley_hp2_1.png?raw=true",
     "name": "론 위즐리",
     "otherNight": 21,
-    "otherNightReminder": "깨워서 오늘 밤 악의 세력이 선택한 플레이어를 알려줍니다.",
+    "otherNightReminder": "깨워서 오늘 밤 악의 세력이 선택한 참가자를 알려줍니다.",
     "reminders": [
       "확인함"
     ],
     "team": "townsfolk"
   },
   {
-    "ability": "플레이어 한 명을 선택하여 마을 주민, 외부인, 하수인 중 하나임을 알고 게임을 시작합니다. 어둠의 왕은 마을 주민으로 보입니다. 낮에 누군가의 발언을 공개적으로 정정하면 이야기꾼이 그날 밤 추가 능력 사용 기회를 줄 수 있습니다.",
+    "ability": "참가자 한 명을 선택하여 마을 주민, 외부인, 하수인 중 하나임을 알고 게임을 시작합니다. 어둠의 왕은 마을 주민으로 보입니다. 낮에 누군가의 발언을 공개적으로 정정하면 이야기꾼이 그날 밤 추가 능력 사용 기회를 줄 수 있습니다.",
     "edition": "hp",
     "firstNight": 23,
-    "firstNightReminder": "깨워서 어떤 플레이어를 선택할지 물어보고, 직업 유형을 보여줍니다.",
+    "firstNightReminder": "깨워서 어떤 참가자를 선택할지 물어보고, 직업 유형을 보여줍니다.",
     "flavor": "너희 둘이 괜찮다면, 난 이만 자러 갈게. 너희가 또 우리를 죽일 뻔한 멋진 아이디어를 내거나 - 더 최악인 퇴학당하게 되기 전에.",
     "id": "ko_KR_hermione_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_hermione_hp2_1.png?raw=true",
     "name": "헤르미온느",
     "otherNight": 14,
-    "otherNightReminder": "누군가의 말을 정정했다면: 깨워서 어떤 플레이어를 선택할지 물어보고 그 직업 유형을 보여줍니다.",
+    "otherNightReminder": "누군가의 말을 정정했다면: 깨워서 어떤 참가자를 선택할지 물어보고 그 직업 유형을 보여줍니다.",
     "reminders": [
       "정정함"
     ],
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 한 번, 낮에 공개적으로 플레이어 한 명을 선택할 수 있습니다. 선택된 플레이어가 하수인이라면 죽습니다.",
+    "ability": "게임 중 한 번, 낮에 공개적으로 참가자 한 명을 선택할 수 있습니다. 선택된 참가자가 하수인이라면 죽습니다.",
     "edition": "hp",
     "flavor": "사람들은 매일 죽어가... 하지만 여전히 우리와 함께 있어... 바로 여기.",
     "id": "ko_KR_neville_hp2_1",
@@ -68,14 +68,14 @@
     "team": "townsfolk"
   },
   {
-    "ability": "밤에 죽으면 플레이어 한 명을 선택할 수 있고, 선택된 플레이어는 당신의 정체를 알게 됩니다. 선택된 플레이어가 악의 세력이라면 내일 낮과 밤까지 취한 상태가 됩니다.",
+    "ability": "밤에 죽으면 참가자 한 명을 선택할 수 있고, 선택된 참가자는 당신의 정체를 알게 됩니다. 선택된 참가자가 악의 세력이라면 내일 낮과 밤까지 취한 상태가 됩니다.",
     "edition": "hp",
     "flavor": "호기심은 죄가 아니란다. 하지만 우리는 호기심을 다룰 때 신중해야 한단다. 그래, 정말로.",
     "id": "ko_KR_dumbledore_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_dumbledore_hp2_1.png?raw=true",
     "name": "덤블도어",
     "otherNight": 19,
-    "otherNightReminder": "죽임을 당했다면 깨워서 플레이어 선택을 요청합니다.",
+    "otherNightReminder": "죽임을 당했다면 깨워서 참가자 선택을 요청합니다.",
     "reminders": [
       "오늘 죽음"
     ],
@@ -85,39 +85,39 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤 자신을 제외한 플레이어 한 명을 선택합니다. 선택된 플레이어는 그날 밤부터 내일 낮까지 하수인의 능력으로부터 보호됩니다.",
+    "ability": "매일 밤 자신을 제외한 참가자 한 명을 선택합니다. 선택된 참가자는 그날 밤부터 내일 낮까지 하수인의 능력으로부터 보호됩니다.",
     "edition": "hp",
     "firstNight": 16,
-    "firstNightReminder": "깨워서 플레이어 선택을 요청합니다.",
+    "firstNightReminder": "깨워서 참가자 선택을 요청합니다.",
     "flavor": "어둠의 마법은 다양하고, 끊임없이 변화하며, 영원해. 그것과 싸우는 건 많은 머리를 가진 괴물과 싸우는 것과 같지. 목을 자를 때마다 이전보다 더 사나운, 더 영리한 머리가 자라나는.",
     "id": "ko_KR_snape_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_snape_hp2_1.png?raw=true",
     "name": "스네이프",
     "otherNight": 3,
-    "otherNightReminder": "깨워서 플레이어를 선택하게 합니다.",
+    "otherNightReminder": "깨워서 참가자를 선택하게 합니다.",
     "reminders": [
       "보호함"
     ],
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤 플레이어 한 명을 선택하여 론, 헤르미온느, 해리인지 알게됩니다. 만약 셋 중 하나라면 호크룩스를 가지고 있는지도 알게됩니다. (1 = 있음, 0 = 없음)",
+    "ability": "매일 밤 참가자 한 명을 선택하여 론, 헤르미온느, 해리인지 알게됩니다. 만약 셋 중 하나라면 호크룩스를 가지고 있는지도 알게됩니다. (1 = 있음, 0 = 없음)",
     "edition": "hp",
     "firstNight": 22,
-    "firstNightReminder": "깨워서 플레이어 한 명을 선택하게 합니다.",
+    "firstNightReminder": "깨워서 참가자 한 명을 선택하게 합니다.",
     "flavor": "폭풍이 다가오고 있다, 해리. 그때를 위해 우리 모두 준비하고 있어야 해.",
     "id": "ko_KR_hagrid_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_hagrid_hp2_1.png?raw=true",
     "name": "해그리드",
     "otherNight": 13,
-    "otherNightReminder": "깨워서 플레이어 한 명을 선택하게 합니다.",
+    "otherNightReminder": "깨워서 참가자 한 명을 선택하게 합니다.",
     "reminders": [
       "해그리드 방문함"
     ],
     "team": "townsfolk"
   },
   {
-    "ability": "매일 낮에 이야기꾼을 찾아가면 플레이어 두 명을 알게 됩니다. 그 중 한 명은 이야기꾼이 생각하기에 어제 낮/밤동안 선한 팀에 가장 긍정적인 영향을 준 플레이어입니다.",
+    "ability": "매일 낮에 이야기꾼을 찾아가면 참가자 두 명을 알게 됩니다. 그 중 한 명은 이야기꾼이 생각하기에 어제 낮/밤동안 선한 팀에 가장 긍정적인 영향을 준 참가자입니다.",
     "edition": "hp",
     "flavor": "몽유병이 있어요. 그래서 잠잘 때도 신발을 신고 자는 거예요.",
     "id": "ko_KR_lunalovegood_hp2_1",
@@ -131,7 +131,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "인간 형태로 시작합니다. 매일 밤 취함/중독 상태더라도 애니마구스로 변신할 수 있지만, 다시 인간이 될 순 없습니다. 애니마구스일 땐 처형으로만 죽습니다. 인간일 때 밤에 죽으면 플레이어 두 명을 선택하고, 그 중 몇 명이 악의 세력이거나 호크룩스를 갖고 있는지 알게됩니다.",
+    "ability": "인간 형태로 시작합니다. 매일 밤 취함/중독 상태더라도 애니마구스로 변신할 수 있지만, 다시 인간이 될 순 없습니다. 애니마구스일 땐 처형으로만 죽습니다. 인간일 때 밤에 죽으면 참가자 두 명을 선택하고, 그 중 몇 명이 악의 세력이거나 호크룩스를 갖고 있는지 알게됩니다.",
     "edition": "hp",
     "firstNight": 20,
     "firstNightReminder": "깨워서 변신할지 물어봅니다.",
@@ -140,7 +140,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_siriusblack_hp2_1.png?raw=true",
     "name": "시리우스 블랙",
     "otherNight": 17,
-    "otherNightReminder": "깨워서 변신할지 물어봅니다. 인간 형태로 밤에 죽었다면 깨워서 플레이어 2명을 선택하게 하고, 선택된 플레이어들이 악의 세력이거나 호크룩스를 가졌는지에 따라 0, 1, 2를 보여줍니다.",
+    "otherNightReminder": "깨워서 변신할지 물어봅니다. 인간 형태로 밤에 죽었다면 깨워서 참가자 2명을 선택하게 하고, 선택된 참가자들이 악의 세력이거나 호크룩스를 가졌는지에 따라 0, 1, 2를 보여줍니다.",
     "reminders": [
       "애니마구스 형태",
       "인간 형태"
@@ -165,16 +165,16 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤* 생존자 중 한 명을 선택합니다. 선하다면 그 플레이어는 내일 밤에 죽고, 악하다면 당신은 그날 밤 취한 상태가 됩니다. 당신의 능력으로 인해 누군가가 죽는 밤에는 다른 플레이어들은 죽을 수 없습니다.",
+    "ability": "매일 밤* 생존자 중 한 명을 선택합니다. 선하다면 그 참가자는 내일 밤에 죽고, 악하다면 당신은 그날 밤 취한 상태가 됩니다. 당신의 능력으로 인해 누군가가 죽는 밤에는 다른 참가자들은 죽을 수 없습니다.",
     "edition": "hp",
     "firstNight": 21,
-    "firstNightReminder": "깨워서 플레이어를 선택하게 합니다.",
+    "firstNightReminder": "깨워서 참가자를 선택하게 합니다.",
     "flavor": "매일 사람들이 사라지고 있어. 우리가 서로 싸우기 시작하면, 우린 끝장이야.",
     "id": "ko_KR_remuslupin_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_remuslupin_hp2_1.png?raw=true",
     "name": "리무스 루핀",
     "otherNight": 6,
-    "otherNightReminder": "깨워서 플레이어를 선택하게 합니다. 이전에 선택된 플레이어가 선한 사람이면 죽습니다. 오늘 밤에는 이 플레이어만 죽을 수 있습니다.",
+    "otherNightReminder": "깨워서 참가자를 선택하게 합니다. 이전에 선택된 참가자가 선한 사람이면 죽습니다. 오늘 밤에는 이 참가자만 죽을 수 있습니다.",
     "reminders": [
       "선택",
       "취함"
@@ -182,21 +182,21 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 어제와 다른 플레이어를 악하다고 광적으로 설득한다면, 그날 밤 그 플레이어의 진영을 알 수도 있습니다.",
+    "ability": "매일 어제와 다른 참가자를 악하다고 광적으로 설득한다면, 그날 밤 그 참가자의 진영을 알 수도 있습니다.",
     "edition": "hp",
     "flavor": "밤 산책만큼... 아이디어를 떠오르게 하는 건 없지.",
     "id": "ko_KR_madeyemoody_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_madeyemoody_hp2_1.png?raw=true",
     "name": "매드아이 무디",
     "otherNight": 12,
-    "otherNightReminder": "광기 조건을 충족했다면 깨워서 무디가 선택했던 플레이어의 진영을 알려줍니다.",
+    "otherNightReminder": "광기 조건을 충족했다면 깨워서 무디가 선택했던 참가자의 진영을 알려줍니다.",
     "reminders": [
       "무디의 시선"
     ],
     "team": "townsfolk"
   },
   {
-    "ability": "당신의 이웃은 중독되지 않습니다. 밤에 죽으면 당신을 죽인 플레이어의 직업 유형을 알 수 있고 다음 날 밤이 시작되면 부활합니다. 부활 후 능력을 잃습니다.",
+    "ability": "당신의 이웃은 중독되지 않습니다. 밤에 죽으면 당신을 죽인 참가자의 직업 유형을 알 수 있고 다음 날 밤이 시작되면 부활합니다. 부활 후 능력을 잃습니다.",
     "edition": "hp",
     "flavor": "며칠 째 끔찍한 모습이었어. 얼른 부활하라고 계속 말했다고.",
     "id": "ko_KR_fawkes_hp2_1",
@@ -211,10 +211,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "주인이 될 플레이어를 선택하고 시작합니다. 주인이 죽을 위험에 처하면 대신 당신이 죽습니다. 주인은 이야기꾼에게 가서 당신을 자유롭게 해줄 수 있고, 자유가 되면 밤에 다시 이 능력을 사용할 수 있습니다.",
+    "ability": "주인이 될 참가자를 선택하고 시작합니다. 주인이 죽을 위험에 처하면 대신 당신이 죽습니다. 주인은 이야기꾼에게 가서 당신을 자유롭게 해줄 수 있고, 자유가 되면 밤에 다시 이 능력을 사용할 수 있습니다.",
     "edition": "hp",
     "firstNight": 17,
-    "firstNightReminder": "깨워서 주인으로 삼을 플레이어를 선택하게 합니다.",
+    "firstNightReminder": "깨워서 주인으로 삼을 참가자를 선택하게 합니다.",
     "flavor": "주인님이 도비에게 양말을 주셨어요. 도비는 이제 자유로운 집요정이에요!",
     "id": "ko_KR_dobby_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_dobby_hp2_1.png?raw=true",
@@ -280,14 +280,14 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤 플레이어 한 명을 선택할 수 있습니다. 선택된 플레이어가 자신의 능력으로 그날 밤에 깨어날 예정이었다면 죽고, 깨어나지 않았다면 당신이 살아있는 동안 깨어날 수 없게 됩니다. 깨어날 때마다 이 사실을 알게 됩니다. 선택한 플레이어가 해리 포터라면 대신 당신이 죽습니다.",
+    "ability": "매일 밤 참가자 한 명을 선택할 수 있습니다. 선택된 참가자가 자신의 능력으로 그날 밤에 깨어날 예정이었다면 죽고, 깨어나지 않았다면 당신이 살아있는 동안 깨어날 수 없게 됩니다. 깨어날 때마다 이 사실을 알게 됩니다. 선택한 참가자가 해리 포터라면 대신 당신이 죽습니다.",
     "edition": "hp",
     "flavor": "바실리스크의 시선은 치명적이며, 그 눈빛과 마주친 모든 이는 즉시 죽음을 맞이하리라.",
     "id": "ko_KR_basilisk_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_basilisk_hp2_1.png?raw=true",
     "name": "바실리스크",
     "otherNight": 16,
-    "otherNightReminder": "깨워서 플레이어를 선택하게 합니다.",
+    "otherNightReminder": "깨워서 참가자를 선택하게 합니다.",
     "reminders": [
       "석화됨",
       "죽음"
@@ -295,7 +295,7 @@
     "team": "minion"
   },
   {
-    "ability": "2일차 밤 이후, 지명 전에 벨라트릭스라고 주장할 수 있습니다. 주장하면 선한 플레이어 한 명이 어떤 이유로든 죽지 않을 상황이어도 죽습니다. 처형당할 때 다른 생존한 악의 세력이 모두 투표하지 않으면 죽지 않습니다.",
+    "ability": "2일차 밤 이후, 지명 전에 벨라트릭스라고 주장할 수 있습니다. 주장하면 선한 참가자 한 명이 어떤 이유로든 죽지 않을 상황이어도 죽습니다. 처형당할 때 다른 생존한 악의 세력이 모두 투표하지 않으면 죽지 않습니다.",
     "edition": "hp",
     "flavor": "시리우스 블랙을 내가 죽였다!",
     "id": "ko_KR_bellatrix_hp2_1",
@@ -304,7 +304,7 @@
     "team": "minion"
   },
   {
-    "ability": "호크룩스를 가지고 시작합니다. 매일 밤 플레이어 한 명을 선택해 그날 밤부터 다음 날 낮까지 중독시킵니다. 네빌을 선택하면 네빌은 이 사실을 알게 됩니다.",
+    "ability": "호크룩스를 가지고 시작합니다. 매일 밤 참가자 한 명을 선택해 그날 밤부터 다음 날 낮까지 중독시킵니다. 네빌을 선택하면 네빌은 이 사실을 알게 됩니다.",
     "edition": "hp",
     "firstNight": 18,
     "firstNightReminder": "누구를 먼저 중독시킬지 선택하게 합니다.",
@@ -324,17 +324,17 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_grindelwald_hp2_1.png?raw=true",
     "name": "그린델왈드",
     "otherNight": 4,
-    "otherNightReminder": "깨워서 죽은 플레이어 중 한 명을 선택하게 합니다.",
+    "otherNightReminder": "깨워서 죽은 참가자 중 한 명을 선택하게 합니다.",
     "reminders": [
       "능력 탈취"
     ],
     "team": "minion"
   },
   {
-    "ability": "매일 밤*, 한 명을 선택해 죽입니다. (기본 하수인 수 - 1)만큼 선한 플레이어들이 호크룩스를 갖고, 어둠의 왕은 누가 가졌는지 알고 시작합니다. 어둠의 왕은 모든 호크룩스가 파괴되어야 죽을 수 있습니다. 호크룩스를 가진 선한 플레이어가 죽거나 처형되면 호크룩스가 대신 파괴됩니다. [내기니 추가]",
+    "ability": "매일 밤*, 한 명을 선택해 죽입니다. (기본 하수인 수 - 1)만큼 선한 참가자들이 호크룩스를 갖고, 어둠의 왕은 누가 가졌는지 알고 시작합니다. 어둠의 왕은 모든 호크룩스가 파괴되어야 죽을 수 있습니다. 호크룩스를 가진 선한 참가자가 죽거나 처형되면 호크룩스가 대신 파괴됩니다. [내기니 추가]",
     "edition": "hp",
     "firstNight": 13,
-    "firstNightReminder": "깨워서 호크룩스를 소지한 모든 플레이어를 알려줍니다.",
+    "firstNightReminder": "깨워서 호크룩스를 소지한 모든 참가자를 알려줍니다.",
     "flavor": "나는 불멸로 가는 길을 그 누구보다 멀리 걸어왔다...",
     "id": "ko_KR_lordvoldemort_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_lordvoldemort_hp2_1.png?raw=true",
@@ -357,7 +357,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_thedeatheaters_hp2_1.png?raw=true",
     "name": "죽음을 먹는 자들",
     "otherNight": 8,
-    "otherNightReminder": "모든 하수인을 깨워 죽일 플레이어를 투표로 정하게 합니다.",
+    "otherNightReminder": "모든 하수인을 깨워 죽일 참가자를 투표로 정하게 합니다.",
     "reminders": [
       "어둠의 왕"
     ],
@@ -383,7 +383,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤* 한 명을 선택해 죽입니다. 자살하면 하수인 한 명이 어둠의 왕이 됩니다. 금기어를 알고 시작하며, 선한 플레이어가 그 단어를 말하면 죽을 수 있습니다.",
+    "ability": "매일 밤* 한 명을 선택해 죽입니다. 자살하면 하수인 한 명이 어둠의 왕이 됩니다. 금기어를 알고 시작하며, 선한 참가자가 그 단어를 말하면 죽을 수 있습니다.",
     "edition": "hp",
     "firstNight": 14,
     "firstNightReminder": "깨워서 금기어를 알려줍니다.",
@@ -410,7 +410,7 @@
     "team": "traveler"
   },
   {
-    "ability": "벨라트릭스의 능력으로 죽을 예정인 플레이어가 도비의 주인이라면, 대신 도비가 죽습니다. 도비가 자유의 몸이라면 선택된 플레이어 대신 죽을지 선택할 수 있습니다.",
+    "ability": "벨라트릭스의 능력으로 죽을 예정인 참가자가 도비의 주인이라면, 대신 도비가 죽습니다. 도비가 자유의 몸이라면 선택된 참가자 대신 죽을지 선택할 수 있습니다.",
     "edition": "hp",
     "id": "ko_KR_dobbybellatrix_hp2_1",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_dobbybellatrix_hp2_1.png?raw=true",
