@@ -192,7 +192,7 @@
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
-    "flavor": "\b차가운 이를 온화하게 해주고, 분노한 이를 진정시키며, 우울한 이를 기쁘게 하고, 들뜬 마음을 가라앉혀주는 것이 바로 차의 힘이지요.",
+    "flavor": "차가운 이를 온화하게 해주고, 분노한 이를 진정시키며, 우울한 이를 기쁘게 하고, 들뜬 마음을 가라앉혀주는 것이 바로 차의 힘이지요.",
     "id": "ko_KR_tealady",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_tealady.png?raw=true",
     "name": "찻집여인",
