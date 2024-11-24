@@ -269,7 +269,7 @@
     "otherNight": 22,
     "otherNightReminder": "퇴마사가 참가자를 가리킵니다(전날 밤과 다른 사람). 그 참가자가 악마라면: 악마를 깨웁니다. 퇴마사 토큰을 보여줍니다. 퇴마사를 가리킵니다. 악마는 오늘 밤 행동하지 않습니다.",
     "reminders": [
-      "선택됨"
+      "선택"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -450,7 +450,7 @@
     "otherNightReminder": "이전에 보호받고 술에 취했던 참가자들은 그 표시를 잃습니다. 여관주인이 두 명의 참가자를 가리킵니다. 그 참가자들은 보호받습니다. 한 명은 술에 취합니다.",
     "reminders": [
       "보호",
-      "만취"
+      "취함"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -598,7 +598,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "모두 술취함"
+      "모두 취함"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -761,7 +761,7 @@
     "otherNight": 45,
     "otherNightReminder": "교수가 아직 능력을 사용하지 않았다면: 교수가 고개를 아니오로 젓거나, 참가자를 가리킵니다. 그 참가자가 마을 주민이라면, 그들은 이제 살아있습니다.",
     "reminders": [
-      "살아있음",
+      "생존",
       "능력 없음"
     ],
     "setup": false,
@@ -809,7 +809,7 @@
     "otherNight": 4,
     "otherNightReminder": "이전에 술에 취했던 참가자는 더 이상 술에 취하지 않습니다. 선원이 살아있는 참가자를 가리킵니다. 선원이나 선택된 참가자 중 하나가 술에 취합니다.",
     "reminders": [
-      "술취함"
+      "취함"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -900,14 +900,14 @@
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
-    "flavor": "추운 이를 따뜻하게 해주고, 분노한 이를 진정시키며, 우울한 이를 기쁘게 하고, 들뜬 마음을 가라앉혀주는 것이 바로 차의 힘이지요.",
+    "flavor": "\b차가운 이를 온화하게 해주고, 분노한 이를 진정시키며, 우울한 이를 기쁘게 하고, 들뜬 마음을 가라앉혀주는 것이 바로 차의 힘이지요.",
     "id": "ko_KR_tealady",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_tealady.png?raw=true",
     "name": "찻집여인",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "죽을 수 없음"
+      "사망 불가"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -1104,7 +1104,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "술취함"
+      "취함"
     ],
     "setup": false,
     "team": "outsider"
@@ -1797,7 +1797,8 @@
     "otherNight": 26,
     "otherNightReminder": "푸카가 참가자를 가리킵니다. 그 참가자는 중독됩니다. 이전에 중독된 참가자는 죽습니다.",
     "reminders": [
-      "중독됨",
+      "중독",
+      "중독",
       "사망"
     ],
     "setup": false,
@@ -1829,8 +1830,9 @@
     "otherNight": 27,
     "otherNightReminder": "샤발로스가 전날 밤에 선택한 참가자 한 명이 부활할 수 있습니다. 샤발로스가 두 명의 참가자를 가리킵니다. 그 참가자들은 죽습니다.",
     "reminders": [
+      "\b사망",
       "사망",
-      "살아있음"
+      "생존"
     ],
     "setup": false,
     "team": "demon"

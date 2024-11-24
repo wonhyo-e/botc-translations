@@ -64,7 +64,7 @@
     "otherNight": 4,
     "otherNightReminder": "이전에 술에 취했던 참가자는 더 이상 술에 취하지 않습니다. 선원이 살아있는 참가자를 가리킵니다. 선원이나 선택된 참가자 중 하나가 술에 취합니다.",
     "reminders": [
-      "술취함"
+      "취함"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -239,7 +239,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "술취함"
+      "취함"
     ],
     "setup": false,
     "team": "outsider"

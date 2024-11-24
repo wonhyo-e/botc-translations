@@ -52,7 +52,7 @@
     "otherNight": 4,
     "otherNightReminder": "이전에 술에 취했던 참가자는 더 이상 술에 취하지 않습니다. 선원이 살아있는 참가자를 가리킵니다. 선원이나 선택된 참가자 중 하나가 술에 취합니다.",
     "reminders": [
-      "술취함"
+      "취함"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -102,7 +102,7 @@
     "otherNightReminder": "이전에 보호받고 술에 취했던 참가자들은 그 표시를 잃습니다. 여관주인이 두 명의 참가자를 가리킵니다. 그 참가자들은 보호받습니다. 한 명은 술에 취합니다.",
     "reminders": [
       "보호",
-      "만취"
+      "취함"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -162,14 +162,14 @@
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
-    "flavor": "추운 이를 따뜻하게 해주고, 분노한 이를 진정시키며, 우울한 이를 기쁘게 하고, 들뜬 마음을 가라앉혀주는 것이 바로 차의 힘이지요.",
+    "flavor": "\b차가운 이를 온화하게 해주고, 분노한 이를 진정시키며, 우울한 이를 기쁘게 하고, 들뜬 마음을 가라앉혀주는 것이 바로 차의 힘이지요.",
     "id": "ko_KR_tealady",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_tealady.png?raw=true",
     "name": "찻집여인",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "죽을 수 없음"
+      "사망 불가"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -232,7 +232,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "술취함"
+      "취함"
     ],
     "setup": false,
     "team": "outsider"

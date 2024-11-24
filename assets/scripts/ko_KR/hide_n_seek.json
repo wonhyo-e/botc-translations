@@ -377,7 +377,8 @@
     "otherNight": 26,
     "otherNightReminder": "푸카가 참가자를 가리킵니다. 그 참가자는 중독됩니다. 이전에 중독된 참가자는 죽습니다.",
     "reminders": [
-      "중독됨",
+      "중독",
+      "중독",
       "사망"
     ],
     "setup": false,
