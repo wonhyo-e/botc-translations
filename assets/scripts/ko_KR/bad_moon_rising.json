@@ -320,13 +320,13 @@
     "ability": "매일 밤, 살아있는 참가자 1명(어제와 다른)을 선택합니다. 그는 내일 처형되더라도 죽지 않습니다.",
     "edition": "bmr",
     "firstNight": 22,
-    "firstNightReminder": "악마의 변호인이 살아있는 참가자를 가리킵니다. 그 참가자는 내일 처형에서 살아남습니다.",
+    "firstNightReminder": "악마의 대변인이 살아있는 참가자를 가리킵니다. 그 참가자는 내일 처형에서 살아남습니다.",
     "flavor": "재판장님, 제 이의가 받아들여지지 않더라도 의뢰인의 무죄는 분명합니다. 검찰 측이 동사 활용에 관한 법령 27조 B항을 위반했으니까요. 어젯밤 배심원 아홉 명의 죽음은 일견 명백한 증거로 보일 것입니다. 하지만 윌스와 툴레의 역사적인 판결이 입증했듯이, 이처럼 자명해 보이는 증거야말로 제 의뢰인의 무죄를 방증하는 것이지요.",
     "id": "ko_KR_devilsadvocate",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_devilsadvocate.png?raw=true",
-    "name": "악마의 변호인",
+    "name": "악마의 대변인",
     "otherNight": 14,
-    "otherNightReminder": "악마의 변호인이 살아있는 참가자를 가리킵니다(전날 밤과 다른 사람). 그 참가자는 내일 처형에서 살아남습니다.",
+    "otherNightReminder": "악마의 대변인이 살아있는 참가자를 가리킵니다(전날 밤과 다른 사람). 그 참가자는 내일 처형에서 살아남습니다.",
     "reminders": [
       "처형에서 생존"
     ],
