@@ -86,7 +86,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤* 한 명의 참가자를 지목해 그의 직업을 맞혀야 합니다. 틀리면 죽습니다.",
+    "ability": "매일 밤*, 한 명의 참가자를 선택해 그의 직업을 맞혀야 합니다. 틀리면 당신은 죽습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -252,7 +252,7 @@
     "team": "outsider"
   },
   {
-    "ability": "자신의 죽음을 알게 되면 생존자 중 한 명을 공개적으로 지목해야 합니다. 지목한 대상이 선한 진영이라면 그날 밤에 죽게 됩니다.",
+    "ability": "자신이 죽었다는 사실을 알게 되면, 공개적으로 살아있는 참가자 1명을 선택합니다. 그가 선한 참가자라면, 오늘 밤 그는 죽습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -269,7 +269,7 @@
     "team": "outsider"
   },
   {
-    "ability": "당신은 언제든지 죽을 수 있습니다.",
+    "ability": "당신은 언제든지 이유 없이 죽을 수 있습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -286,7 +286,7 @@
     "team": "outsider"
   },
   {
-    "ability": "게임당 한 번, 밤에* 참가자 한 명을 선택할 수 있습니다. 어떤 보호 능력이 있더라도 그 플레이어는 반드시 죽습니다.",
+    "ability": "게임당 한 번, 밤에* 참가자 한 명을 선택할 수 있습니다. 어떤 보호 능력이 있더라도 그 참가자는 반드시 죽습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -403,7 +403,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤*, 두 명의 참가자를 선택해 죽입니다. 어젯밤에 죽은 참가자 중 한 명을 다시 토해낼 수도 있습니다.",
+    "ability": "매일 밤*, 2명의 참가자를 선택해 죽입니다. 어젯밤에 죽은 참가자 중 한 명을 다시 토해낼 수도 있습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
