@@ -1165,9 +1165,9 @@
     "flavor": "전갈자리가 연인들을 바라보니, 이제 선택의 시간이 왔구나. 내 손바닥에 은화를 얹으면 너의 운명을 밝혀주리라. 하지만 내 목에 검을 겨누면, 별들이 증인이 되어 너는 후회하게 되리라.",
     "id": "ko_KR_moonchild",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_moonchild.png?raw=true",
-    "name": "문차일드",
+    "name": "달의 아이",
     "otherNight": 49,
-    "otherNightReminder": "문차일드가 오늘 능력을 사용해 참가자를 지명했다면: 그 참가자가 선하다면, 그들은 죽습니다.",
+    "otherNightReminder": "달의 아이가 오늘 능력을 사용해 참가자를 지명했다면: 그 참가자가 선하다면, 그들은 죽습니다.",
     "reminders": [
       "사망"
     ],
