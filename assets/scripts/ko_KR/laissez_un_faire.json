@@ -1,8 +1,10 @@
 [
   {
+    "author": "Steven Medway",
     "background": null,
     "id": "_meta",
-    "isOfficial": false
+    "isOfficial": true,
+    "name": "자유방임주의"
   },
   {
     "ability": "당신은 자신의 능력이 무엇인지 모릅니다. 매일, 비공개로 자신의 능력이 무엇인지 추측하세요: 당신은 얼마나 정확한지 알게 됩니다.",

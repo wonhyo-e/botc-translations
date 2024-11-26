@@ -1,13 +1,22 @@
-[
-  "amnesiac",
-  "artist",
-  "balloonist",
-  "cannibal",
-  "fisherman",
-  "goblin",
-  "leviathan",
-  "lunatic",
-  "mutant",
-  "savant",
-  "widow"
-]
+{
+    "meta":
+    {
+        "name": "자유방임주의",
+        "author": "Steven Medway",
+        "isOfficial": true
+    },
+    "roles":
+    [
+        "amnesiac",
+        "artist",
+        "balloonist",
+        "cannibal",
+        "fisherman",
+        "goblin",
+        "leviathan",
+        "lunatic",
+        "mutant",
+        "savant",
+        "widow"
+    ]
+}
