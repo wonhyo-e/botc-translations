@@ -82,7 +82,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤, 참가자 2명을 지목하면 그중에 악마가 있는지 알 수 있습니다. 단, 선한 진영 참가자 1명이 악마로 감지됩니다.",
+    "ability": "매일 밤, 참가자 2명을 지목하면 그중에 악마가 있는지 알 수 있습니다. 단, 선한 진영 참가자 1명이 악마로 간주됩니다.",
     "edition": "tb",
     "firstNight": 37,
     "firstNightReminder": "점쟁이가 두 명의 참가자를 가리킵니다. 그 참가자들 중 한 명이 악마인지에 대해 머리 신호를 줍니다(고개를 끄덕이면 예, 고개를 저으면 아니오).",
@@ -114,10 +114,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤*, 살아있는 참가자 중 한 명을 선택합니다. 그 사람이 선하다면 죽고, 악마는 오늘밤 죽일 수 없습니다. 선한 참가자 중 한 명이 모두에게 악하게 보입니다.",
+    "ability": "매일 밤*, 살아있는 참가자 중 한 명을 선택합니다. 그 사람이 선하다면 죽고, 악마는 오늘밤 죽일 수 없습니다. 선한 참가자 중 한 명이 모두에게 \b악팀으로 간주됩니다.",
     "edition": "",
     "firstNight": 0,
-    "firstNightReminder": "선한 참가자 한 명에게 '악으로 보임' 토큰을 놓습니다.",
+    "firstNightReminder": "선한 참가자 한 명에게 '악으로 간주' 토큰을 놓습니다.",
     "flavor": "문명이라는 얇은 막 아래에는 광기가 울부짖고 있다.",
     "id": "ko_KR_lycanthrope",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_lycanthrope.png?raw=true",
@@ -126,7 +126,7 @@
     "otherNightReminder": "늑대인간이 살아있는 참가자를 가리킵니다: 선하다면, 그들은 죽고 오늘 밤 다른 누구도 죽을 수 없습니다.",
     "reminders": [
       "사망",
-      "악으로 보임"
+      "악으로 간주"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -211,7 +211,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신이 죽은 후에도 다른 사람의 능력에는 악한 진영, 하수인, 또는 악마로 감지될 수 있습니다.",
+    "ability": "당신이 죽은 후에도 다른 사람의 능력에는 악한 진영, 하수인, 또는 악마로 간주될 수 있습니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

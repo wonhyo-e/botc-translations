@@ -56,7 +56,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤*, 어제와 다른 참가자 한 명을 선택합니다. 만약 악마를 선택했다면, 악마는 당신의 정체를 알게 되고 그날 밤 깨어날 수 없게 됩니다.",
+    "ability": "매일 밤*, 어제와 다른 참가자 한 명을 선택합니다. 만약 악마가 선택되면, 악마는 당신의 정체를 알게 되고 오늘 밤 깨어날 수 없습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -91,7 +91,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤*, 한 명의 참가자를 선택해 그의 직업을 맞혀야 합니다. 틀리면 당신은 죽습니다.",
+    "ability": "매일 밤*, 참가자 1명을 선택하고 그의 캐릭터를 추측합니다. 추측이 틀리면, 당신은 죽습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -108,7 +108,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 낮마다, 공개 발언을 한 번 할 수 있습니다. 만약 그 발언이 진실이라면 그날 밤 누군가가 죽게 됩니다.",
+    "ability": "매일 낮, 공개 발언을 하나 할 수 있습니다. 만약 그 발언이 해당 시점에 사실이었다면, 오늘 밤 한명의 참가자가 죽습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -163,7 +163,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "낮에 하수인이 처형으로 죽으면, 여행자를 제외한 다른 모든 참가자들은 내일 낮까지 술에 취합니다.",
+    "ability": "하수인이 처형으로 죽는다면, 여행자를 제외한 다른 모든 참가자들은 내일 낮까지 술에 취합니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -197,7 +197,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "처형된 선한 참가자들이 죽지 않을 수 있습니다.",
+    "ability": "처형되는 참가자가 선하다면, 죽지 않을 수 있습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -352,7 +352,7 @@
     "team": "minion"
   },
   {
-    "ability": "만약 악마가 처형으로 인해 죽어서 게임이 끝나야 한다면 하루를 더 진행합니다. 그 날 누군가가 처형된다면, 그 사람의 진영이 패배합니다.",
+    "ability": "악마가 처형으로 죽어도(게임의 종료), 하루를 더 진행합니다. 낮에 1명이 처형된다면, 처형된 사람의 진영이 패배합니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -386,7 +386,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤*, 2명의 참가자를 선택해 죽입니다. 어젯밤에 죽은 참가자 중 한 명을 다시 토해낼 수도 있습니다.",
+    "ability": "매일 밤*, 2명의 참가자를 선택해 삼켜 죽입니다. 어젯밤에 죽인 참가자 중 한 명이 토해져 다시 살아날 수도 있습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -405,7 +405,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤*, 참가자 한 명을 죽일 수 있습니다. 지난밤에 아무도 죽이지 않았다면, 오늘 밤 세 명을 죽일 수 있습니다.",
+    "ability": "매일 밤*, 참가자 한 명을 선택해 죽일 수 있습니다. 지난 밤에 아무도 선택하지 않았다면, 오늘 밤 세 명을 선택해 죽일 수 있습니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -502,7 +502,7 @@
     "team": "traveler"
   },
   {
-    "ability": "매일 밤*, 오늘 아무도 죽지 않았다면 한 명을 선택해 죽입니다. 당신이 처음 죽을 때 실제로는 살아있지만, 죽은 것으로 간주됩니다.",
+    "ability": "매일 밤*, 낮에 아무도 죽지 않았다면 한 명을 선택해 죽입니다. 당신은 처음 죽을 때, 살아있지만 죽은 것으로 간주됩니다.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
