@@ -204,7 +204,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 처음으로 누군가가 당신을 낮에 처형 후보로 지목했을 때, 그 지목자가 마을 주민이면 즉시 처형됩니다.",
+    "ability": "게임 중 처음으로 누군가가 당신을 낮에 처형 후보로 지명했을 때, 그 지명자가 마을 주민이면 즉시 처형됩니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

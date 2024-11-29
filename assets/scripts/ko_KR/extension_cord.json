@@ -72,7 +72,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤, 다른 이의 능력으로 인해 비정상적으로 작동한 능력의 개수를 알 수 있습니다. (그 날 새벽부터 계산)",
+    "ability": "매일 밤, 다른 이의 능력으로 인해 능력이 비정상적으로 작동한 참가자의 수를 알 수 있습니다. (그 날 새벽부터 계산)",
     "edition": "snv",
     "firstNight": 51,
     "firstNightReminder": "다른 능력으로 인해 오작동한 참가자 수에 대한 손 신호(0, 1, 2 등)를 보여줍니다.",
@@ -170,7 +170,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신은 '악마'의 모든 능력에 면역입니다.",
+    "ability": "당신은 악마의 모든 능력에 면역입니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

@@ -76,7 +76,7 @@
     "flavor": "어제의 제비꽃은 시들었지만, 오늘은 양귀비가 피어났어요.",
     "id": "ko_KR_flowergirl",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_flowergirl.png?raw=true",
-    "name": "꽃집 소녀",
+    "name": "꽃파는 소녀",
     "otherNight": 58,
     "otherNightReminder": "악마가 오늘 투표했다면 고개를 끄덕이고, 그렇지 않으면 고개를 젓습니다. '악마 투표하지 않음' 표시를 놓습니다('악마 투표함' 표시가 있다면 제거합니다).",
     "reminders": [
@@ -118,14 +118,14 @@
     "team": "townsfolk"
   },
   {
-    "ability": "첫날에 최대 5명의 참가자의 직업을 공개적으로 추측할 수 있습니다. 그날 밤 자신이 몇 개나 맞혔는지 알게 됩니다.",
+    "ability": "첫날 다른 참가자들의 직업을 최대 5번까지 공개적으로 추측할 수 있습니다. 그날 밤 몇 개가 맞았는지 알 수 있습니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "flavor": "요청하신 다음 공연을 위해서는 꽃 한 송이, 콩 한 주머니, 장난감 뱀, 붓, 그리고 가솔린 엔진이 달린 잔디깍기가 필요하겠습니다. 미리 경고드리자면... 이번이 제 마지막 공연이 될지도 모르겠네요. 아하하..",
     "id": "ko_KR_juggler",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_juggler.png?raw=true",
-    "name": "저글러",
+    "name": "저글링 장인",
     "otherNight": 62,
     "otherNightReminder": "오늘이 저글러의 첫째 날이었다면: '맞음' 표시의 수에 대한 손 신호(0, 1, 2 등)를 보여줍니다. 표시를 제거합니다.",
     "reminders": [
@@ -199,7 +199,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 중 처음으로 누군가가 당신을 낮에 처형 후보로 지목했을 때, 그 지목자가 마을 주민이면 즉시 처형됩니다.",
+    "ability": "게임 중 처음으로 누군가가 당신을 낮에 처형 후보로 지명했을 때, 그 지명자가 마을 주민이면 즉시 처형됩니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -216,7 +216,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신이 낮 투표로 처형당하면 당신의 팀은 패배합니다.",
+    "ability": "당신이 낮 투표로 처형되면 당신의 팀은 패배합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -321,7 +321,7 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤* 참가자 한 명을 선택해 게임에 없는 다른 직업으로 바꿀 수 있습니다. 만약 이 능력으로 악마가 새로 만들어진다면, 그날 밤 누가 죽을지는 이야기꾼이 정합니다.",
+    "ability": "매일 밤*, 참가자 한 명을 선택해 게임에 없는 다른 직업으로 바꿀 수 있습니다. 만약 이 능력으로 악마가 새로 만들어진다면, 그날 밤 누가 죽을지는 이야기꾼이 정합니다.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -385,7 +385,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤*, 참가자 한 명을 선택하여 죽일 수 있습니다. 이 능력으로 자살할 경우, 하수인 중 한 명이 새로운 임프가 됩니다.",
+    "ability": "매일 밤*, 한 명을 선택해 죽입니다. 이 능력으로 자결할 경우, 하수인 중 한 명이 새로운 임프가 됩니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

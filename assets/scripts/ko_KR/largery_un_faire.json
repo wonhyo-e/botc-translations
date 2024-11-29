@@ -245,7 +245,7 @@
     "team": "outsider"
   },
   {
-    "ability": "당신이 낮 투표로 처형당하면 당신의 팀은 패배합니다.",
+    "ability": "당신이 낮 투표로 처형되면 당신의 팀은 패배합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
