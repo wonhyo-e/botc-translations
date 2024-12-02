@@ -438,6 +438,12 @@
       "선택2"
     ],
     "remindersGlobal": "",
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ],
     "team": "demon"
   }
 ]
