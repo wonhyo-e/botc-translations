@@ -437,22 +437,40 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외부인 -1]",
+    "ability": "매일 밤* 한 명을 선택해 죽입니다. 이 능력으로 외부인을 처음 죽이면, 그 외부인은 사악한 팡구로 변하고 당신이 대신 죽습니다. [외부인 +1]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
-    "flavor": "모든 문은 하나의 문이요, 모든 열쇠는 하나의 열쇠라. 모든 잔 또한 하나의 잔이나, 내가 주는 물을 마시는 자는 영원히 목마르지 아니하리니, 그 물은 그 안에서 영생으로 솟아나는 샘물이 되리라.",
-    "id": "ko_KR_vigormortis",
-    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_vigormortis.png?raw=true",
-    "name": "비거모티스",
-    "otherNight": 32,
-    "otherNightReminder": "비거모티스가 참가자를 가리킵니다. 그 참가자는 죽습니다. 하수인이라면, 그들은 능력을 유지하고 그들의 마을 주민 이웃 중 한 명이 중독됩니다.",
+    "flavor": "네가 가진 그 높은 성벽과 예리한 무기들은 그저 허망하게 사라질 물거품에 불과하다.",
+    "id": "ko_KR_fanggu",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fanggu.png?raw=true",
+    "name": "팡구",
+    "otherNight": 29,
+    "otherNightReminder": "팡구가 참가자를 가리킵니다. 그 참가자는 죽습니다. 또는, 그 참가자가 외부인이고 다른 팡구가 게임에 없다면: 팡구가 선택된 참가자 대신 죽습니다. 선택된 참가자는 이제 악한 팡구가 됩니다. 새로운 팡구를 깨웁니다. '당신은' 카드를 보여준 다음 팡구 토큰을 보여줍니다. '당신은' 카드를 보여준 다음 엄지 아래로 '악한' 손 신호를 보여줍니다.",
     "reminders": [
       "사망",
-      "능력 있음",
-      "중독됨"
+      "한 번"
     ],
     "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "매일 밤, 참가자 한 명을 선택해 중독시킵니다. 이전에 당신에게 중독된 참가자는 사망하고, 중독이 풀립니다.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "푸카가 참가자를 가리킵니다. 그 참가자는 중독됩니다.",
+    "flavor": "이렇게 아름다운 집에 저를 친절히 맞아주시다니 정말 감사합니다. 아 방금 실수로 긁어서 정말 죄송합니다만, 작은 상처일 뿐이니 걱정 마세요. 이 금으로 만든 이쑤시개를 제 사과의 의미로 받아주시겠어요?",
+    "id": "ko_KR_pukka",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_pukka.png?raw=true",
+    "name": "푸카",
+    "otherNight": 26,
+    "otherNightReminder": "푸카가 참가자를 가리킵니다. 그 참가자는 중독됩니다. 이전에 중독된 참가자는 죽습니다.",
+    "reminders": [
+      "중독",
+      "중독",
+      "사망"
+    ],
+    "setup": false,
     "team": "demon"
   },
   {
