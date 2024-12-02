@@ -7,9 +7,31 @@ from reportlab.lib.units import inch, mm
 from reportlab.lib.colors import HexColor
 from io import BytesIO
 from PIL import Image
-from .fonts import FontManager
 from .styles import StyleManager
 from .image_handler import ImageHandler
+import os
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from .config import FontConfig
+
+class FontManager:
+    """Manages font registration and configuration"""
+    def __init__(self, config: FontConfig):
+        self.config = config
+
+    def register_fonts(self) -> None:
+        """Register all required fonts"""
+        font_mappings = {
+            "NanumGothic": self.config.regular,
+            "NanumGothic-Bold": self.config.bold,
+            "Dumbledor": self.config.dumbledor,
+            "ChungjuKimSaeng": self.config.title
+        }
+
+        for font_name, font_path in font_mappings.items():
+            if not os.path.exists(font_path):
+                raise FileNotFoundError(f"Font file '{font_path}' not found.")
+            pdfmetrics.registerFont(TTFont(font_name, font_path))
 
 class PDFGenerator:
     """Main PDF generation class"""
@@ -69,7 +91,7 @@ class PDFGenerator:
                 ])
             )]
 
-        author_para = Paragraph(f"by {author}", self.styles["MetaAuthor"])
+        author_para = self.style_manager.create_mixed_font_paragraph(f"by {author}", self.styles["MetaAuthor"])
         return [Table(
             [[title_para, author_para]], 
             colWidths=[left_col_width - right_col_width, right_col_width],

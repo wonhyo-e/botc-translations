@@ -4,7 +4,7 @@ import logging
 import sys
 import argparse
 from .config import FontConfig
-from .fonts import FontManager
+from .pdf_generator import FontManager
 from .styles import StyleManager
 from .image_handler import ImageHandler
 from .pdf_generator import PDFGenerator
