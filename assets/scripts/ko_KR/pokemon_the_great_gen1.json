@@ -229,7 +229,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "야도킹은 매 투표마다 최대 2표까지 행사할 수 있습니다.",
+    "ability": "야도킹의 투표는 언제나 2표로 집계됩니다.",
     "edition": "pokemon1",
     "firstNightReminder": "",
     "flavor": "",
@@ -275,7 +275,7 @@
     "remindersGlobal": [
       "고오스임"
     ],
-    "team": "minion"
+    "team": "outsider"
   },
   {
     "ability": "능력이 없으며, 심지어 잉어킹은 투표할 수 없습니다. [-1 갸라도스]\n\r\n잉어킹이 지명 당한 날 밤에 갸라도스로 진화하고, 진화할 때 임의의 참가자 1명을 자연으로 돌려 보냅니다.",
