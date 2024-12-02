@@ -1,0 +1,42 @@
+{
+    "meta":
+    {
+        "name": "불길한 호두",
+        "author": "호두",
+        "isOfficial": false
+    },
+    "roles":
+    [
+        "washerwoman",
+        "librarian",
+        "investigator",
+        "chef",
+        "empath",
+        "fortuneteller",
+        "undertaker",
+        "monk",
+        "ravenkeeper",
+        "virgin",
+        "slayer",
+        "soldier",
+        "mayor",
+        "poppygrower",
+        "butler",
+        "drunk",
+        "recluse",
+        "saint",
+        "lunatic",
+        "poisoner",
+        "spy",
+        "scarletwoman",
+        "baron",
+        "marionette",
+        "imp",
+        "vigormortis",
+        "beggar",
+        "bureaucrat",
+        "gunslinger",
+        "scapegoat",
+        "thief"
+    ]
+}
