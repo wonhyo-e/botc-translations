@@ -1,13 +1,12 @@
 [
   {
-    "background": null,
     "id": "_meta",
     "isOfficial": false,
     "name": "Kaboom"
   },
   {
     "ability": "당신은 자신의 능력이 무엇인지 모릅니다. 매일, 비공개로 자신의 능력이 무엇인지 추측하세요: 당신은 얼마나 정확한지 알게 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 12,
     "firstNightReminder": "기억상실자의 전체 능력을 결정하세요. 만약 기억상실자의 능력으로 인해 오늘 밤 깨어나야 한다면: 기억상실자를 깨우고 그들의 능력을 실행하세요.",
     "id": "ko_KR_amnesiac",
@@ -22,10 +21,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신은 게임에 참가중이지 않은 하수인의 능력을 하나 얻습니다.",
-    "edition": "",
+    "ability": "하수인 능력 하나를 갖습니다. 해당 능력 사용 시, 이야기꾼이 다른 선택을 하도록 요청할 수 있습니다.",
+    "edition": "experimental",
     "firstNight": 3,
-    "firstNightReminder": "연금술사에게 게임에 없는 하수인 토큰을 보여줍니다.",
+    "firstNightReminder": "YOU ARE' 토큰과 하수인 토큰을 보여줍니다.",
     "id": "ko_KR_alchemist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_alchemist.png?raw=true",
     "name": "연금술사",
@@ -40,7 +39,7 @@
   },
   {
     "ability": "당신은 처음에 1명의 악한 참가자를 알고 시작합니다. 당신이 알고 있는 참가자가 죽으면, 오늘 밤 다른 악한 참가자를 알게 됩니다. [1명의 마을 주민이 악합니다]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 45,
     "firstNightReminder": "1명의 악한 참가자를 가리킵니다. 악한 마을 주민을 깨우고 '당신은' 카드와 엄지 아래로 향한 악한 표시를 보여줍니다.",
     "id": "ko_KR_bountyhunter",
@@ -56,7 +55,7 @@
   },
   {
     "ability": "당신은 최근 처형된 사람의 능력을 가집니다. 그 사람이 악하다면, 선한 참가자가 처형으로 죽을 때까지 당신은 중독됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_cannibal",
@@ -73,7 +72,7 @@
   },
   {
     "ability": "매일 밤, 당신은 살아있는 이웃의 진영이 됩니다. 모든 선한 참가자가 당신의 이교도에 합류하기로 선택하면, 당신의 팀이 승리합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 47,
     "firstNightReminder": "사이비교주의 진영이 바뀌었다면, 그에 따라 엄지 위로 선한 신호 또는 엄지 아래로 악한 신호를 보여줍니다.",
     "id": "ko_KR_cultleader",
@@ -121,7 +120,7 @@
   },
   {
     "ability": "매일 밤*, 살아있는 참가자 중 한 명을 선택합니다. 그 사람이 선하다면 죽고, 악마는 오늘밤 죽일 수 없습니다. 선한 참가자 중 한 명이 모두에게 악팀으로 간주됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "선한 참가자 한 명에게 '악으로 간주' 토큰을 놓습니다.",
     "flavor": "문명이라는 얇은 막 아래에는 광기가 울부짖고 있다.",
@@ -139,7 +138,7 @@
   },
   {
     "ability": "당신은 처음에 3명의 참가자를 알고 시작하며, 그 중 오직 1명만이 악합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 43,
     "firstNightReminder": "특정 순서 없이 1명의 악한 참가자를 포함한 3명의 참가자를 가리킵니다.",
     "id": "ko_KR_noble",
@@ -155,7 +154,7 @@
   },
   {
     "ability": "하수인들과 악마는 서로를 모릅니다. 당신이 죽으면, 그들은 그 날 밤 서로가 누구인지 알게 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 4,
     "firstNightReminder": "악마/하수인들에게 서로가 누구인지 알리지 마세요",
     "id": "ko_KR_poppygrower",
@@ -189,7 +188,7 @@
   {
     "ability": "매일 밤 생존자 중 한 명을 선택합니다. 만약 악마를 선택하면, 당신과 악마는 서로의 직업과 진영을 바꾸고 악마였던 사람은 중독 상태가 됩니다.",
     "edition": "snv",
-    "firstNight": "20",
+    "firstNight": 20,
     "firstNightReminder": "뱀 조련사가 참가자를 가리킵니다. 그 참가자가 악마라면: 악마와 뱀 조련사의 캐릭터와 진영을 바꿉니다. 각 참가자를 깨워 그들의 새로운 역할과 진영을 알립니다. 새로운 뱀 조련사는 중독됩니다.",
     "flavor": "나리, 비록 제가 보잘것없는 사람이지만, 이 황금 피리 한 곡조면 아무리 사나운 정령도 길들일 수 있지요. 그저 신의 뜻대로 할 뿐입니다. 세상 사람들은 욕심이 과하면 화를 부른다고 하지만... 저는 절대 아닙니다, 나리, 저는 절대 아니에요.",
     "id": "ko_KR_snakecharmer",
@@ -222,7 +221,7 @@
   },
   {
     "ability": "게임 중 한 번만 지명할 수 있습니다. 지명할 때, 지명된 사람이 악마가 아니라면 그들은 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_golem",
@@ -305,7 +304,7 @@
   },
   {
     "ability": "당신이 처형되면, 3명을 제외한 모든 참가자가 죽습니다. 10초 후, 가장 많은 참가자가 가리키는 참가자가 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "flavor": "째깍... 째깍... 째깍... 펑!",
@@ -320,7 +319,7 @@
   },
   {
     "ability": "매일 밤, 참가자 한 명을 선택합니다. 당신이 그들을 지명하고 처형하면, 그들의 팀이 패배합니다. 당신이 새로운 참가자를 선택하면 모든 참가자가 알게 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 26,
     "firstNightReminder": "공포조장가가 참가자를 가리킵니다. 그 참가자 옆에 공포 토큰을 놓고 공포조장가 능력으로 새로운 참가자가 선택되었음을 알립니다.",
     "id": "ko_KR_fearmonger",
@@ -336,7 +335,7 @@
   },
   {
     "ability": "매일, 지명 전에 공개적으로 참가자 한 명을 선택할 수 있습니다: 그들은 죽습니다. 처형되면, 가위바위보에서 질 때만 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_psychopath",
@@ -349,8 +348,8 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤*, 3명의 참가자를 선택합니다(모든 참가자가 누구인지 알게 됩니다): 각자 조용히 삶과 죽음을 선택하지만, 모두가 살기로 선택하면 모두 죽습니다.",
-    "edition": "",
+    "ability": "매일 밤*, 3명의 참가자를 선택할 수 있고 모든 참가자에게 공개됩니다. 선택된 참가자들은 각자 비밀리에 생사를 결정하지만 전부 살아남게 되면 전부 죽습니다.",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_alhadikhia",
@@ -389,8 +388,8 @@
     "team": "demon"
   },
   {
-    "ability": "지명된 사람들은 죽지만, 즉시 다시 지명할 수 있습니다 (3일차에는 반드시 해야 합니다). 3일차 이후, 악이 승리합니다. [모든 하수인은 폭동입니다]",
-    "edition": "",
+    "ability": "3일차에 하수인들이 폭동으로 변합니다. 지명된 사람들은 사망하지만, 그 즉시 살아있는 다른 참가자를 지명해야 합니다. 지명은 무조건 이뤄져야 합니다.",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_riot",

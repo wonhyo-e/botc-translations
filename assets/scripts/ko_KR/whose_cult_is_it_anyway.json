@@ -1,12 +1,11 @@
 [
   {
-    "background": null,
     "id": "_meta",
     "isOfficial": false
   },
   {
     "ability": "매일 밤, 당신은 살아있는 이웃의 진영이 됩니다. 모든 선한 참가자가 당신의 이교도에 합류하기로 선택하면, 당신의 팀이 승리합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 47,
     "firstNightReminder": "사이비교주의 진영이 바뀌었다면, 그에 따라 엄지 위로 선한 신호 또는 엄지 아래로 악한 신호를 보여줍니다.",
     "id": "ko_KR_cultleader",
@@ -20,7 +19,7 @@
   },
   {
     "ability": "당신은 처음에 3명의 참가자를 알고 시작하며, 그 중 오직 1명만이 악합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 43,
     "firstNightReminder": "특정 순서 없이 1명의 악한 참가자를 포함한 3명의 참가자를 가리킵니다.",
     "id": "ko_KR_noble",
@@ -36,7 +35,7 @@
   },
   {
     "ability": "당신은 처음에 게임에 있는 마을 주민 1명을 알고 시작합니다. 당신이 이 캐릭터라고 미쳐 있었다면, 그들이 죽을 때 그들의 능력을 얻습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 29,
     "firstNightReminder": "픽시에게 게임에 있는 마을 주민 캐릭터 토큰 1개를 보여줍니다.",
     "id": "ko_KR_pixie",
@@ -53,7 +52,7 @@
   },
   {
     "ability": "매일 밤, 당신은 전날 밤과 다른 유형의 캐릭터인 참가자를 알게 됩니다. [외부인 +0 또는 +1]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 44,
     "firstNightReminder": "임의의 참가자를 보여줍니다.",
     "id": "ko_KR_balloonist",
@@ -69,7 +68,7 @@
   },
   {
     "ability": "매일 밤, 만약 죽은 자가 산 자보다 많다면, 당신은 살아있는 캐릭터 1개를 알게 됩니다. 악마는 당신이 누구인지 알고 있습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 9,
     "firstNightReminder": "악마를 깨우고, '이 캐릭터가 당신을 선택했습니다' 카드를 보여주고, 왕 토큰을 보여준 다음 왕 참가자를 가리킵니다.",
     "id": "ko_KR_king",
@@ -90,7 +89,7 @@
     "id": "ko_KR_fortuneteller",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fortuneteller.png?raw=true",
     "name": "점쟁이",
-    "otherNight": 54,
+    "otherNight": 55,
     "otherNightReminder": "점쟁이가 두 명의 참가자를 가리킵니다. 그 참가자들 중 한 명이 악마인지에 대해 머리 신호를 보여줍니다(고개를 끄덕이면 '예', 고개를 저으면 '아니오').",
     "reminders": [
       "붉은청어"
@@ -115,7 +114,7 @@
   },
   {
     "ability": "매일 밤*, 살아있는 참가자 중 한 명을 선택합니다. 그 사람이 선하다면 죽고, 악마는 오늘밤 죽일 수 없습니다. 선한 참가자 중 한 명이 모두에게 악팀으로 간주됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "선한 참가자 한 명에게 '악으로 간주' 토큰을 놓습니다.",
     "flavor": "문명이라는 얇은 막 아래에는 광기가 울부짖고 있다.",
@@ -150,7 +149,7 @@
   },
   {
     "ability": "게임 중 한 번, 밤에 살아있는 참가자 한 명을 선택합니다: 아가씨가 선택되면, 게임에 없는 마을 주민이 됩니다. [+아가씨]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 30,
     "firstNightReminder": "사냥꾼이 고개를 '아니오'로 젓거나 참가자를 가리킵니다. 아가씨를 가리켰다면, 그 참가자를 깨우고 '당신은' 카드와 게임에 없는 캐릭터 토큰을 보여줍니다.",
     "id": "ko_KR_huntsman",
@@ -181,7 +180,7 @@
   },
   {
     "ability": "악마가 왕을 죽이면, 당신은 어떤 참가자가 악마인지 알게 됩니다. [+ 왕]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_choirboy",
@@ -195,7 +194,7 @@
   },
   {
     "ability": "당신은 최근 처형된 사람의 능력을 가집니다. 그 사람이 악하다면, 선한 참가자가 처형으로 죽을 때까지 당신은 중독됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_cannibal",
@@ -242,7 +241,7 @@
   },
   {
     "ability": "모든 하수인은 당신이 게임에 있다는 것을 알고 있습니다. 하수인이 공개적으로 당신을 맞추면(한 번), 당신의 팀이 패배합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 31,
     "firstNightReminder": "모든 하수인을 깨우고, '이 캐릭터가 당신을 선택했습니다' 카드와 아가씨 토큰을 보여줍니다.",
     "id": "ko_KR_damsel",
@@ -258,7 +257,7 @@
   },
   {
     "ability": "1명의 참가자가 술에 취해 있습니다, 당신이 죽어도 마찬가지입니다. 그가 누구인지 (한 번) 맞추면, 악마 참가자를 알게 되지만, 틀리면 거짓 정보를 얻습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_puzzlemaster",
@@ -275,7 +274,7 @@
   },
   {
     "ability": "당신이 지명되었을 때 공개적으로 자신이 고블린이라고 주장하고 그 날 처형된다면, 당신의 팀이 승리합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_goblin",
@@ -325,7 +324,7 @@
   },
   {
     "ability": "매일 밤, 참가자 한 명을 선택합니다. 당신이 그들을 지명하고 처형하면, 그들의 팀이 패배합니다. 당신이 새로운 참가자를 선택하면 모든 참가자가 알게 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 26,
     "firstNightReminder": "공포조장가가 참가자를 가리킵니다. 그 참가자 옆에 공포 토큰을 놓고 공포조장가 능력으로 새로운 참가자가 선택되었음을 알립니다.",
     "id": "ko_KR_fearmonger",
@@ -341,7 +340,7 @@
   },
   {
     "ability": "매일 밤, 하수인들은 누가 릴'몬스타의 토큰을 돌볼지와 '악마가 될지'를 선택합니다. 매일 밤* 한 참가자가 죽습니다. [하수인 +1]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 16,
     "firstNightReminder": "모든 하수인을 함께 깨우고, 누가 릴'몬스타를 돌볼지 가리켜 투표하도록 합니다.",
     "id": "ko_KR_lilmonsta",

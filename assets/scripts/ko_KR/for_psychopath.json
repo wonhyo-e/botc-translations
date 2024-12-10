@@ -1,7 +1,6 @@
 [
   {
     "author": "Dongchan",
-    "background": null,
     "id": "_meta",
     "isOfficial": false,
     "name": "For Psychopath"
@@ -39,7 +38,7 @@
   },
   {
     "ability": "당신은 처음에 1명의 악한 참가자를 알고 시작합니다. 당신이 알고 있는 참가자가 죽으면, 오늘 밤 다른 악한 참가자를 알게 됩니다. [1명의 마을 주민이 악합니다]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 45,
     "firstNightReminder": "1명의 악한 참가자를 가리킵니다. 악한 마을 주민을 깨우고 '당신은' 카드와 엄지 아래로 향한 악한 표시를 보여줍니다.",
     "id": "ko_KR_bountyhunter",
@@ -62,7 +61,7 @@
     "id": "ko_KR_empath",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_empath.png?raw=true",
     "name": "초민감자",
-    "otherNight": 53,
+    "otherNight": 54,
     "otherNightReminder": "악한 이웃의 수에 대한 손가락 신호(0, 1, 2)를 보여줍니다.",
     "reminders": [],
     "setup": false,
@@ -77,7 +76,7 @@
     "id": "ko_KR_fortuneteller",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fortuneteller.png?raw=true",
     "name": "점쟁이",
-    "otherNight": 54,
+    "otherNight": 55,
     "otherNightReminder": "점쟁이가 두 명의 참가자를 가리킵니다. 그 참가자들 중 한 명이 악마인지에 대해 머리 신호를 보여줍니다(고개를 끄덕이면 '예', 고개를 저으면 '아니오').",
     "reminders": [
       "붉은청어"
@@ -87,7 +86,7 @@
   },
   {
     "ability": "매일 밤, 참가자 한 명을 선택합니다: 선택된 하수인은 이것을 알게 됩니다. 선택된 모든 하수인들은 능력이 없습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 14,
     "firstNightReminder": "설교자가 참가자를 선택합니다. 하수인이 선택되면, 하수인을 깨우고 '이 캐릭터가 당신을 선택했습니다' 카드를 보여준 다음 설교자 토큰을 보여줍니다.",
     "id": "ko_KR_preacher",
@@ -140,7 +139,7 @@
   },
   {
     "ability": "당신은 최근 처형된 사람의 능력을 가집니다. 그 사람이 악하다면, 선한 참가자가 처형으로 죽을 때까지 당신은 중독됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_cannibal",
@@ -157,7 +156,7 @@
   },
   {
     "ability": "하수인들과 악마는 서로를 모릅니다. 당신이 죽으면, 그들은 그 날 밤 서로가 누구인지 알게 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 4,
     "firstNightReminder": "악마/하수인들에게 서로가 누구인지 알리지 마세요",
     "id": "ko_KR_poppygrower",
@@ -206,10 +205,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신은 게임에 참가중이지 않은 하수인의 능력을 하나 얻습니다.",
-    "edition": "",
+    "ability": "하수인 능력 하나를 갖습니다. 해당 능력 사용 시, 이야기꾼이 다른 선택을 하도록 요청할 수 있습니다.",
+    "edition": "experimental",
     "firstNight": 3,
-    "firstNightReminder": "연금술사에게 게임에 없는 하수인 토큰을 보여줍니다.",
+    "firstNightReminder": "YOU ARE' 토큰과 하수인 토큰을 보여줍니다.",
     "id": "ko_KR_alchemist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_alchemist.png?raw=true",
     "name": "연금술사",
@@ -320,7 +319,7 @@
   },
   {
     "ability": "매일, 지명 전에 공개적으로 참가자 한 명을 선택할 수 있습니다: 그들은 죽습니다. 처형되면, 가위바위보에서 질 때만 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_psychopath",
@@ -365,8 +364,8 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤*, 3명의 참가자를 선택합니다(모든 참가자가 누구인지 알게 됩니다): 각자 조용히 삶과 죽음을 선택하지만, 모두가 살기로 선택하면 모두 죽습니다.",
-    "edition": "",
+    "ability": "매일 밤*, 3명의 참가자를 선택할 수 있고 모든 참가자에게 공개됩니다. 선택된 참가자들은 각자 비밀리에 생사를 결정하지만 전부 살아남게 되면 전부 죽습니다.",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_alhadikhia",

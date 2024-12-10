@@ -1,6 +1,5 @@
 [
   {
-    "background": null,
     "id": "_meta",
     "isOfficial": false
   },
@@ -23,7 +22,7 @@
   },
   {
     "ability": "당신은 처음에 1명의 악한 참가자를 알고 시작합니다. 당신이 알고 있는 참가자가 죽으면, 오늘 밤 다른 악한 참가자를 알게 됩니다. [1명의 마을 주민이 악합니다]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 45,
     "firstNightReminder": "1명의 악한 참가자를 가리킵니다. 악한 마을 주민을 깨우고 '당신은' 카드와 엄지 아래로 향한 악한 표시를 보여줍니다.",
     "id": "ko_KR_bountyhunter",
@@ -46,7 +45,7 @@
     "id": "ko_KR_empath",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_empath.png?raw=true",
     "name": "초민감자",
-    "otherNight": 53,
+    "otherNight": 54,
     "otherNightReminder": "악한 이웃의 수에 대한 손가락 신호(0, 1, 2)를 보여줍니다.",
     "reminders": [],
     "setup": false,
@@ -71,7 +70,7 @@
   },
   {
     "ability": "매일 밤, 당신은 전날 밤과 다른 유형의 캐릭터인 참가자를 알게 됩니다. [외부인 +0 또는 +1]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 44,
     "firstNightReminder": "임의의 참가자를 보여줍니다.",
     "id": "ko_KR_balloonist",
@@ -94,7 +93,7 @@
     "id": "ko_KR_fortuneteller",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fortuneteller.png?raw=true",
     "name": "점쟁이",
-    "otherNight": 54,
+    "otherNight": 55,
     "otherNightReminder": "점쟁이가 두 명의 참가자를 가리킵니다. 그 참가자들 중 한 명이 악마인지에 대해 머리 신호를 보여줍니다(고개를 끄덕이면 '예', 고개를 저으면 '아니오').",
     "reminders": [
       "붉은청어"
@@ -121,7 +120,7 @@
   },
   {
     "ability": "게임당 한 번, 밤에 악마나 하수인의 캐릭터를 변경할 수 있습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 13,
     "firstNightReminder": "기술자가 '아니오' 머리 신호를 보이거나, 악마를 가리키거나, 관련된 수의 하수인을 가리킵니다. 기술자가 캐릭터를 선택했다면, 악마나 하수인을 선택한 것으로 교체한 다음, 관련 참가자들을 깨워 '당신은' 카드와 관련 캐릭터 토큰을 보여줍니다.",
     "flavor": "구부러지면 좋고, 부서지면? 뭐, 어차피 고쳐야 했을 거예요.",
@@ -154,10 +153,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신은 게임에 참가중이지 않은 하수인의 능력을 하나 얻습니다.",
-    "edition": "",
+    "ability": "하수인 능력 하나를 갖습니다. 해당 능력 사용 시, 이야기꾼이 다른 선택을 하도록 요청할 수 있습니다.",
+    "edition": "experimental",
     "firstNight": 3,
-    "firstNightReminder": "연금술사에게 게임에 없는 하수인 토큰을 보여줍니다.",
+    "firstNightReminder": "YOU ARE' 토큰과 하수인 토큰을 보여줍니다.",
     "id": "ko_KR_alchemist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_alchemist.png?raw=true",
     "name": "연금술사",
@@ -172,7 +171,7 @@
   },
   {
     "ability": "당신은 최근 처형된 사람의 능력을 가집니다. 그 사람이 악하다면, 선한 참가자가 처형으로 죽을 때까지 당신은 중독됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_cannibal",
@@ -206,7 +205,7 @@
   },
   {
     "ability": "하수인들과 악마는 서로를 모릅니다. 당신이 죽으면, 그들은 그 날 밤 서로가 누구인지 알게 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 4,
     "firstNightReminder": "악마/하수인들에게 서로가 누구인지 알리지 마세요",
     "id": "ko_KR_poppygrower",
@@ -267,7 +266,7 @@
   },
   {
     "ability": "게임 중 한 번만 지명할 수 있습니다. 지명할 때, 지명된 사람이 악마가 아니라면 그들은 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_golem",
@@ -302,7 +301,7 @@
   },
   {
     "ability": "당신은 처음에 비밀 단어를 알고 시작합니다. 이 단어를 말하는 첫 번째 선한 참가자는 그날 밤 악한 세력이 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 27,
     "firstNightReminder": "메제펠레스에게 그들의 비밀 단어를 보여줍니다.",
     "id": "ko_KR_mezepheles",
@@ -336,7 +335,7 @@
   },
   {
     "ability": "매일 밤, 참가자 한 명을 선택합니다. 당신이 그들을 지명하고 처형하면, 그들의 팀이 패배합니다. 당신이 새로운 참가자를 선택하면 모든 참가자가 알게 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 26,
     "firstNightReminder": "공포조장가가 참가자를 가리킵니다. 그 참가자 옆에 공포 토큰을 놓고 공포조장가 능력으로 새로운 참가자가 선택되었음을 알립니다.",
     "id": "ko_KR_fearmonger",
@@ -370,7 +369,7 @@
   },
   {
     "ability": "매일 밤, 하수인들은 누가 릴'몬스타의 토큰을 돌볼지와 '악마가 될지'를 선택합니다. 매일 밤* 한 참가자가 죽습니다. [하수인 +1]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 16,
     "firstNightReminder": "모든 하수인을 함께 깨우고, 누가 릴'몬스타를 돌볼지 가리켜 투표하도록 합니다.",
     "id": "ko_KR_lilmonsta",
@@ -407,7 +406,7 @@
   },
   {
     "ability": "매일 밤*, 참가자 한 명을 선택해 죽입니다. 게임 시작 시 살아있는 참가자 한 명을 선택해 숙주로 만들고 중독시킵니다. 숙주가 살아있으면 죽지 않고, 숙주가 죽으면 같이 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 15,
     "firstNightReminder": "거거머리가 참가자를 가리킵니다. 중독 리마인더 토큰을 놓습니다.",
     "id": "ko_KR_lleech",

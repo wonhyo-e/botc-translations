@@ -1,7 +1,7 @@
 [
   {
     "author": "The Pandemonium Institute",
-    "background": null,
+    "background": "https://raw.githubusercontent.com/wonhyo-e/botc-translations/refs/heads/main/assets/images/trouble_brewing_bg.webp",
     "id": "_meta",
     "isOfficial": true,
     "name": "불길한 조짐 (Trouble Brewing)"
@@ -84,7 +84,7 @@
     "id": "ko_KR_empath",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_empath.png?raw=true",
     "name": "초민감자",
-    "otherNight": 53,
+    "otherNight": 54,
     "otherNightReminder": "악한 이웃의 수에 대한 손가락 신호(0, 1, 2)를 보여줍니다.",
     "reminders": [],
     "setup": false,
@@ -99,7 +99,7 @@
     "id": "ko_KR_fortuneteller",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fortuneteller.png?raw=true",
     "name": "점쟁이",
-    "otherNight": 54,
+    "otherNight": 55,
     "otherNightReminder": "점쟁이가 두 명의 참가자를 가리킵니다. 그 참가자들 중 한 명이 악마인지에 대해 머리 신호를 보여줍니다(고개를 끄덕이면 '예', 고개를 저으면 '아니오').",
     "reminders": [
       "붉은청어"
@@ -116,7 +116,7 @@
     "id": "ko_KR_undertaker",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_undertaker.png?raw=true",
     "name": "장의사",
-    "otherNight": 56,
+    "otherNight": 53,
     "otherNightReminder": "오늘 참가자가 처형되었다면: 그 참가자의 캐릭터 토큰을 보여줍니다.",
     "reminders": [
       "처형됨"
@@ -229,7 +229,7 @@
     "id": "ko_KR_butler",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_butler.png?raw=true",
     "name": "집사",
-    "otherNight": 55,
+    "otherNight": 56,
     "otherNightReminder": "집사가 참가자를 가리킵니다. 그 참가자를 '주인'으로 표시합니다.",
     "reminders": [
       "주인"
@@ -298,7 +298,7 @@
   {
     "ability": "매일 밤, 참가자 한 명을 선택하면 그 참가자는 그날 밤부터 다음 날 낮까지 중독 상태가 됩니다.",
     "edition": "tb",
-    "firstNight": 17,
+    "firstNight": 18,
     "firstNightReminder": "독살범이 참가자를 가리킵니다. 그 참가자는 중독됩니다.",
     "flavor": "알파 화합물을 베타 화합물에 넣고... 너무 많이 넣지는 마!",
     "id": "ko_KR_poisoner",
@@ -315,13 +315,13 @@
   {
     "ability": "매일 밤, 그리모어를 확인할 수 있습니다. 죽은 후에도 당신은 다른 사람의 능력에 선한 진영, 마을 주민, 또는 외부인으로 간주될 수 있습니다.",
     "edition": "tb",
-    "firstNight": 48,
+    "firstNight": 19,
     "firstNightReminder": "스파이에게 필요한 만큼 그리모어를 보여줍니다.",
     "flavor": "실력 있는 양조사라면 누구나 알지, 스파이가 둘로 보일 때의 혼합물보다 더 빨리 문제를 일으키는 술은 없다는 걸.",
     "id": "ko_KR_spy",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_spy.png?raw=true",
     "name": "스파이",
-    "otherNight": 68,
+    "otherNight": 14,
     "otherNightReminder": "스파이에게 필요한 만큼 그리모어를 보여줍니다.",
     "reminders": [],
     "setup": false,
@@ -343,9 +343,9 @@
     "flavor": "당신은 내게 자주빛 불꽃 의회의 비밀을 보여주셨죠. 우리는 타오르는 불길 속에서, 탐욕의 욕망 속에서, 그리고 야수와 같은 광기 속에서 하나가 되었으며, 난 영원토록 당신의 종이 되리라 맹세했습니다. 하지만 오늘 밤만큼은, 내 사랑, 제가 당신의 주인이 되어주겠습니다.",
     "id": "ko_KR_scarletwoman",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_scarletwoman.png?raw=true",
-    "name": "부정한 여자",
+    "name": "진홍의 여인",
     "otherNight": 20,
-    "otherNightReminder": "부정한 여자가 오늘 악마가 되었다면: '당신은' 카드를 보여준 다음 악마 토큰을 보여줍니다.",
+    "otherNightReminder": "진홍의 여인이 오늘 악마가 되었다면: '당신은' 카드를 보여준 다음 악마 토큰을 보여줍니다.",
     "reminders": [
       "악마"
     ],
@@ -443,17 +443,17 @@
     "team": "traveler"
   },
   {
-    "ability": "매일 밤, 참가자 한 명을 선택합니다(자신 제외): 내일 그들의 투표는 부정적으로 계산됩니다.",
+    "ability": "매일 밤, 참가자 한 명을 선택합니다(자신 제외): 내일 그들의 투표는 마이너스로 계산됩니다.",
     "edition": "tb",
     "firstNight": 1,
-    "firstNightReminder": "도둑이 참가자를 가리킵니다. 도둑의 '부정 투표' 리마인더를 선택된 참가자의 캐릭터 토큰 옆에 놓습니다.",
+    "firstNightReminder": "도둑이 참가자를 가리킵니다. 도둑의 '마이너스 투표' 리마인더를 선택된 참가자의 캐릭터 토큰 옆에 놓습니다.",
     "id": "ko_KR_thief",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_thief.png?raw=true",
     "name": "도둑",
     "otherNight": 1,
-    "otherNightReminder": "도둑이 참가자를 가리킵니다. 도둑의 '부정 투표' 리마인더를 선택된 참가자의 캐릭터 토큰 옆에 놓습니다.",
+    "otherNightReminder": "도둑이 참가자를 가리킵니다. 도둑의 '마이너스 투표' 리마인더를 선택된 참가자의 캐릭터 토큰 옆에 놓습니다.",
     "reminders": [
-      "부정 투표"
+      "마이너스 투표"
     ],
     "setup": false,
     "team": "traveler"

@@ -3,7 +3,8 @@
     {
         "name": "환란의 화원 (Sects and Violets)",
         "author": "The Pandemonium Institute",        
-        "isOfficial": true
+        "isOfficial": true,
+        "background": "https://raw.githubusercontent.com/wonhyo-e/botc-translations/refs/heads/main/assets/images/sects_and_violets_bg.webp"
     },
     "roles":
     [

@@ -1,6 +1,5 @@
 [
   {
-    "background": null,
     "id": "_meta",
     "isOfficial": false
   },
@@ -46,7 +45,7 @@
     "id": "ko_KR_empath",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_empath.png?raw=true",
     "name": "초민감자",
-    "otherNight": 53,
+    "otherNight": 54,
     "otherNightReminder": "악한 이웃의 수에 대한 손가락 신호(0, 1, 2)를 보여줍니다.",
     "reminders": [],
     "setup": false,
@@ -150,9 +149,9 @@
     "flavor": "당신은 내게 자주빛 불꽃 의회의 비밀을 보여주셨죠. 우리는 타오르는 불길 속에서, 탐욕의 욕망 속에서, 그리고 야수와 같은 광기 속에서 하나가 되었으며, 난 영원토록 당신의 종이 되리라 맹세했습니다. 하지만 오늘 밤만큼은, 내 사랑, 제가 당신의 주인이 되어주겠습니다.",
     "id": "ko_KR_scarletwoman",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_scarletwoman.png?raw=true",
-    "name": "부정한 여자",
+    "name": "진홍의 여인",
     "otherNight": 20,
-    "otherNightReminder": "부정한 여자가 오늘 악마가 되었다면: '당신은' 카드를 보여준 다음 악마 토큰을 보여줍니다.",
+    "otherNightReminder": "진홍의 여인이 오늘 악마가 되었다면: '당신은' 카드를 보여준 다음 악마 토큰을 보여줍니다.",
     "reminders": [
       "악마"
     ],

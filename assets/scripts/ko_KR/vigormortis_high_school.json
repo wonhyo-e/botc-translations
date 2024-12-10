@@ -1,6 +1,5 @@
 [
   {
-    "background": null,
     "id": "_meta",
     "isOfficial": false
   },
@@ -58,7 +57,7 @@
     "id": "ko_KR_empath",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_empath.png?raw=true",
     "name": "초민감자",
-    "otherNight": 53,
+    "otherNight": 54,
     "otherNightReminder": "악한 이웃의 수에 대한 손가락 신호(0, 1, 2)를 보여줍니다.",
     "reminders": [],
     "setup": false,
@@ -131,7 +130,7 @@
   {
     "ability": "매일 밤, 참가자 한 명을 선택하면 그 참가자는 그날 밤부터 다음 날 낮까지 중독 상태가 됩니다.",
     "edition": "tb",
-    "firstNight": 17,
+    "firstNight": 18,
     "firstNightReminder": "독살범이 참가자를 가리킵니다. 그 참가자는 중독됩니다.",
     "flavor": "알파 화합물을 베타 화합물에 넣고... 너무 많이 넣지는 마!",
     "id": "ko_KR_poisoner",

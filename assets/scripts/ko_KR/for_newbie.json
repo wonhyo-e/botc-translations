@@ -1,7 +1,6 @@
 [
   {
     "author": "Dongchan",
-    "background": null,
     "id": "_meta",
     "isOfficial": false,
     "name": "For Newbie"
@@ -23,7 +22,7 @@
   },
   {
     "ability": "당신은 처음에 3명의 참가자를 알고 시작하며, 그 중 오직 1명만이 악합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 43,
     "firstNightReminder": "특정 순서 없이 1명의 악한 참가자를 포함한 3명의 참가자를 가리킵니다.",
     "id": "ko_KR_noble",
@@ -39,7 +38,7 @@
   },
   {
     "ability": "당신은 처음에 1명의 악한 참가자를 알고 시작합니다. 당신이 알고 있는 참가자가 죽으면, 오늘 밤 다른 악한 참가자를 알게 됩니다. [1명의 마을 주민이 악합니다]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 45,
     "firstNightReminder": "1명의 악한 참가자를 가리킵니다. 악한 마을 주민을 깨우고 '당신은' 카드와 엄지 아래로 향한 악한 표시를 보여줍니다.",
     "id": "ko_KR_bountyhunter",
@@ -55,7 +54,7 @@
   },
   {
     "ability": "매일 밤, 당신은 전날 밤과 다른 유형의 캐릭터인 참가자를 알게 됩니다. [외부인 +0 또는 +1]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 44,
     "firstNightReminder": "임의의 참가자를 보여줍니다.",
     "id": "ko_KR_balloonist",
@@ -71,7 +70,7 @@
   },
   {
     "ability": "매일 밤, 참가자 한 명을 선택합니다: 선택된 하수인은 이것을 알게 됩니다. 선택된 모든 하수인들은 능력이 없습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 14,
     "firstNightReminder": "설교자가 참가자를 선택합니다. 하수인이 선택되면, 하수인을 깨우고 '이 캐릭터가 당신을 선택했습니다' 카드를 보여준 다음 설교자 토큰을 보여줍니다.",
     "id": "ko_KR_preacher",
@@ -169,10 +168,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신은 게임에 참가중이지 않은 하수인의 능력을 하나 얻습니다.",
-    "edition": "",
+    "ability": "하수인 능력 하나를 갖습니다. 해당 능력 사용 시, 이야기꾼이 다른 선택을 하도록 요청할 수 있습니다.",
+    "edition": "experimental",
     "firstNight": 3,
-    "firstNightReminder": "연금술사에게 게임에 없는 하수인 토큰을 보여줍니다.",
+    "firstNightReminder": "YOU ARE' 토큰과 하수인 토큰을 보여줍니다.",
     "id": "ko_KR_alchemist",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_alchemist.png?raw=true",
     "name": "연금술사",
@@ -298,7 +297,7 @@
   },
   {
     "ability": "매일, 지명 전에 공개적으로 참가자 한 명을 선택할 수 있습니다: 그들은 죽습니다. 처형되면, 가위바위보에서 질 때만 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_psychopath",
@@ -313,7 +312,7 @@
   {
     "ability": "매일 밤, 참가자 한 명을 선택하면 그 참가자는 그날 밤부터 다음 날 낮까지 중독 상태가 됩니다.",
     "edition": "tb",
-    "firstNight": 17,
+    "firstNight": 18,
     "firstNightReminder": "독살범이 참가자를 가리킵니다. 그 참가자는 중독됩니다.",
     "flavor": "알파 화합물을 베타 화합물에 넣고... 너무 많이 넣지는 마!",
     "id": "ko_KR_poisoner",
@@ -329,7 +328,7 @@
   },
   {
     "ability": "당신이 지명되었을 때 공개적으로 자신이 고블린이라고 주장하고 그 날 처형된다면, 당신의 팀이 승리합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_goblin",

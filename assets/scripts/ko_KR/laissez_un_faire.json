@@ -1,14 +1,13 @@
 [
   {
     "author": "Steven Medway",
-    "background": null,
     "id": "_meta",
     "isOfficial": true,
     "name": "자유방임주의"
   },
   {
     "ability": "당신은 자신의 능력이 무엇인지 모릅니다. 매일, 비공개로 자신의 능력이 무엇인지 추측하세요: 당신은 얼마나 정확한지 알게 됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 12,
     "firstNightReminder": "기억상실자의 전체 능력을 결정하세요. 만약 기억상실자의 능력으로 인해 오늘 밤 깨어나야 한다면: 기억상실자를 깨우고 그들의 능력을 실행하세요.",
     "id": "ko_KR_amnesiac",
@@ -41,7 +40,7 @@
   },
   {
     "ability": "매일 밤, 당신은 전날 밤과 다른 유형의 캐릭터인 참가자를 알게 됩니다. [외부인 +0 또는 +1]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 44,
     "firstNightReminder": "임의의 참가자를 보여줍니다.",
     "id": "ko_KR_balloonist",
@@ -57,7 +56,7 @@
   },
   {
     "ability": "당신은 최근 처형된 사람의 능력을 가집니다. 그 사람이 악하다면, 선한 참가자가 처형으로 죽을 때까지 당신은 중독됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_cannibal",
@@ -74,7 +73,7 @@
   },
   {
     "ability": "게임 중 한 번, 낮 동안 이야기꾼을 방문하여 승리를 돕는 조언을 얻을 수 있습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_fisherman",
@@ -90,7 +89,7 @@
   },
   {
     "ability": "당신이 지명되었을 때 공개적으로 자신이 고블린이라고 주장하고 그 날 처형된다면, 당신의 팀이 승리합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_goblin",
@@ -106,7 +105,7 @@
   },
   {
     "ability": "1명 이상의 선한 참가자가 처형되면, 당신이 승리합니다. 모든 참가자는 당신이 게임에 있다는 것을 알고 있습니다. 5일 후에는 악이 승리합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 53,
     "firstNightReminder": "리바이어던 '1일차' 표시를 놓습니다. '리바이어던이 게임에 있습니다; 이것은 1일차입니다'라고 발표합니다.",
     "id": "ko_KR_leviathan",
@@ -176,7 +175,7 @@
   },
   {
     "ability": "첫날밤 그리모어를 보고 한 명을 선택해서 중독시킵니다. 1명의 선한 참가자는 과부가 게임에 있다는 것을 알고 시작합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 18,
     "firstNightReminder": "과부에게 필요한 만큼 오래 그리모어를 보여줍니다. 과부가 참가자를 가리킵니다. 그 참가자는 중독됩니다. 선한 참가자 한 명을 깨웁니다. '이 캐릭터들이 게임에 있습니다' 카드를 보여준 다음, 과부 캐릭터 토큰을 보여줍니다.",
     "id": "ko_KR_widow",

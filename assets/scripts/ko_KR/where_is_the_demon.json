@@ -1,7 +1,6 @@
 [
   {
     "author": "Kkull",
-    "background": null,
     "id": "_meta",
     "isOfficial": false,
     "name": "Where is the demon?"
@@ -23,7 +22,7 @@
   },
   {
     "ability": "당신은 처음에 3명의 참가자를 알고 시작하며, 그 중 오직 1명만이 악합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 43,
     "firstNightReminder": "특정 순서 없이 1명의 악한 참가자를 포함한 3명의 참가자를 가리킵니다.",
     "id": "ko_KR_noble",
@@ -77,13 +76,13 @@
   {
     "ability": "게임 중 한 번, 밤에 선한 캐릭터 하나를 선택하여 그 능력을 얻습니다. 만약 해당 캐릭터가 게임에 참여 중이라면, 그 캐릭터는 취한 상태가 됩니다.",
     "edition": "snv",
-    "firstNight": "18",
+    "firstNight": 18,
     "firstNightReminder": "철학자가 '아니오' 머리 신호를 보이거나, 자신의 시트에서 선한 캐릭터를 가리킵니다. 캐릭터를 선택했다면: 게임에 없는 캐릭터 토큰을 철학자 토큰과 교체합니다. 또는, 그 캐릭터가 게임에 있다면, 그 참가자에게 술취함 표시를 하고 철학자에게 철학자가 아님 토큰을 놓습니다.",
     "flavor": "진실이 무엇이냐 묻는다면? 그건 바로 맥주지. 마음껏 마시세나, 내일이면 우리 모두 죽을지도 모르니까.",
     "id": "ko_KR_philosopher",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_philosopher.png?raw=true",
     "name": "철학자",
-    "otherNight": "11",
+    "otherNight": 11,
     "otherNightReminder": "철학자가 아직 능력을 사용하지 않았다면: 철학자가 '아니오' 머리 신호를 보이거나, 자신의 시트에서 선한 캐릭터를 가리킵니다. 캐릭터를 선택했다면: 게임에 없는 캐릭터 토큰을 철학자 토큰과 교체합니다. 또는, 그 캐릭터가 게임에 있다면, 그 참가자에게 술취함 표시를 하고 철학자에게 철학자가 아님 토큰을 놓습니다.",
     "remindersGlobal": [
       "술취함",
@@ -109,7 +108,7 @@
   },
   {
     "ability": "매일 밤, 참가자 한 명을 선택합니다: 선택된 하수인은 이것을 알게 됩니다. 선택된 모든 하수인들은 능력이 없습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 14,
     "firstNightReminder": "설교자가 참가자를 선택합니다. 하수인이 선택되면, 하수인을 깨우고 '이 캐릭터가 당신을 선택했습니다' 카드를 보여준 다음 설교자 토큰을 보여줍니다.",
     "id": "ko_KR_preacher",
@@ -133,7 +132,7 @@
     "id": "ko_KR_fortuneteller",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_fortuneteller.png?raw=true",
     "name": "점쟁이",
-    "otherNight": 54,
+    "otherNight": 55,
     "otherNightReminder": "점쟁이가 두 명의 참가자를 가리킵니다. 그 참가자들 중 한 명이 악마인지에 대해 머리 신호를 보여줍니다(고개를 끄덕이면 '예', 고개를 저으면 '아니오').",
     "reminders": [
       "붉은청어"
@@ -177,7 +176,7 @@
   },
   {
     "ability": "악마는 당신을 하수인으로 생각합니다. 하수인들은 당신을 악마로 생각합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_magician",
@@ -191,7 +190,7 @@
   },
   {
     "ability": "당신은 최근 처형된 사람의 능력을 가집니다. 그 사람이 악하다면, 선한 참가자가 처형으로 죽을 때까지 당신은 중독됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_cannibal",
@@ -251,7 +250,7 @@
   },
   {
     "ability": "게임 중 한 번만 지명할 수 있습니다. 지명할 때, 지명된 사람이 악마가 아니라면 그들은 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_golem",
@@ -284,7 +283,7 @@
   },
   {
     "ability": "당신이 처형되면, 3명을 제외한 모든 참가자가 죽습니다. 10초 후, 가장 많은 참가자가 가리키는 참가자가 죽습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "flavor": "째깍... 째깍... 째깍... 펑!",
@@ -299,7 +298,7 @@
   },
   {
     "ability": "당신은 자신이 선한 캐릭터라고 생각하지만 그렇지 않습니다. 악마는 당신이 누구인지 알고 있습니다. [당신은 악마와 이웃합니다]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 11,
     "firstNightReminder": "악마 옆의 선한 참가자 중 한 명을 선택하고 꼭두각시임 리마인더 토큰을 놓습니다. 악마를 깨우고 그들에게 꼭두각시를 보여줍니다.",
     "id": "ko_KR_marionette",

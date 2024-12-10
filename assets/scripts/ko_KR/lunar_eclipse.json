@@ -1,7 +1,6 @@
 [
   {
     "author": "Ekin",
-    "background": null,
     "id": "_meta",
     "isOfficial": false,
     "name": "월식 (Lunar Eclipse)"
@@ -25,7 +24,7 @@
   },
   {
     "ability": "당신은 처음에 게임에 있는 마을 주민 1명을 알고 시작합니다. 당신이 이 캐릭터라고 미쳐 있었다면, 그들이 죽을 때 그들의 능력을 얻습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 29,
     "firstNightReminder": "픽시에게 게임에 있는 마을 주민 캐릭터 토큰 1개를 보여줍니다.",
     "id": "ko_KR_pixie",
@@ -109,7 +108,7 @@
   },
   {
     "ability": "매일 밤*, 살아있는 참가자 중 한 명을 선택합니다. 그 사람이 선하다면 죽고, 악마는 오늘밤 죽일 수 없습니다. 선한 참가자 중 한 명이 모두에게 악팀으로 간주됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "선한 참가자 한 명에게 '악으로 간주' 토큰을 놓습니다.",
     "flavor": "문명이라는 얇은 막 아래에는 광기가 울부짖고 있다.",
@@ -176,7 +175,7 @@
   },
   {
     "ability": "악마는 당신을 하수인으로 생각합니다. 하수인들은 당신을 악마로 생각합니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_magician",
@@ -205,7 +204,7 @@
   },
   {
     "ability": "당신은 최근 처형된 사람의 능력을 가집니다. 그 사람이 악하다면, 선한 참가자가 처형으로 죽을 때까지 당신은 중독됩니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_cannibal",
@@ -275,7 +274,7 @@
   },
   {
     "ability": "1명의 참가자가 술에 취해 있습니다, 당신이 죽어도 마찬가지입니다. 그가 누구인지 (한 번) 맞추면, 악마 참가자를 알게 되지만, 틀리면 거짓 정보를 얻습니다.",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ko_KR_puzzlemaster",
@@ -328,13 +327,13 @@
   {
     "ability": "매일 밤, 그리모어를 확인할 수 있습니다. 죽은 후에도 당신은 다른 사람의 능력에 선한 진영, 마을 주민, 또는 외부인으로 간주될 수 있습니다.",
     "edition": "tb",
-    "firstNight": 48,
+    "firstNight": 19,
     "firstNightReminder": "스파이에게 필요한 만큼 그리모어를 보여줍니다.",
     "flavor": "실력 있는 양조사라면 누구나 알지, 스파이가 둘로 보일 때의 혼합물보다 더 빨리 문제를 일으키는 술은 없다는 걸.",
     "id": "ko_KR_spy",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_spy.png?raw=true",
     "name": "스파이",
-    "otherNight": 68,
+    "otherNight": 14,
     "otherNightReminder": "스파이에게 필요한 만큼 그리모어를 보여줍니다.",
     "reminders": [],
     "setup": false,
@@ -368,7 +367,7 @@
   },
   {
     "ability": "당신은 자신이 선한 캐릭터라고 생각하지만 그렇지 않습니다. 악마는 당신이 누구인지 알고 있습니다. [당신은 악마와 이웃합니다]",
-    "edition": "",
+    "edition": "experimental",
     "firstNight": 11,
     "firstNightReminder": "악마 옆의 선한 참가자 중 한 명을 선택하고 꼭두각시임 리마인더 토큰을 놓습니다. 악마를 깨우고 그들에게 꼭두각시를 보여줍니다.",
     "id": "ko_KR_marionette",
