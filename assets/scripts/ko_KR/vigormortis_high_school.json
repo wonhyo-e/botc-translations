@@ -4,7 +4,7 @@
     "isOfficial": false
   },
   {
-    "ability": "게임 시작 시 서로 인접해 있는 악한 진영 참가자 쌍의 수를 알 수 있습니다.",
+    "ability": "서로 인접한 악한 참가자 쌍의 수를 알고 시작합니다.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "이웃한 악한 참가자 쌍의 수에 대한 손가락 신호(0, 1, 2, ...)를 보여줍니다.",
@@ -19,7 +19,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "밤에 죽으면, 깨어나서 참가자 한 명을 지목하여 그 참가자의 직업을 알아낼 수 있습니다.",
+    "ability": "밤에 죽으면, 깨어나서 참가자 한 명을 선택해서 그 참가자의 직업을 알아낼 수 있습니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -64,7 +64,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "생존자가 3명 남았을 때 처형이 일어나지 않으면 당신 팀이 승리합니다. 밤에 당신이 죽을 경우, 다른 참가자가 대신 죽을 수 있습니다.",
+    "ability": "생존자가 3명 남았을 때 처형이 발생하지 않으면 당신 팀이 승리합니다. 밤에 당신이 죽을 경우, 다른 참가자가 대신 죽을 수 있습니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -79,7 +79,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "매일 밤*, 자신을 제외한 참가자 한 명을 선택하면 그 참가자는 그날 밤 악마의 공격으로부터 보호됩니다.",
+    "ability": "매일 밤*, 자신을 제외한 참가자 한 명을 선택합니다. 그 참가자는 오늘 밤 악마로부터 안전합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -96,7 +96,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신이 낮 투표로 처형되면 당신의 팀은 패배합니다.",
+    "ability": "낮에 투표로 처형되면 당신의 팀은 패배합니다.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -128,7 +128,7 @@
     "team": "outsider"
   },
   {
-    "ability": "매일 밤, 참가자 한 명을 선택하면 그 참가자는 그날 밤부터 다음 날 낮까지 중독 상태가 됩니다.",
+    "ability": "매일 밤, 참가자 한 명을 선택해서 그날 밤부터 다음 날 낮까지 중독 상태로 만듭니다.",
     "edition": "tb",
     "firstNight": 18,
     "firstNightReminder": "독살범이 참가자를 가리킵니다. 그 참가자는 중독됩니다.",
