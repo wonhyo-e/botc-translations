@@ -3,7 +3,6 @@
     {
         "name": "어둠을 부르는 달 (Bad Moon Rising)",
         "author": "steven medway",
-        "isOfficial": true,
         "background": "https://raw.githubusercontent.com/wonhyo-e/botc-translations/refs/heads/main/assets/images/bad_moon_rising_bg.webp"
     },
     "roles":
