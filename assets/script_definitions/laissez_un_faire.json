@@ -1,22 +1,19 @@
 {
-    "meta":
-    {
-        "name": "자유방임주의",
-        "author": "Steven Medway",
-        "isOfficial": true
-    },
-    "roles":
-    [
-        "amnesiac",
-        "artist",
-        "balloonist",
-        "cannibal",
-        "fisherman",
-        "goblin",
-        "leviathan",
-        "lunatic",
-        "mutant",
-        "savant",
-        "widow"
-    ]
+  "meta": {
+    "name": "자유방임불공정주의 (Laissez un Faire)",
+    "author": "Steven Medway"
+  },
+  "roles": [
+    "balloonist",
+    "savant",
+    "amnesiac",
+    "fisherman",
+    "artist",
+    "cannibal",
+    "mutant",
+    "lunatic",
+    "widow",
+    "goblin",
+    "leviathan"
+  ]
 }

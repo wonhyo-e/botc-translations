@@ -1,13 +1,19 @@
-[
-  "clockmaker",
-  "investigator",
-  "empath",
-  "chambermaid",
-  "artist",
-  "sage",
-  "drunk",
-  "klutz",
-  "scarletwoman",
-  "baron",
-  "imp"
-]
+{
+  "meta": {
+    "name": "극한의 즐거움 (No Greater Joy)",
+    "author": "Steven Medway"
+  },
+  "roles": [
+    "clockmaker",
+    "investigator",
+    "empath",
+    "chambermaid",
+    "artist",
+    "sage",
+    "drunk",
+    "klutz",
+    "scarletwoman",
+    "baron",
+    "imp"
+  ]
+}

@@ -77,7 +77,7 @@
     "flavor": "바닥에 성냥개비 72개... 오늘따라 해가 일찍 저무는데, 달은 여전히 제시간에 떴어... 찢어진 천 조각... 저택 안의 악... 3이 3번... 우리가 믿었던 자의 정체가 달라... 초록빛이면 마그네슘... 흔적은 보이나 패턴이 틀려... 바닥에 성냥개비 72개...",
     "id": "ko_KR_savant",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_savant.png?raw=true",
-    "name": "자폐증 천재",
+    "name": "천재",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -360,7 +360,7 @@
     "team": "minion"
   },
   {
-    "ability": "1명 이상의 선한 참가자가 처형되면, 당신이 승리합니다. 모든 참가자는 당신이 게임에 있다는 것을 알고 있습니다. 5일 후에는 악이 승리합니다.",
+    "ability": "2명 이상의 선한 참가자가 처형되면, 당신이 승리합니다. 모든 참가자는 당신이 게임에 있다는 것을 알고 있습니다. 5일 후에는 악이 승리합니다.",
     "edition": "experimental",
     "firstNight": 53,
     "firstNightReminder": "리바이어던 '1일차' 표시를 놓습니다. '리바이어던이 게임에 있습니다; 이것은 1일차입니다'라고 발표합니다.",
