@@ -185,7 +185,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "자신이 이방인이라고 착각하고 있습니다. 악마에게 공격 받으면\n\r\n자연으로 돌아가지 않고, 야도란 혹은 야도킹으로 진화합니다.",
+    "ability": "자신이 외지인이라고 착각하고 있습니다. 악마에게 공격 받으면\n\r\n자연으로 돌아가지 않고, 야도란 혹은 야도킹으로 진화합니다.",
     "edition": "pokemon1",
     "firstNightReminder": "",
     "flavor": "",
@@ -396,7 +396,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤*, 참가자 1명을 선택해 자연으로 돌려보냅니다.\n\r\n[+0~1 이방인]",
+    "ability": "매일 밤*, 참가자 1명을 선택해 자연으로 돌려보냅니다.\n\r\n[+0~1 외지인]",
     "edition": "pokemon1",
     "firstNightReminder": "",
     "flavor": "",

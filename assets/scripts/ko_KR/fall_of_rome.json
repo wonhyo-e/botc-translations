@@ -186,14 +186,14 @@
     "team": "townsfolk"
   },
   {
-    "ability": "당신이 처음으로 살아있는 외부인을 지명하면, 그는 즉시 플레이 중이 아닌 마을 주민이 됩니다. [+1 외부인]",
+    "ability": "당신이 처음으로 살아있는 외지인을 지명하면, 그는 즉시 플레이 중이 아닌 마을 주민이 됩니다. [+1 외지인]",
     "edition": "rome",
     "flavor": "아침에 일어날 때, 살아있다는 것이 얼마나 귀중한 특권인지 생각하라 - 숨 쉬고, 생각하고, 즐기고, 사랑할 수 있다는 것을. - 마르쿠스 아우렐리우스 (121년 - 180년)",
     "id": "ko_KR_scholar_fall_of_rome",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_scholar_fall_of_rome.png?raw=true",
     "name": "학자",
     "otherNight": 2,
-    "otherNightReminder": "학자가 오늘 이방인을 지목했다면, '능력 없음' 토큰을 놓으세요. 지목된 참가자를 깨우고, 새로운 캐릭터 토큰을 보여주세요.",
+    "otherNightReminder": "학자가 오늘 외지인을 지목했다면, '능력 없음' 토큰을 놓으세요. 지목된 참가자를 깨우고, 새로운 캐릭터 토큰을 보여주세요.",
     "reminders": [
       "전수",
       "능력 없음"

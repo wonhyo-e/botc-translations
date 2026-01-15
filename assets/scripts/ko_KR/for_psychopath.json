@@ -384,7 +384,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤*, 참가자 한 명을 선택하세요: 그 참가자는 사망합니다. [당신이 어떤 참가자가 어떤 하수인이 될지 선택합니다. 외부인 -?, +?]",
+    "ability": "매일 밤*, 참가자 한 명을 선택하세요: 그 참가자는 사망합니다. [당신이 어떤 참가자가 어떤 하수인이 될지 선택합니다. 외지인 -?, +?]",
     "edition": "experimental",
     "firstNight": 2,
     "firstNightReminder": "Wake the Kazali, allow them to choose Minions.",
@@ -401,7 +401,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외부인 -1]",
+    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외지인 -1]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

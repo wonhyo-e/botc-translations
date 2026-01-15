@@ -290,16 +290,16 @@
     "team": "townsfolk"
   },
   {
-    "ability": "현재 어떤 외부인들이 게임에 참여 중인지 알고 시작합니다. 만약 낮에 외부인이 죽으면, 그날 밤 한 명을 선택해 죽일 수 있습니다. [외부인 -1 또는 +1]",
+    "ability": "현재 어떤 외지인들이 게임에 참여 중인지 알고 시작합니다. 만약 낮에 외지인이 죽으면, 그날 밤 한 명을 선택해 죽일 수 있습니다. [외지인 -1 또는 +1]",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "게임에 있는 각 외부인 토큰을 보여줍니다.",
+    "firstNightReminder": "게임에 있는 각 외지인 토큰을 보여줍니다.",
     "flavor": "보통은 그저 일일 뿐이지. 하지만 네가 내 딸을 모욕했다는 건, 곧 나를 모욕한 거야. 그리고 나를 모욕한다는 건, 우리 가문 전체를 모욕하는 거지. 좀 더 조심했어야지. 불운한 사고라도 당하면 안타까울 텐데 말이야.",
     "id": "ko_KR_godfather",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_godfather.png?raw=true",
     "name": "대부",
     "otherNight": 38,
-    "otherNightReminder": "오늘 외부인이 죽었다면: 대부가 참가자를 가리킵니다. 그 참가자는 죽습니다.",
+    "otherNightReminder": "오늘 외지인이 죽었다면: 대부가 참가자를 가리킵니다. 그 참가자는 죽습니다.",
     "reminders": [
       "오늘 사망",
       "사망"
@@ -325,7 +325,7 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤, 그리모어를 확인할 수 있습니다. 죽은 후에도 다른 사람의 능력에는 선한 진영, 마을 주민, 또는 외부인으로 간주될 수 있습니다.",
+    "ability": "매일 밤, 그리모어를 확인할 수 있습니다. 죽은 후에도 다른 사람의 능력에는 선한 진영, 마을 주민, 또는 외지인으로 간주될 수 있습니다.",
     "edition": "tb",
     "firstNight": 19,
     "firstNightReminder": "스파이에게 필요한 만큼 그리모어를 보여줍니다.",
@@ -420,7 +420,7 @@
     "team": "demon"
   },
   {
-    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외부인 -1]",
+    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외지인 -1]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

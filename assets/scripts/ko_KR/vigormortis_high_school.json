@@ -162,7 +162,7 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외부인 -1]",
+    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외지인 -1]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -181,7 +181,7 @@
     "team": "demon"
   },
   {
-    "ability": "게임에 1명의 외부인이 더 있거나 1명 적을 수 있습니다.",
+    "ability": "게임에 1명의 외지인이 더 있거나 1명 적을 수 있습니다.",
     "id": "ko_KR_sentinel",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_sentinel.png?raw=true",
     "name": "파수꾼",

@@ -21,10 +21,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "게임 시작 시 3명의 참가자를 알게 됩니다. 마을주민 1명, 외부인 1명, 하수인 1명입니다. (순서 임의) [외부인 -1 또는 +1]",
+    "ability": "게임 시작 시 3명의 참가자를 알게 됩니다. 마을주민 1명, 외지인 1명, 하수인 1명입니다. (순서 임의) [외지인 -1 또는 +1]",
     "edition": "HSoM",
     "firstNight": 26,
-    "firstNightReminder": "마을주민, 외부인, 하수인 3명을 각각 지명하세요.(순서 임의)",
+    "firstNightReminder": "마을주민, 외지인, 하수인 3명을 각각 지명하세요.(순서 임의)",
     "id": "ko_KR_navigator",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_navigator.png?raw=true",
     "name": "항해사",
@@ -198,7 +198,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "생존자가 3명만 남았을 때 당신이 한 번도 참가자를 지명한 적이 없다면: 소라게 팀이 승리하게 [외부인 +1]",
+    "ability": "생존자가 3명만 남았을 때 당신이 한 번도 참가자를 지명한 적이 없다면: 소라게 팀이 승리하게 [외지인 +1]",
     "edition": "HSoM",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -231,7 +231,7 @@
     "team": "outsider"
   },
   {
-    "ability": "당신은 마을주민이라고 생각하지만, 사실은 딸기코입니다. 당신은 악한 진영으로 간주되며 하수인 또는 외부인으로 보일 수 있습니다.",
+    "ability": "당신은 마을주민이라고 생각하지만, 사실은 딸기코입니다. 당신은 악한 진영으로 간주되며 하수인 또는 외지인으로 보일 수 있습니다.",
     "edition": "HSoM",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -367,7 +367,7 @@
     "team": "minion"
   },
   {
-    "ability": "매일 밤*, 참가자 한 명을 선택해서 죽입니다. 처음 외부인을 죽였을 경우, 그 외부인의 살아있는 선한 이웃 중 한 명이 함께 죽습니다. [외부인 -1 또는 +1]",
+    "ability": "매일 밤*, 참가자 한 명을 선택해서 죽입니다. 처음 외지인을 죽였을 경우, 그 외지인의 살아있는 선한 이웃 중 한 명이 함께 죽습니다. [외지인 -1 또는 +1]",
     "edition": "HSoM",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -375,7 +375,7 @@
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_kraken.png?raw=true",
     "name": "크라켄",
     "otherNight": 7,
-    "otherNightReminder": "매일 밤, 참가자를 선택해 '사망'시킵니다.. 선택한 참가자가 외부인이라면 외부인의 살아있는 선한 이웃 한명을 더 죽입니다.(최초 1번) . :reminder:",
+    "otherNightReminder": "매일 밤, 참가자를 선택해 '사망'시킵니다.. 선택한 참가자가 외지인이라면 외지인의 살아있는 선한 이웃 한명을 더 죽입니다.(최초 1번) . :reminder:",
     "reminders": [
       "사망",
       "사망"

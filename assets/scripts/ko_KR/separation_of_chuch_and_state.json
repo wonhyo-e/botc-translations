@@ -17,9 +17,7 @@
     "name": "할머니",
     "otherNight": 50,
     "otherNightReminder": "할머니의 손주가 오늘 밤 악마에 의해 죽었다면: 할머니도 죽습니다.",
-    "reminders": [
-      "손주"
-    ],
+    "reminders": ["손주"],
     "setup": false,
     "team": "townsfolk"
   },
@@ -50,9 +48,7 @@
     "name": "수학자",
     "otherNight": 71,
     "otherNightReminder": "다른 능력으로 인해 오작동한 플레이어 수에 대한 손 신호(0, 1, 2 등)를 보여줍니다.",
-    "reminders": [
-      "비정상"
-    ],
+    "reminders": ["비정상"],
     "setup": false,
     "team": "townsfolk"
   },
@@ -67,9 +63,7 @@
     "name": "가십꾼",
     "otherNight": 47,
     "otherNightReminder": "가십꾼의 공개 성명이 사실이었다면: 오늘 밤 죽음으로부터 보호받지 않은 플레이어 한 명을 선택합니다. 그 플레이어는 죽습니다.",
-    "reminders": [
-      "사망"
-    ],
+    "reminders": ["사망"],
     "setup": false,
     "team": "townsfolk"
   },
@@ -83,9 +77,7 @@
     "name": "기억상실자",
     "otherNight": 5,
     "otherNightReminder": "만약 기억상실자의 능력으로 인해 오늘 밤 깨어나야 한다면: 기억상실자를 깨우고 그들의 능력을 실행하세요.",
-    "reminders": [
-      "?"
-    ],
+    "reminders": ["?"],
     "setup": false,
     "team": "townsfolk"
   },
@@ -100,9 +92,7 @@
     "name": "저글러",
     "otherNight": 62,
     "otherNightReminder": "오늘이 저글러의 첫째 날이었다면: '맞음' 표시의 수에 대한 손 신호(0, 1, 2 등)를 보여줍니다. 표시를 제거합니다.",
-    "reminders": [
-      "맞음"
-    ],
+    "reminders": ["맞음"],
     "setup": false,
     "team": "townsfolk"
   },
@@ -117,9 +107,7 @@
     "name": "기술자",
     "otherNight": 6,
     "otherNightReminder": "기술자가 '아니오' 머리 신호를 보이거나, 악마를 가리키거나, 관련된 수의 하수인을 가리킵니다. 기술자가 캐릭터를 선택했다면, 악마나 하수인을 선택한 것으로 교체한 다음, 관련 플레이어들을 깨워 '당신은' 카드와 관련 캐릭터 토큰을 보여줍니다.",
-    "reminders": [
-      "능력 없음"
-    ],
+    "reminders": ["능력 없음"],
     "setup": false,
     "team": "townsfolk"
   },
@@ -178,9 +166,7 @@
     "name": "집사",
     "otherNight": 55,
     "otherNightReminder": "집사가 플레이어를 가리킵니다. 그 플레이어를 '주인'으로 표시합니다.",
-    "reminders": [
-      "주인"
-    ],
+    "reminders": ["주인"],
     "setup": false,
     "team": "outsider"
   },
@@ -194,9 +180,7 @@
     "name": "땜장이",
     "otherNight": 48,
     "otherNightReminder": "땜장이가 죽을 수 있습니다.",
-    "reminders": [
-      "사망"
-    ],
+    "reminders": ["사망"],
     "setup": false,
     "team": "outsider"
   },
@@ -211,9 +195,7 @@
     "name": "문차일드",
     "otherNight": 49,
     "otherNightReminder": "문차일드가 오늘 능력을 사용해 플레이어를 지명했다면: 그 플레이어가 선하다면, 그들은 죽습니다.",
-    "reminders": [
-      "사망"
-    ],
+    "reminders": ["사망"],
     "setup": false,
     "team": "outsider"
   },
@@ -227,12 +209,8 @@
     "name": "과부",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "중독됨"
-    ],
-    "remindersGlobal": [
-      "알고 있음"
-    ],
+    "reminders": ["중독됨"],
+    "remindersGlobal": ["알고 있음"],
     "setup": false,
     "team": "minion"
   },
@@ -247,10 +225,7 @@
     "name": "암살자",
     "otherNight": 37,
     "otherNightReminder": "암살자가 아직 능력을 사용하지 않았다면: 암살자는 '아니오' 머리 신호를 보이거나 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
-    "reminders": [
-      "능력 없음",
-      "사망"
-    ],
+    "reminders": ["능력 없음", "사망"],
     "setup": false,
     "team": "minion"
   },
@@ -264,10 +239,7 @@
     "name": "메제펠레스",
     "otherNight": 19,
     "otherNightReminder": "메제펠레스의 비밀 단어를 말한 첫 번째 선한 플레이어를 깨우고 '당신은' 카드와 엄지 아래로 악한 신호를 보여줍니다.",
-    "reminders": [
-      "능력 없음",
-      "악해짐"
-    ],
+    "reminders": ["능력 없음", "악해짐"],
     "setup": false,
     "team": "minion"
   },
@@ -282,15 +254,12 @@
     "name": "거거머리",
     "otherNight": 35,
     "otherNightReminder": "거거머리가 플레이어를 가리킵니다. 그 플레이어는 죽습니다.",
-    "reminders": [
-      "사망",
-      "중독됨"
-    ],
+    "reminders": ["사망", "중독됨"],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외부인 -1]",
+    "ability": "매일 밤* 한 명을 선택해 죽입니다. 당신이 죽인 하수인은 자신의 능력을 유지하며, 그와 이웃한 마을 주민 중 한 명이 중독됩니다. [외지인 -1]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -300,11 +269,7 @@
     "name": "비거모티스",
     "otherNight": 32,
     "otherNightReminder": "비거모티스가 플레이어를 가리킵니다. 그 플레이어는 죽습니다. 하수인이라면, 그들은 능력을 유지하고 그들의 마을 주민 이웃 중 한 명이 중독됩니다.",
-    "reminders": [
-      "능력 있음",
-      "사망",
-      "중독됨"
-    ],
+    "reminders": ["능력 있음", "사망", "중독됨"],
     "setup": true,
     "team": "demon"
   },
@@ -318,15 +283,12 @@
     "name": "군단",
     "otherNight": 34,
     "otherNightReminder": "플레이어 한 명을 선택합니다, 그 플레이어는 죽습니다.",
-    "reminders": [
-      "곧 사망",
-      "사망"
-    ],
+    "reminders": ["곧 사망", "사망"],
     "setup": true,
     "team": "demon"
   },
   {
-    "ability": "게임에 1명의 외부인이 더 있거나 1명 적을 수 있습니다.",
+    "ability": "게임에 1명의 외지인이 더 있거나 1명 적을 수 있습니다.",
     "id": "ko_KR_sentinel",
     "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_sentinel.png?raw=true",
     "name": "파수꾼",
