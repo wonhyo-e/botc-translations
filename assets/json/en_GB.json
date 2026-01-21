@@ -3925,5 +3925,21 @@
     "reminders": ["Encrusted"],
     "setup": false,
     "team": "outsider"
+  },
+  {
+    "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned.",
+    "edition": "experimental",
+    "firstNight": 54,
+    "firstNightReminder": "The Ogre points to a player (not themself). They become that alignment.",
+    "id": "ogre",
+    "image": "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_ogre.png?raw=true",
+    "name": "Ogre",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Friend"
+    ],
+    "setup": false,
+    "team": "outsider"
   }
 ]
