@@ -30,11 +30,9 @@ defmodule GenerateJsonFromCsv do
           parsed_csv_co_role = from_csv_row_to_co_role(row)
           role_id = parsed_csv_co_role["id"]
 
-          parsed_csv_co_role =
-            Map.put(
               parsed_csv_co_role,
               "image",
-              "https://github.com/wonhyo-e/botc-translations/blob/main/assets/icons/Icon_#{role_id}.png?raw=true"
+              "../../assets/icons/Icon_#{role_id}.png"
             )
 
           # Prune all empty fields.
